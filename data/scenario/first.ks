@@ -1,3 +1,4 @@
+; シーン1：夢の中でオープニング
 *start
 [layopt layer="message0" visible="false"]
 

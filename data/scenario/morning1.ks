@@ -1,3 +1,4 @@
+; シーン4：教室での
 *start
 
 ; 背景を表示
@@ -12,7 +13,7 @@
 ; 先生の登場
 [bg storage="roomfront_daytime.jpg" time="3000"]
 全員座れー[r]
-出席とるぞー[l]
+出席とるぞー[l][r]
 とその前に、転校生の紹介だ[p]
 えー、だれだれ？[l][r]
 かっこいいのかなー？[l][r]
@@ -28,7 +29,12 @@ My name is きんに君.[p]
 帰国子女!?[l][r]
 俺、今なら男もいけます！[p]
 
+[jump target="*select" cond="f.character==1"]
+[jump target="*noselect" cond="f.character==2"]
+[jump target="*noselect" cond="f.character==3"]
+
 ; glinkタグを使って選択肢を表示
+*select
 [glink target="*turn1" text="（横文字が多いけど、かっこいい人だなー！）"][r]
 [glink target="*turn2" text="（あの人、朝ぶつかった...！転校生だったんだ...!）"][r]
 [s]
@@ -41,9 +47,16 @@ My name is きんに君.[p]
 （あの人、朝ぶつかった...！転校生だったんだ...!）[p]
 @jump target=*return
 
+*noselect
+(横文字が多いけど、かっこいい人だなー！)[p]
+@jump target=*return
+
 *return
 帰国子女ってことはお金持ちなんだ！[p]
 仰るstreet![l][r]
 このイケメンfaceにa lot of恐れだろうが、よろしく頼むよ！[p]
+
+; 1秒かけて画面を真っ暗にする（フェードアウト）
+[mask time="1000"]
 
 @jump storage=homeroom1.ks target=*start

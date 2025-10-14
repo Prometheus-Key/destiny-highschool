@@ -1,3 +1,4 @@
+; シーン2：遅刻ダッシュ
 *common
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
@@ -6,7 +7,7 @@
 え、やばいじゃん！[r]
 遅刻確定じゃん！！！[p]
 
-; 背景を表示
+; 背景を表示（昼間の通学路）
 [bg storage="route_daytime.jpg" time="1500"]
 
 ; 遅刻ダッシュシーン
