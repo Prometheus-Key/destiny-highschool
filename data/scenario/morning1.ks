@@ -22,7 +22,7 @@
 それじゃあ、入ってくれ[p]
 
 ; 転校生：帰国子女の登場
-Hello! Everyone![l][r]
+Hello! Everyone![r]
 My name is きんに君.[p]
 このあいだ日本に帰国したところだ！[p]
 めちゃくちゃイケメーン！[l][r]
