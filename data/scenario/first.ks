@@ -1,7 +1,9 @@
 *start
+; 初期化
+[cm]
 
 ; 背景を表示
-[bg storage="indream.jpeg" time="3000"]
+[bg storage="indream.jpg" time="3000"]
 
 ; メッセージウィンドウの位置とサイズを一度だけ設定
 [position layer="message0" width="800" height="300" top="380" left="70"]
