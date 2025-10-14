@@ -1,6 +1,5 @@
 *start
-; 初期化
-[cm]
+[layopt layer="message0" visible="false"]
 
 ; 背景を表示
 [bg storage="indream.jpg" time="3000"]
@@ -10,8 +9,11 @@
 
 ; メッセージウィンドウをクリアしてテキストを表示
 [cm]
-こんばんは。お嬢ちゃん。[l][r]
-キミの名前を教えてくれたまえ。[l][r]
+
+; ★最初のセリフの直前にメッセージレイヤーを再表示する
+[layopt layer="message0" visible="true"]
+こんにちは。お嬢ちゃん。[l][r]
+キミの名前を教えてくれたまえ。[p]
 
 ;主人公の名前を入力させる
 *input
@@ -39,8 +41,7 @@
 ;3人選ばせる
 *next
 ここに3人のイケメン男子がおるじゃろう[l][r]
-好きな男子を選ぶのじゃ[r]
-[cm]
+好きな男子を選ぶのじゃ[p]
 
 ; glinkタグを使って選択肢を表示
 [glink target="*select1" text="【１】帰国子女"][r]
@@ -53,7 +54,7 @@
 [eval exp="f.character=1"]
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
-楽しい学園生活へ行ってらっしゃい[l]
+さあ、楽しい学園生活のはじまりじゃ[p]
 @jump storage=latetime.ks target=*common
 
 
@@ -61,7 +62,7 @@
 [eval exp="f.character=2"]
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
-楽しい学園生活へ行ってらっしゃい[l]
+さあ、楽しい学園生活のはじまりじゃ[p]
 @jump storage=latetime.ks target=*common
 
 
@@ -69,16 +70,5 @@
 [eval exp="f.character=3"]
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
-楽しい学園生活へ行ってらっしゃい[l]
+さあ、楽しい学園生活のはじまりじゃ[p]
 @jump storage=latetime.ks target=*common
-
-
-
-*homeroom1
-[cm]
-; 背景を表示
-[bg storage="room.jpg" time="3000"]
-おっはよー！○○！[l][r]
-良かったー。おそいから会えないのかと思ったよー[l]
-[cm]
-ごめんごめん。寝坊しちゃってさ！

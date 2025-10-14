@@ -2,34 +2,24 @@
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
 ふゎーー。ん、夢か。[l][r]
-今何時かな？[l][r]
-[cm]
+今何時かな？[p]
 え、やばいじゃん！[r]
-遅刻確定じゃん！！！[l]
+遅刻確定じゃん！！！[p]
 
-[cm]
 ; 背景を表示
-[bg storage="route.jpg" time="1500"]
+[bg storage="route_daytime.jpg" time="1500"]
 
-いっけなーい！遅刻遅刻！！[l][r]
+; 遅刻ダッシュシーン
+いっけなーい！遅刻遅刻！！[p]
 私、○○！[l]
 運命destiny高校の2年生！[l][r]
-今日は2年生になって初めての学校なのに、変な夢見ちゃってもう大変！[l][r]
+今日は2年生になって初めての学校なのに、変な夢見ちゃってもう大変！[p][r]
 
-[cm]
-
-ドン！[l]
-[cm]
+; ぶつかるシーン
+ードン！[p]
 きゃっ！[l][r]
-あ！ごめんなさい。大丈夫ですか？[l][r]
-[cm]
+あ！ごめんなさい。大丈夫ですか？[p]
 
-[if exp="f.character=1"]
-@jump storage=return_woman.ks target=*start
-[elsif if exp="f.character=2"]
-@jump storage=glass_man.ks target=*start
-[else]
-@jump storage=mascle_man.ks target=*start
-[endif]
-
-
+[jump storage="return_woman.ks" target="*start" cond="f.character==1"]
+[jump storage="glass_man.ks" target="*start" cond="f.character==2"]
+[jump storage="mascle_man.ks" target="*start" cond="f.character==3"]
