@@ -1,0 +1,8 @@
+# セーブデータは共有しない
+data/system/savedata/
+
+# Macの自動生成ファイル
+.DS_Store
+
+# Windowsの自動生成ファイル
+Thumbs.db
