@@ -54,14 +54,14 @@
 （誰を選ぼう...）[p]
 
 ; glinkタグを使って選択肢を表示
-[glink target="*select1" text="【１】帰国子女"]
+[glink target="*select1" text="【１】きんに君"]
 [glink target="*select2" text="【２】真面眼鏡"]
-[glink target="*select3" text="【３】きんに君"]
+[glink target="*select3" text="【３】帰国子女"]
 [s]
 
 
 *select1
-[eval exp="f.character=1"]
+じゃあ、きんに君、お願いしてもいいかな？[p]
 キミは筋トレをするといい！[r]
 素質はだれにでもあるものだ！[p]
 こんなやつが委員長に...なぜだ...[r]
@@ -72,8 +72,7 @@
 
 
 *select2
-[eval exp="f.character=2"]
-[cm]
+じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
 なかなかいい目をお持ちですね！[r]
 それはそうだ！ぼくのTOEICの点数は938点なのですから!![p]
 こいつが委員長なんて正直虫唾がrunningだが、[r]
@@ -83,8 +82,7 @@
 
 
 *select3
-[eval exp="f.character=3"]
-[cm]
+じゃあ、帰国子女君、お願いしてもいいかな？[p]
 You!良いセンスしてんじゃねぇか[r]
 今後My Cruiseにでものせてやるよ[p]
 こんなやつが委員長に...なぜだ...[r]
