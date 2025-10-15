@@ -21,12 +21,12 @@
 きゃっ！[l][r]
 あ！ごめんなさい。大丈夫ですか？[p]
 
-;夢の中の選択した人のルートへ分岐
+; 夢の中の選択した人のルートへ分岐
 [jump target="*return" cond="f.character==1"]
 [jump target="*glass" cond="f.character==2"]
 [jump target="*mascle" cond="f.character==3"]
 
-;シーン2-1：帰国子女ルート
+; シーン2-1：帰国子女ルート
 *return
 おやおや、キュートなガールちゃん♪[l][r]
 そんなに走ってアグレッシブだね～[p]
@@ -35,7 +35,7 @@
 いや、そうだ。今はいそがないと！[p]
 [jump storage="morning1.ks" target="*start"]
 
-;シーン2-2：真面目君ルート
+; シーン2-2：真面目君ルート
 *glass
 どこを見てるいるんですか！まったく危ない...。[p]
 ごめんなさい。[p]
@@ -43,7 +43,7 @@
 いや、そうだ。今はいそがないと！[p]
 [jump storage="morning1.ks" target="*start"]
 
-;シーン2-3：きんに君ルート
+; シーン2-3：きんに君ルート
 *mascle
 すまないお嬢さん。[l][r]
 俺の胸筋でふきとばしてしまったようだ！[p]

@@ -30,8 +30,8 @@ My name is きんに君.[p]
 俺、今なら男もいけます！[p]
 
 [jump target="*select" cond="f.character==1"]
-[jump target="*noselect" cond="f.character==2"]
-[jump target="*noselect" cond="f.character==3"]
+[jump target="*turn1" cond="f.character==2"]
+[jump target="*turn1" cond="f.character==3"]
 
 ; glinkタグを使って選択肢を表示
 *select
@@ -42,14 +42,10 @@ My name is きんに君.[p]
 ; 選択によって発言分岐
 *turn1
 （横文字が多いけど、かっこいい人だなー！）[p]
-@jump target=*return
+[jump target="*return"]
 *turn2
 （あの人、朝ぶつかった...！転校生だったんだ...!）[p]
-@jump target=*return
-
-*noselect
-(横文字が多いけど、かっこいい人だなー！)[p]
-@jump target=*return
+[jump target="*return"]
 
 *return
 帰国子女ってことはお金持ちなんだ！[p]
@@ -59,4 +55,5 @@ My name is きんに君.[p]
 ; 1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
 
-@jump storage=homeroom1.ks target=*start
+; シーン5へジャンプ
+[jump storage="homeroom1.ks" target="*start"]
