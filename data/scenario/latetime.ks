@@ -21,6 +21,34 @@
 きゃっ！[l][r]
 あ！ごめんなさい。大丈夫ですか？[p]
 
-[jump storage="return_woman.ks" target="*start" cond="f.character==1"]
-[jump storage="glass_man.ks" target="*start" cond="f.character==2"]
-[jump storage="mascle_man.ks" target="*start" cond="f.character==3"]
+;夢の中の選択した人のルートへ分岐
+[jump target="*return" cond="f.character==1"]
+[jump target="*glass" cond="f.character==2"]
+[jump target="*mascle" cond="f.character==3"]
+
+;シーン2-1：帰国子女ルート
+*return
+おやおや、キュートなガールちゃん♪[l][r]
+そんなに走ってアグレッシブだね～[p]
+おっと、俺も急いでんだった！タイムイズマネーってね！[p][r]
+（あれ、あの人どこかで...）[p]
+いや、そうだ。今はいそがないと！[p]
+[jump storage="morning1.ks" target="*start"]
+
+;シーン2-2：真面目君ルート
+*glass
+どこを見てるいるんですか！まったく危ない...。[p]
+ごめんなさい。[p]
+（あれ、あの人どこかで...）[p]
+いや、そうだ。今はいそがないと！[p]
+[jump storage="morning1.ks" target="*start"]
+
+;シーン2-3：きんに君ルート
+*mascle
+すまないお嬢さん。[l][r]
+俺の胸筋でふきとばしてしまったようだ！[p]
+しかし立ち止まってはいられない！行くぞ俺の筋肉！[r]
+1!2!1!2![p]
+（あれ、あの人どこかで...）[p]
+いや、そうだ。今はいそがないと！[p]
+[jump storage="morning1.ks" target="*start"]

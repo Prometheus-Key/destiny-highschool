@@ -52,6 +52,7 @@
 背に腹はno changeだぜ[p]
 今日も元気だな！大腿四頭筋！[p]
 （誰を選ぼう...）[p]
+[s]
 
 ; glinkタグを使って選択肢を表示
 [glink target="*select1" text="【１】きんに君"]
@@ -68,7 +69,7 @@
 僕はTOEIC938点だというのに...!![p]
 こいつが委員長なんて正直虫唾がrunningだが、[r]
 まあ、副委員長の決めたことだ！ここで口出してもnot coolだな[p]
-@jump target=*common
+[jump target="*common"]
 
 
 *select2
@@ -78,7 +79,7 @@
 こいつが委員長なんて正直虫唾がrunningだが、[r]
 まあ、副委員長の決めたことだ！ここで口出してもnot coolだな[p]
 おお...広背筋が悲しんでいるぞ...[p]
-@jump target=*common
+[jump target="*common"]
 
 
 *select3
@@ -88,7 +89,7 @@ You!良いセンスしてんじゃねぇか[r]
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
 おお...広背筋が悲しんでいるぞ...[p]
-@jump target=*common
+[jump target="*common"]
 
 *common
 んじゃ、次の係～[p]
@@ -115,7 +116,7 @@ You!良いセンスしてんじゃねぇか[r]
 *turn1
 ほんとだよー、皆個性豊かだから難しかった！[p]
 何とかなって良かったー!![r]
-@jump target=*return
+[jump target="*return"]
 
 *turn2
 幼馴染が応援してくれたから選べたんだよ！[p]
@@ -125,7 +126,8 @@ You!良いセンスしてんじゃねぇか[r]
 ありがとう、幼馴染！[p]
 えへへ、もう照れちゃうなー？[r]
 でもでも！何とかなって良かったー!![r]
-@jump target=*return
+[jump target="*return"]
 
 *return
 明日から楽しみだね！[p]
+[s]
