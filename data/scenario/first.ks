@@ -15,28 +15,36 @@
 [layopt layer="message0" visible="true"]
 こんにちは。お嬢ちゃん。[l][r]
 キミの名前を教えてくれたまえ。[p]
+[jump target="*input"]
 
 ;主人公の名前を入力させる
 *input
 [cm]
-[edit name="name"]
-[button x=100 y=200 target="*jump" graphic="decide.jpeg"]
+[edit name="f.playername" color="black" left="250" top="450"]
+[button x="850" y="440" target="*jump" graphic="decide.jpeg"]
 [s]
 
 *jump
-[dialog type="confirm" text="ほう、"+name+"というんだな？" target="*ok" target_cancel="*cancel"]
+[commit]
+[cm]
+ほう、[emb exp="f.playername"] というんだな？[p]
+[link target=*ok]【１】そうですけど...[endlink][r]
+[link target=*cancel]【２】違いますけど...[endlink]
 [s]
 
 
 *ok
-[commit]
 [cm]
+いい名前じゃな。[p]
 [jump target="*next"]
 [s]
 
 
 *cancel
-[jump target="*start"]
+[cm]
+すまんの。最近耳が遠くてな。[r]
+もう一度名前を教えてくれるか？[p]
+[jump target="*input"]
 [s]
 
 ;3人選ばせる
