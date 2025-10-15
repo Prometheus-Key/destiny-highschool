@@ -27,7 +27,7 @@
 *jump
 [commit]
 [cm]
-ほう、[emb exp="f.playername"] というんだな？[p]
+ほう、『[emb exp="f.playername"] 』というんだな？[p]
 [link target=*ok]【１】そうですけど...[endlink][r]
 [link target=*cancel]【２】違いますけど...[endlink]
 [s]

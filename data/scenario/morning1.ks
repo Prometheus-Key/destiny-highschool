@@ -5,10 +5,10 @@
 [bg storage="roomback_daytime.jpg" time="3000"]
 
 ; 幼馴染との会話
-おっはよー！○○！[l][r]
+おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]
 ごめんごめん。寝坊しちゃってさ！[p]
-もう、○○はいつもそうなんだからー[p]
+もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
 
 ; 先生の登場
 [bg storage="roomfront_daytime.jpg" time="3000"]
