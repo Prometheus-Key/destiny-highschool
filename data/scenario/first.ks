@@ -14,10 +14,10 @@
 ; ★最初のセリフの直前にメッセージレイヤーを再表示する
 [layopt layer="message0" visible="true"]
 こんにちは。お嬢ちゃん。[l][r]
-キミの名前を教えてくれたまえ。[p]
+キミの名前は。[p]
 [jump target="*input"]
 
-; 主人公の名前を入力させる
+;主人公の名前を入力させる
 *input
 [cm]
 [edit name="f.playername" color="black" left="250" top="450"]
@@ -47,18 +47,18 @@
 [jump target="*input"]
 [s]
 
-; 3人から1人選ばせる
+;3人選ばせる
 *next
 ここに3人のイケメン男子がおるじゃろう[l][r]
 好きな男子を選ぶのじゃ[p]
 
 ; glinkタグを使って選択肢を表示
 [glink target="*select1" text="【１】帰国子女"][r]
-[glink target="*select2" text="【２】真面眼鏡"][r]
+[glink target="*select2" text="【２】真面目君"][r]
 [glink target="*select3" text="【３】きんに君"][r]
 [s]
 
-; 帰国子女ルート
+
 *select1
 [eval exp="f.character=1"]
 [cm]
@@ -66,7 +66,7 @@
 さあ、楽しい学園生活のはじまりじゃ[p]
 @jump storage=latetime.ks target=*common
 
-; 真面眼鏡ルート
+
 *select2
 [eval exp="f.character=2"]
 [cm]
@@ -74,7 +74,7 @@
 さあ、楽しい学園生活のはじまりじゃ[p]
 @jump storage=latetime.ks target=*common
 
-; きんに君ルート
+
 *select3
 [eval exp="f.character=3"]
 [cm]
