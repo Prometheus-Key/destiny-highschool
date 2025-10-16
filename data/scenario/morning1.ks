@@ -1,14 +1,30 @@
-; シーン4：教室での
+;シーン4：教室での
 *start
 
-; 背景を表示
+;背景を表示
 [bg storage="roomback_daytime.jpg" time="3000"]
 
-; 幼馴染との会話
+;幼馴染の登場、会話
+[chara_new name="osananajimi" storage="akane/happy.png" jname="幼馴染"]
+[chara_show name="osananajimi"]
 おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]
 ごめんごめん。寝坊しちゃってさ！[p]
+;幼馴染の表情を登録
+[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
+[chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
+;幼馴染の表情変更
+[chara_mod name="osananajimi" face="angry"]
 もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
+[chara_mod name="osananajimi" face="normal"]
+
+;幼馴染の紹介
+この子は、幼馴染の幼馴染。[r]
+私の親友のうちの1人で明るくてとっても可愛いの！[p]
+いつも私を励ましてくれるんだ～[p]
+
+;幼馴染退場
+[chara_hide name="osananajimi"]
 
 ; 先生の登場
 [bg storage="roomfront_daytime.jpg" time="3000"]
@@ -22,6 +38,8 @@
 それじゃあ、入ってくれ[p]
 
 ; 転校生：帰国子女の登場
+[chara_new name="kikokusijo" storage="yamato/normal.png" jname="帰国子女"]
+[chara_show name="kikokusijo"]
 Hello! Everyone![r]
 My name is きんに君.[p]
 このあいだ日本に帰国したところだ！[p]
@@ -29,6 +47,7 @@ My name is きんに君.[p]
 帰国子女!?[l][r]
 俺、今なら男もいけます！[p]
 
+; 夢の中で帰国子女を選択していたら、選択肢を選ばせる。
 [jump target="*select" cond="f.character==1"]
 [jump target="*turn1" cond="f.character==2"]
 [jump target="*turn1" cond="f.character==3"]
@@ -47,6 +66,7 @@ My name is きんに君.[p]
 （あの人、朝ぶつかった...！転校生だったんだ...!）[p]
 [jump target="*return"]
 
+; 共通ルート
 *return
 帰国子女ってことはお金持ちなんだ！[p]
 仰るstreet![l][r]
@@ -54,6 +74,9 @@ My name is きんに君.[p]
 
 ; 1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
+
+;幼馴染退場
+[chara_hide name="kikokusijo"]
 
 ; シーン5へジャンプ
 [jump storage="homeroom1.ks" target="*start"]
