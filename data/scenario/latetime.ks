@@ -18,7 +18,7 @@
 
 ; ぶつかるシーン
 ;　倒れる音を鳴らす。
-[quake time=800]
+[quake time="800" wait="false"]
 [playse storage="倒れる.mp3"]
 ードン！[p]
 きゃっ！[l][r]
