@@ -2,6 +2,7 @@
 *common
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
+[position frame="frame/flame01.png"]
 ふゎーー。ん、夢か。[l][r]
 今何時かな？[p]
 え、やばいじゃん！[r]
@@ -17,10 +18,13 @@
 今日は2年生になって初めての学校なのに、変な夢見ちゃってもう大変！[p][r]
 
 ; ぶつかるシーン
+;　倒れる音を鳴らす。
 ードン！
-[quake time=800]
+[quake time="800" wait="false"]
+[playse storage="倒れる.mp3"]
 [cm]
 きゃっ！[l][r]
+
 あ！ごめんなさい。大丈夫ですか？[p]
 
 ; 夢の中の選択した人のルートへ分岐

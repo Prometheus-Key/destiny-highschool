@@ -29,6 +29,11 @@
 ; 先生の登場
 [bg storage="roomfront_daytime.jpg" time="3000"]
 
+;　ここでチャイムの音を鳴らす。
+[playse storage="tyaimu.mp3"]
+[wait time=5000]
+
+
 全員座れー[r]
 出席とるぞー[l][r]
 とその前に、転校生の紹介だ[p]
