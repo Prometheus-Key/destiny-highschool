@@ -56,7 +56,6 @@
 背に腹はno changeだぜ[p]
 今日も元気だな！大腿四頭筋！[p]
 （誰を選ぼう...）[p]
-[s]
 
 ; glinkタグを使って選択肢を表示
 [glink target="*select1" text="【１】きんに君"]
