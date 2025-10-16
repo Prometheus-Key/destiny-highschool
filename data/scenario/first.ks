@@ -13,7 +13,7 @@
 
 ; ★最初のセリフの直前にメッセージレイヤーを再表示する
 [layopt layer="message0" visible="true"]
-こんにちは。お嬢ちゃん。[l][r]
+こんばんは。お嬢ちゃん。[l][r]
 キミの名前は。[p]
 [jump target="*input"]
 
