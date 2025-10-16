@@ -2,6 +2,7 @@
 *common
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
+[position frame="frame/flame01.png"]
 ふゎーー。ん、夢か。[l][r]
 今何時かな？[p]
 え、やばいじゃん！[r]
