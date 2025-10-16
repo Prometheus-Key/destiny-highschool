@@ -28,6 +28,7 @@
 
 ; 先生の登場
 [bg storage="roomfront_daytime.jpg" time="3000"]
+
 全員座れー[r]
 出席とるぞー[l][r]
 とその前に、転校生の紹介だ[p]
@@ -69,8 +70,10 @@ My name is きんに君.[p]
 ; 共通ルート
 *return
 帰国子女ってことはお金持ちなんだ！[p]
-仰るstreet![l][r]
-このイケメンfaceにa lot of恐れだろうが、よろしく頼むよ！[p]
+仰る [ruby text="ス"]s[ruby text="ト"]t[ruby text="リ"]r[ruby text="ー"]e[ruby text="ト"]et![l][r]
+このイケメン[ruby text="フ"]f[ruby text="ェ"]a[ruby text="イ"]c[ruby text="ス"]eに
+[ruby text="ア"]a [ruby text="ロ"]l[ruby text="ッ"]o[ruby text="ト"]t [ruby text="オ"]o[ruby text="ブ"]f
+恐れだろうが、よろしく頼むよ！[p]
 
 ; 1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]

@@ -53,7 +53,7 @@
 私がですか!?[p]
 頑張れ！[emb exp="f.playername"]！[p]
 委員長補佐としての審美眼、確かめさせてもらいましょうか[p]
-背に腹はno changeだぜ[p]
+背に腹は[ruby text="ノ"]n[ruby text="ー"]o [ruby text="チ"]c[ruby text="ェ"]h[ruby text="ン"]a[ruby text="ジ"]ngeだぜ[p]
 今日も元気だな！大腿四頭筋！[p]
 （誰を選ぼう...）[p]
 
@@ -70,8 +70,9 @@
 素質はだれにでもあるものだ！[p]
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-こいつが委員長なんて正直虫唾がrunningだが、[r]
-まあ、副委員長の決めたことだ！ここで口出してもnot coolだな[p]
+こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
+まあ、副委員長の決めたことだ！ここで口出しても
+[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
 [jump target="*common"]
 
 ; 真面眼鏡ルート
@@ -79,8 +80,9 @@
 じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
 なかなかいい目をお持ちですね！[r]
 それはそうだ！ぼくのTOEICの点数は938点なのですから!![p]
-こいつが委員長なんて正直虫唾がrunningだが、[r]
-まあ、副委員長の決めたことだ！ここで口出してもnot coolだな[p]
+こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
+まあ、副委員長の決めたことだ！ここで口出しても
+[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
 おお...広背筋が悲しんでいるぞ...[p]
 [jump target="*common"]
 
@@ -88,7 +90,8 @@
 *select3
 じゃあ、帰国子女君、お願いしてもいいかな？[p]
 You!良いセンスしてんじゃねぇか[r]
-今後My Cruiseにでものせてやるよ[p]
+今後[ruby text="マ"]M[ruby text="イ"]y [ruby text="ク"]C[ruby text="ル"]r[ruby text="ー"]u[ruby text="ズ"]ise
+にでものせてやるよ[p]
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
 おお...広背筋が悲しんでいるぞ...[p]
