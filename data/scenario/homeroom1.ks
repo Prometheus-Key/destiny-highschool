@@ -1,21 +1,21 @@
-; シーン5：教室での役員決め
+;シーン4：教室での役員決め
 *start
 
-; 暗転した状態で少し待つ
+;暗転した状態で少し待つ
 [wait time="500"]
 
-; ここでチャイムの音を鳴らす。
+;ここでチャイムの音を鳴らす。
 [playse storage="tyaimu.mp3"]
 [wait time=5000]
 
-; 1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 
-; 背景を表示
+;背景を表示
 [bg storage="roomfront_daytime.jpg" time="1500"]
 
 ;会話開始
-#teacher
+#先生
 それじゃあ、役員を決めるぞー[r]
 じゃあ、まず学級委員長から[p]
 #&f.playername
@@ -25,13 +25,13 @@
 委員長とは、頭の良い者がなる役職！[p]
 このクラスで僕が最もふさわしい！[r]
 なぜなら、僕のTOEICの点数は938点だからです！[p]
-#student
+#クラスメイト
 938点だって...!?そんなすごい点数を!?[p]
 #kikokusijo
 オレも立候補するぜ☆[r]
 学級委員長ってのは周りを楽しませるもんだろ？[p]
-じゃあ、俺が出なきゃ誰が出るってんだbaby？[p]
-#student
+じゃあ、俺が出なきゃ誰が出るってんだ[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y？[p]
+#クラスメイト
 転校初日で立候補...!?なんて肝が据わったやつなんだ...！[p]
 #majimegane
 そこの帰国子女、出しゃばるのはやめたまえ。[r]
@@ -41,8 +41,8 @@
 優しくしないとモテないぜー？[p]
 #kinnikun
 む、もうプロテインの時間か[p]
-; どっかできんに君の立候補表明
-#teacher
+;どっかできんに君の立候補表明
+#先生
 じゃあ、そこ3人で話し合ってくれー、[l][r]
 んじゃ次、副委員長になりたい人ー[p]
 #osananajimi
@@ -56,10 +56,10 @@
 [emb exp="f.playername"]の優しさはこのクラスに必要だぁ！[p]
 [chara_hide name="osananajimi"]
 #&f.playername
-（本当にいいのかな？でも幼馴染が言うんだもんね！）[p]
+（本当にいいのかな？でも幼馴染のゆりが言うんだもんね！）[p]
 分かった！[p]
 先生！私、立候補します！[p]
-#teacher
+#先生
 他になりたい人ー、いないな。[l][r]
 じゃあ[emb exp="f.playername"]、副委員長よろしくな！[p]
 んじゃ、そこ3人[p]
@@ -71,7 +71,7 @@
 恋人もろくに作れねぇやつがクラスの気持ちなんて存じ上げnotだろうが！[p]
 #kinnikun
 うーん、プロテインのおかげで、俺の上腕二頭筋も喜んでいるぞ！（ムキッ！）[p]
-#teacher
+#先生
 だめそうだな、、、[l][r]
 せっかくだから[emb exp="f.playername"]、あの3人で誰が学級委員長にふさわしいか決めてくれ。[p]
 #&f.playername
@@ -94,7 +94,7 @@
 [glink target="*select3" text="【３】帰国子女"]
 [s]
 
-; きんに君ルート
+;きんに君ルート
 *select1
 #&f.playername
 じゃあ、きんに君、お願いしてもいいかな？[p]
@@ -111,7 +111,7 @@
 #
 [jump target="*common"]
 
-; 真面眼鏡ルート
+;真面眼鏡ルート
 *select2
 #&f.playername
 じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
@@ -127,13 +127,13 @@
 #
 [jump target="*common"]
 
-; 帰国子女ルート
+;帰国子女ルート
 *select3
 #&f.playername
 じゃあ、帰国子女君、お願いしてもいいかな？[p]
 #kikokusijo
 You!良いセンスしてんじゃねぇか[r]
-今後[ruby text="マ"]M[ruby text="イ"]y [ruby text="ク"]C[ruby text="ル"]r[ruby text="ー"]u[ruby text="ズ"]ise
+今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
 にでものせてやるよ[p]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
@@ -144,31 +144,32 @@ You!良いセンスしてんじゃねぇか[r]
 [jump target="*common"]
 
 *common
-#teacher
+#先生
 んじゃ、次の係～[p]
+#
 
-
-; 1秒かけて画面を真っ暗にする（フェードアウト）
+;1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
-; 暗転した状態で少し待つ
+;暗転した状態で少し待つ
 #
 [wait time="500"]
-; 背景を表示
+;背景を表示
 [bg storage="rouka_daytime.jpg" time="1500"]
-; 1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
-
+;幼馴染登場
+[chara_show name="osananajimi"]
 #osananajimi
 副委員長の就任、おめでとー！[p]
 いやーすごかったね、あの3人から選ぶなんて！[p]
 
-; glinkタグを使って選択肢を表示
+;glinkタグを使って選択肢を表示
 *select
 [glink target="*turn1" text="ほんとだよー、皆個性豊かだから難しかった！"][r]
 [glink target="*turn2" text="幼馴染が応援してくれたから選べたんだよ！"][r]
 [s]
 
-; 選択によって発言分岐
+;選択によって発言分岐
 *turn1
 #&f.playername
 ほんとだよー、皆個性豊かだから難しかった！[p]
@@ -177,13 +178,13 @@ You!良いセンスしてんじゃねぇか[r]
 
 *turn2
 #&f.playername
-幼馴染が応援してくれたから選べたんだよ！[p]
+ゆりが応援してくれたから選べたんだよ！[p]
 #osananajimi
 うぇ!?そんなことないよ～[l][r]
 決めてくれたのは[emb exp="f.playername"]なんだから！[p]
 #&f.playername
 励まされたのは本当だよ？[r]
-ありがとう、幼馴染！[p]
+ありがとう、ゆり！[p]
 #osananajimi
 えへへ、もう照れちゃうなー？[r]
 #&f.playername
