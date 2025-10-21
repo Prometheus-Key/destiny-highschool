@@ -1,4 +1,4 @@
-; シーン2：遅刻ダッシュ
+;シーン2：遅刻ダッシュ
 *common
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
@@ -21,40 +21,39 @@
 え、やばいじゃん！[r]
 遅刻確定じゃん！！！[p]
 
-; 背景を表示（昼間の通学路）
+;背景を表示（昼間の通学路）
 [bg storage="route_daytime.jpg" time="1500"]
 
-; 遅刻ダッシュシーン
+;遅刻ダッシュシーン
 いっけなーい！遅刻遅刻！！[p]
 私、[emb exp="f.playername"]！[l]
 運命destiny高校の広報部2年生！[l][r]
 今日は2年生になって初めての学校なのに、変な夢見ちゃってもう大変！[p][r]
 
-; ぶつかるシーン
-;　倒れる音を鳴らす。
+;ぶつかるシーン
 [quake time="800" wait="false"]
+;倒れる音を鳴らす。
 [playse storage="倒れる.mp3"]
 [cm]
 #
 ードン！[p]
 #&f.playername
 きゃっ！[l][r]
-
 あ！ごめんなさい。大丈夫ですか？[p]
 #
 
-; 夢の中の選択した人のルートへ分岐
+;夢の中の選択した人のルートへ分岐
 [jump target="*return" cond="f.character==1"]
 [jump target="*glass" cond="f.character==2"]
 [jump target="*mascle" cond="f.character==3"]
 
-; シーン2-1：帰国子女ルート
+;シーン2-1：帰国子女ルート
 *return
 [chara_show name="kikokusijo"]
 #kikokusijo
 おやおや、[ruby text="キ"]c[ruby text="ュ"]u[ruby text="ー"]t[ruby text="ト"]eな[ruby text="ガ"]g[ruby text="ー"]i[ruby text="ル"]rlちゃん♪[l][r]
 そんなに走ってアグレッシブだね～[p]
-おっと、俺も急いでんだった！[ruby text="タ"]T[ruby text="イ"]i[ruby text="ム"]me [ruby text="イ"]I[ruby text="ズ"]s [ruby text="マ"]Mo[ruby text="ネ"]ne[ruby text="ー"]yってね！[p][r]
+おっと、俺も急いでんだった！T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ム"]e [ruby text="イ"]I[ruby text="ズ"]s M[ruby text="マ"]o[ruby text="ネ"]n[ruby text="ー"]eyってね！[p][r]
 #
 [chara_hide name="kikokusijo"]
 #&f.playername
@@ -63,7 +62,7 @@
 #
 [jump storage="morning1.ks" target="*start"]
 
-; シーン2-2：真面眼鏡ルート
+;シーン2-2：真面眼鏡ルート
 *glass
 [chara_show name="majimegane"]
 #majimegane
@@ -78,7 +77,7 @@
 #
 [jump storage="morning1.ks" target="*start"]
 
-; シーン2-3：きんに君ルート
+;シーン2-3：きんに君ルート
 *mascle
 [chara_show name="kinnikun"]
 #kinnikun

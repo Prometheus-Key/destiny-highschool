@@ -11,7 +11,7 @@
 ;メッセージウィンドウをクリアしてテキストを表示
 [cm]
 
-; ★最初のセリフの直前にメッセージレイヤーを再表示する
+;最初のセリフの直前にメッセージレイヤーを再表示する
 [layopt layer="message0" visible="true"]
 こんにちは。お嬢ちゃん。[l][r]
 名前を教えてくれるか？[p]
@@ -22,7 +22,7 @@
 [cm]
 [layopt layer="message0" visible="false"]
 [edit name="f.playername" color="black" left="250" top="300" size="50" width="500" height="100"]
-[glink target="*ok" text="決定" x="800" y="320" cm="false"]
+[glink target="*jump" text="決定" x="800" y="320" cm="false"]
 
 [iscript]
 
@@ -39,13 +39,15 @@ $('.text_box').keypress(function (e) {
 [commit]
 [cm]
 [layopt layer="message0" visible="true"]
-ほう、『[emb exp="f.playername"] 』というんだな？[p]
-[link target=*ok]【１】そうですけど...[endlink][r]
-[link target=*cancel]【２】違いますけど...[endlink]
+ほう、『[emb exp="f.playername"]』というんだな？[p]
+[layopt layer="message0" visible="false"]
+[glink target="*ok" text="そうですけど..."][r]
+[glink target="*cancel" text="違いますけど..."][r]
 [s]
 
 
 *ok
+[layopt layer="message0" visible="true"]
 [cm]
 いい名前じゃな。[p]
 [jump target="*next"]
@@ -53,6 +55,7 @@ $('.text_box').keypress(function (e) {
 
 
 *cancel
+[layopt layer="message0" visible="true"]
 [cm]
 すまんの。最近耳が遠くてな。[r]
 もう一度名前を教えてくれるか？[p]
@@ -63,6 +66,7 @@ $('.text_box').keypress(function (e) {
 *next
 ここに3人のイケメン男子がおるじゃろう[l][r]
 好きな男子を選ぶのじゃ[p]
+[layopt layer="message0" visible="false"]
 
 ; glinkタグを使って選択肢を表示
 [glink target="*select1" text="【１】帰国子女"][r]
@@ -74,6 +78,7 @@ $('.text_box').keypress(function (e) {
 *select1
 [eval exp="f.character=1"]
 [cm]
+[layopt layer="message0" visible="true"]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
