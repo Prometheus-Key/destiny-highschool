@@ -1,14 +1,14 @@
-; シーン1：夢の中でオープニング
+;シーン1：夢の中でオープニング
 *start
 [layopt layer="message0" visible="false"]
 
-; 背景を表示
+;背景を表示
 [bg storage="indream.jpg" time="3000"]
 
-; メッセージウィンドウの位置とサイズを一度だけ設定
-[position layer="message0" width="800" height="300" top="380" left="70"]
+;メッセージウィンドウの位置、サイズ、枠画像、文字の余白をまとめて設定
+[position layer="message0" width="1500" height="232" top="488" left="0" marginl="30" margint="15" marginr="30" marginb="30"]
 
-; メッセージウィンドウをクリアしてテキストを表示
+;メッセージウィンドウをクリアしてテキストを表示
 [cm]
 
 ; ★最初のセリフの直前にメッセージレイヤーを再表示する
@@ -64,6 +64,7 @@
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
+[layopt layer="message0" visible="false"]
 @jump storage=latetime.ks target=*common
 
 
@@ -72,6 +73,7 @@
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
+[layopt layer="message0" visible="false"]
 @jump storage=latetime.ks target=*common
 
 
@@ -80,4 +82,5 @@
 [cm]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
+[layopt layer="message0" visible="false"]
 @jump storage=latetime.ks target=*common
