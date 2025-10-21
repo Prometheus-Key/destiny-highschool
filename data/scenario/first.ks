@@ -21,7 +21,7 @@
 *input
 [cm]
 [edit name="f.playername" color="black" left="250" top="450"]
-[button x="850" y="440" target="*jump" graphic="decide.jpeg"]
+[button x="850" y="440" target="*jump" graphic="decide.jpeg" width="150" height="150"]
 [s]
 
 *jump
