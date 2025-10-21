@@ -20,13 +20,25 @@
 ;主人公の名前を入力させる
 *input
 [cm]
-[edit name="f.playername" color="black" left="250" top="450"]
-[button x="850" y="440" target="*jump" graphic="decide.jpeg"]
+[layopt layer="message0" visible="false"]
+[edit name="f.playername" color="black" left="250" top="300" size="50" width="500" height="100"]
+[glink target="*ok" text="決定" x="800" y="320" cm="false"]
+
+[iscript]
+
+$('.text_box').keypress(function (e) {
+  if ( e.keyCode === 13 ) {
+    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
+  }
+});
+
+[endscript]
 [s]
 
 *jump
 [commit]
 [cm]
+[layopt layer="message0" visible="true"]
 ほう、『[emb exp="f.playername"] 』というんだな？[p]
 [link target=*ok]【１】そうですけど...[endlink][r]
 [link target=*cancel]【２】違いますけど...[endlink]
