@@ -197,6 +197,7 @@ You!良いセンスしてんじゃねぇか[r]
 
 *return
 明日から楽しみだね！[p]
+[layopt layer="message0" visible="false"]
 
 ;シーン5へジャンプ
 @jump storage=recreation.ks target=*start
