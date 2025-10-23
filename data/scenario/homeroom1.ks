@@ -44,7 +44,7 @@
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
 #先生
-じゃあ、そこ3人で話し合ってくれー、[l][r]
+じゃあ、そこ3人で話し合ってくれー[l][r]
 んじゃ次、副委員長になりたい人ー[p]
 #osananajimi
 [chara_show name="osananajimi"]
@@ -198,6 +198,7 @@ You!良いセンスしてんじゃねぇか[r]
 
 *return
 明日から楽しみだね！[p]
+[layopt layer="message0" visible="false"]
 
 ;1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]

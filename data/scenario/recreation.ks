@@ -3,13 +3,14 @@
 
 [wait time="500"]
 
-;背景を表示
-[bg storage="roomback_daytime.jpg" time="100"]
+[chara_hide name="osananajimi"]
+[bg storage="gymnasium03.png" time="100"]
 
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 
 
+[layopt layer="message0" visible="true"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 #司会
@@ -22,7 +23,6 @@
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
-*select
 [layopt layer="message0" visible="false"]
 [glink target="*turn1" text="絶対間違えないようにしようね...！"][r]
 [glink target="*turn2" text="ゆりは私が守るよ...!"][r]
