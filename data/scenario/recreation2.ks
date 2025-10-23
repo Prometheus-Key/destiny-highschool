@@ -1,7 +1,15 @@
 ;シーン5-2：レクリエーション(真面眼鏡)
 *start
+
+[wait time="500"]
+
 [chara_hide name="osananajimi"]
-[bg storage="gymnasium03.png" time="3000"]
+[bg storage="gymnasium03.png" time="100"]
+
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+[mask_off time="1000"]
+
+
 [layopt layer="message0" visible="true"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]

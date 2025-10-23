@@ -8,11 +8,12 @@
 [playse storage="tyaimu.mp3"]
 [wait time="1000"]
 
-;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
-[mask_off time="1000"]
-
 ;背景を表示
-[bg storage="roomfront_daytime.jpg" time="1500"]
+[bg storage="roomfront_daytime.jpg" time="500"]
+
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+[mask_off time="500"]
+
 
 ;会話開始
 #先生
@@ -201,6 +202,12 @@ You!良いセンスしてんじゃねぇか[r]
 *return
 明日から楽しみだね！[p]
 [layopt layer="message0" visible="false"]
+
+;1秒かけて画面を真っ暗にする（フェードアウト）
+[mask time="1000"]
+
+;幼馴染退場
+[chara_hide name="osananajimi"]
 
 ;委員長に選ばれた人によって分岐後シーン5へジャンプ
 [jump storage="recreation1.ks" target="*start" cond="f.leader==1"]
