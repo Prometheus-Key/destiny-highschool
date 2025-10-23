@@ -89,9 +89,11 @@
 #
 
 ; glinkタグを使って選択肢を表示
+[layopt layer="message0" visible="false"]
 [glink target="*select1" text="【１】きんに君"]
 [glink target="*select2" text="【２】真面眼鏡"]
 [glink target="*select3" text="【３】帰国子女"]
+[layopt layer="message0" visible="true"]
 [s]
 
 ;きんに君ルート
@@ -165,8 +167,10 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;glinkタグを使って選択肢を表示
 *select
+[layopt layer="message0" visible="false"]
 [glink target="*turn1" text="ほんとだよー、皆個性豊かだから難しかった！"][r]
 [glink target="*turn2" text="幼馴染が応援してくれたから選べたんだよ！"][r]
+[layopt layer="message0" visible="true"]
 [s]
 
 ;選択によって発言分岐
@@ -193,3 +197,6 @@ You!良いセンスしてんじゃねぇか[r]
 
 *return
 明日から楽しみだね！[p]
+
+;シーン5へジャンプ
+@jump storage=recreation.ks target=*start
