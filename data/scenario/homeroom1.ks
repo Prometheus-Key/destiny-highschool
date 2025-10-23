@@ -6,7 +6,7 @@
 
 ;ここでチャイムの音を鳴らす。
 [playse storage="tyaimu.mp3"]
-[wait time=5000]
+[wait time="1000"]
 
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
@@ -151,12 +151,12 @@ You!良いセンスしてんじゃねぇか[r]
 #
 
 ;1秒かけて画面を真っ暗にする（フェードアウト）
-[mask time="1000"]
+[mask time="500"]
 ;暗転した状態で少し待つ
 #
 [wait time="500"]
 ;背景を表示
-[bg storage="rouka_daytime.jpg" time="1500"]
+[bg storage="rouka_daytime.jpg" time="500"]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 ;幼馴染登場
