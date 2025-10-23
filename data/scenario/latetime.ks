@@ -60,7 +60,7 @@
 （あれ、あの人どこかで...）[p]
 いや、そうだ。今はいそがないと！[p]
 #
-[jump storage="morning1.ks" target="*start"]
+[jump storage="morning.ks" target="*start"]
 
 ;シーン2-2：真面眼鏡ルート
 *glass
@@ -75,7 +75,7 @@
 （あれ、あの人どこかで...）[p]
 いや、そうだ。今はいそがないと！[p]
 #
-[jump storage="morning1.ks" target="*start"]
+[jump storage="morning.ks" target="*start"]
 
 ;シーン2-3：きんに君ルート
 *mascle
@@ -91,4 +91,4 @@
 （あれ、あの人どこかで...）[p]
 いや、そうだ。今はいそがないと！[p]
 #
-[jump storage="morning1.ks" target="*start"]
+[jump storage="morning.ks" target="*start"]

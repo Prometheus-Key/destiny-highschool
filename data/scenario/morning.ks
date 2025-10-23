@@ -112,4 +112,4 @@ H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ru
 [chara_hide name="kikokusijo"]
 
 ;シーン5へジャンプ
-[jump storage="homeroom1.ks" target="*start"]
+[jump storage="homeroom.ks" target="*start"]

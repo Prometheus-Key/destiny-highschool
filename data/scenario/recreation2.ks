@@ -1,4 +1,4 @@
-;シーン5：レクリエーション
+;シーン5-2：レクリエーション(真面眼鏡)
 *start
 [chara_hide name="osananajimi"]
 [bg storage="gymnasium03.png" time="3000"]

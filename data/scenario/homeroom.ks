@@ -90,31 +90,32 @@
 
 ; glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="【１】きんに君"]
+[glink target="*select1" text="【１】帰国子女"]
 [glink target="*select2" text="【２】真面眼鏡"]
-[glink target="*select3" text="【３】帰国子女"]
+[glink target="*select3" text="【３】きんに君"]
 [layopt layer="message0" visible="true"]
 [s]
 
-;きんに君ルート
+;帰国子女ルート
 *select1
+[eval exp="f.leader=1"]
 #&f.playername
-じゃあ、きんに君、お願いしてもいいかな？[p]
-#kinnikun
-キミは筋トレをするといい！[r]
-素質はだれにでもあるものだ！[p]
+じゃあ、帰国子女君、お願いしてもいいかな？[p]
+#kikokusijo
+You!良いセンスしてんじゃねぇか[r]
+今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
+にでものせてやるよ[p]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-#kikokusijo
-こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
-まあ、副委員長の決めたことだ！ここで口出しても
-[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
+#kinnikun
+おお...広背筋が悲しんでいるぞ...[p]
 #
 [jump target="*common"]
 
 ;真面眼鏡ルート
 *select2
+[eval exp="f.leader=2"]
 #&f.playername
 じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
 #majimegane
@@ -129,19 +130,21 @@
 #
 [jump target="*common"]
 
-;帰国子女ルート
+;きんに君ルート
 *select3
+[eval exp="f.leader=3"]
 #&f.playername
-じゃあ、帰国子女君、お願いしてもいいかな？[p]
-#kikokusijo
-You!良いセンスしてんじゃねぇか[r]
-今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
-にでものせてやるよ[p]
+じゃあ、きんに君、お願いしてもいいかな？[p]
+#kinnikun
+キミは筋トレをするといい！[r]
+素質はだれにでもあるものだ！[p]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-#kinnikun
-おお...広背筋が悲しんでいるぞ...[p]
+#kikokusijo
+こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
+まあ、副委員長の決めたことだ！ここで口出しても
+[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
 #
 [jump target="*common"]
 
@@ -199,5 +202,7 @@ You!良いセンスしてんじゃねぇか[r]
 明日から楽しみだね！[p]
 [layopt layer="message0" visible="false"]
 
-;シーン5へジャンプ
-@jump storage=recreation.ks target=*start
+;委員長に選ばれた人によって分岐後シーン5へジャンプ
+[jump storage="recreation1.ks" target="*start" cond="f.leader==1"]
+[jump storage="recreation2.ks" target="*start" cond="f.leader==2"]
+[jump storage="recreation3.ks" target="*start" cond="f.leader==3"]
