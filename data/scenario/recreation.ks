@@ -1,7 +1,7 @@
 ;シーン5：レクリエーション
 *start
-;背景を表示
-[bg storage="roomback_daytime.jpg" time="3000"]
+[chara_hide name="osananajimi"]
+[bg storage="gymnasium03.png" time="3000"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 #司会
