@@ -20,28 +20,30 @@
 [glink target="*turn2" text="ゆりは私が守るよ...!"][r]
 [layopt layer="message0" visible="true"]
 [s]
+
 ;選択によって発言分岐
 *turn1
 #&f.playername
-絶対間違えないようにしようね...！
+絶対間違えないようにしようね...！[p]
 [jump target="*return"]
 
 *turn2
 #&f.playername
-ゆりは私が守るよ...！
+ゆりは私が守るよ...！[p]
 #osananajimi
 やだ[emb exp="f.playername"]ったらかっこいいー！ [p]
 ...へへ！よぉし！私もがんばらなくっちゃ！[p]
-私だって[emb exp="f.playername"]のこと守れるんだから！
+私だって[emb exp="f.playername"]のこと守れるんだから！ [p]
 [jump target="*return"]
+
 *return
 #司会
-第１問の解答こちら！
+第１問の解答こちら！[p]
 #majimegane
 はぅ！！！[p]
 ;服が破れるイラスト追加
 #みんな
-おい　委員長が爆発したぞ！！[p]
+おい、委員長が爆発したぞ！！[p]
 #majimegane
 くっ...このくらい...！もう一度です！[p]
 #司会
@@ -58,21 +60,25 @@
 #majimegane
 くっ...これは...！？[p]
 #&f.playername
-...真面眼鏡君、答えこれだよ[p]
+（私この問題の答え知ってる...！）[p]
+（どうしよっかな...）[p]
 
-*select
 [layopt layer="message0" visible="false"]
-[glink target="*turn1" text="答えを教える"][r]
-[glink target="*turn2" text="間違いを教える"][r]
+[glink target="*select1" text="答えを教える"][r]
+[glink target="*select2" text="間違いを教える"][r]
 [layopt layer="message0" visible="true"]
 [s]
+
 ;選択によって発言分岐
-*turn1
+*select1
+#&f.playername
+（真面眼鏡君のこと、助けてあげなくちゃ！）[p]
+（...真面眼鏡君、答えこれだよ）コソッ[p]
 #majimegane
 ...フ、フン...僕が助けられるとは... [p]
 なかなか優秀な補佐官ではないですか！[p]
 褒めてさしあげますよ！えぇ！TOIEC938点の[r]
-僕に褒められるなどあなたも鼻が高いでしょう！
+僕に褒められるなどあなたも鼻が高いでしょう！[p]
 #&f.playername
 あの、ずっと思ってたんだけど、TOIECは5点刻みだよ？[p]
 #majimegane
@@ -85,15 +91,19 @@
 真面眼鏡く～～～ん！！！！！[p]
 [jump target="*return"]
 
-*turn2
+*select2
+#&f.playername
+（わざと間違え教えちゃお！）[p]
+（...真面眼鏡君、答えこれだよ）コソッ[p]
 #majimegane
 アバダケタブラ！！！！[p]
 ;大爆発
 #みんな
-おい！委員長が爆発したぞ！！
+おい！委員長が爆発したぞ！！[p]
 #&f.playername
-...大変だなぁ
-[jump target="*return"]
-*return
+...大変だなぁ[p]
+[jump target="*common"]
+
+*common
 #
-こうしてレクリエーションは幕を閉じた
+こうしてレクリエーションは幕を閉じた[p]
