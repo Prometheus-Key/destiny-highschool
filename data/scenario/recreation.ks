@@ -1,7 +1,15 @@
 ;シーン5：レクリエーション
 *start
+
+[wait time="500"]
+
 ;背景を表示
-[bg storage="roomback_daytime.jpg" time="3000"]
+[bg storage="roomback_daytime.jpg" time="100"]
+
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+[mask_off time="1000"]
+
+
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 #司会
