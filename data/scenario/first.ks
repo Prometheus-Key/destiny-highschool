@@ -88,6 +88,7 @@ $('.text_box').keypress(function (e) {
 *select2
 [eval exp="f.character=2"]
 [cm]
+[layopt layer="message0" visible="true"]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
@@ -97,6 +98,7 @@ $('.text_box').keypress(function (e) {
 *select3
 [eval exp="f.character=3"]
 [cm]
+[layopt layer="message0" visible="true"]
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]

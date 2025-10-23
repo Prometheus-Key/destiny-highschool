@@ -15,7 +15,6 @@
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
-*select
 [layopt layer="message0" visible="false"]
 [glink target="*turn1" text="絶対間違えないようにしようね...！"][r]
 [glink target="*turn2" text="ゆりは私が守るよ...!"][r]

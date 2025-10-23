@@ -77,16 +77,19 @@ H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ru
 
 ;glinkタグを使って選択肢を表示
 *select
+[layopt layer="message0" visible="false"]
 [glink target="*turn1" text="（横文字が多いけど、かっこいい人だなー！）"][r]
 [glink target="*turn2" text="（あの人、朝ぶつかった...！転校生だったんだ...!）"][r]
 [s]
 
 ;選択によって発言分岐
 *turn1
+[layopt layer="message0" visible="true"]
 #&f.playername
 （横文字が多いけど、かっこいい人だなー！）[p]
 [jump target="*return"]
 *turn2
+[layopt layer="message0" visible="true"]
 #&f.playername
 （あの人、朝ぶつかった...！転校生だったんだ...!）[p]
 [jump target="*return"]
