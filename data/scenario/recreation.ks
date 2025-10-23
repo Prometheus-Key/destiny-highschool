@@ -1,6 +1,6 @@
 ;シーン5：レクリエーション
 *start
-[chara_hide name="kikokusijo"]
+[chara_hide name="osananajimi"]
 [bg storage="gymnasium03.png" time="3000"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
