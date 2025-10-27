@@ -3,20 +3,21 @@
 
 ;背景を表示
 [bg storage="roomback_daytime.jpg" time="3000"]
-
+;幼馴染の表情を登録
+[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
+[chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
+[chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
 ;幼馴染の登場、会話
 [chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
-[chara_show name="osananajimi"]
+[chara_show name="osananajimi" face="happy"]
+
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]
 #&f.playername
 ごめんごめん。寝坊しちゃってさ！[p]
-;幼馴染の表情を登録
-[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
-[chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
-;幼馴染の表情変更
 #osananajimi
+;幼馴染の表情変更
 [chara_mod name="osananajimi" face="angry"]
 もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
 [chara_mod name="osananajimi" face="normal"]
@@ -88,6 +89,7 @@ H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ru
 #&f.playername
 （横文字が多いけど、かっこいい人だなー！）[p]
 [jump target="*return"]
+
 *turn2
 [layopt layer="message0" visible="true"]
 #&f.playername
@@ -107,9 +109,7 @@ H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ru
 
 ;1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
-
 ;幼馴染退場
 [chara_hide name="kikokusijo"]
-
 ;シーン5へジャンプ
 [jump storage="homeroom.ks" target="*start"]

@@ -1,20 +1,23 @@
 ;シーン5-2：レクリエーション(真面眼鏡)
 *start
 
+;操作無効
 [wait time="500"]
-
+;シーン4の幼馴染削除
 [chara_hide name="osananajimi"]
+;背景設定（体育館）
 [bg storage="gymnasium03.png" time="100"]
-
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
-
-
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
+
+;司会登場（シルエット）
 #司会
-待ちに待ったレクリエーション！！クイズ大会を行います！[p]
+待ちに待ったレクリエーション！！[r]
+今回はクイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
 #majimegane
 フフフ...やっと僕の本領を発揮できますね... [p]
@@ -26,16 +29,18 @@
 [layopt layer="message0" visible="false"]
 [glink target="*turn1" text="絶対間違えないようにしようね...！"][r]
 [glink target="*turn2" text="ゆりは私が守るよ...!"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
-;選択によって発言分岐
+;選択肢1
 *turn1
+[layopt layer="message0" visible="true"]
 #&f.playername
 絶対間違えないようにしようね...！[p]
 [jump target="*return"]
 
+;選択肢2
 *turn2
+[layopt layer="message0" visible="true"]
 #&f.playername
 ゆりは私が守るよ...！[p]
 #osananajimi
@@ -44,12 +49,14 @@
 私だって[emb exp="f.playername"]のこと守れるんだから！ [p]
 [jump target="*return"]
 
+;共通会話復帰
 *return
 #司会
 第１問の解答こちら！[p]
 #majimegane
 はぅ！！！[p]
-;服が破れるイラスト追加
+;TODO：爆発音追加
+;TODO：服が破れるイラスト追加
 #みんな
 おい、委員長が爆発したぞ！！[p]
 #majimegane
@@ -74,11 +81,11 @@
 [layopt layer="message0" visible="false"]
 [glink target="*select1" text="答えを教える"][r]
 [glink target="*select2" text="間違いを教える"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
 ;選択によって発言分岐
 *select1
+[layopt layer="message0" visible="true"]
 #&f.playername
 （真面眼鏡君のこと、助けてあげなくちゃ！）[p]
 （...真面眼鏡君、答えこれだよ）コソッ[p]
@@ -100,9 +107,10 @@
 [jump target="*return"]
 
 *select2
+[layopt layer="message0" visible="true"]
 #&f.playername
 （わざと間違え教えちゃお！）[p]
-（...真面眼鏡君、答えこれだよ）コソッ[p]
+[font size="10"]...真面眼鏡君、答えこれだよ[p]
 #majimegane
 アバダケタブラ！！！！[p]
 ;大爆発
