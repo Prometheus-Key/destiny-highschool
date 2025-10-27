@@ -109,7 +109,7 @@
 ;大爆発するメガネ
 #&f.playername
 真面眼鏡く～～～ん！！！！！[p]
-[jump target="*return"]
+[jump target="*common"]
 
 *select2
 [layopt layer="message0" visible="true"]

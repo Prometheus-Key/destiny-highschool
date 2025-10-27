@@ -3,13 +3,14 @@
 
 ;背景を表示
 [bg storage="roomback_daytime.jpg" time="3000"]
-;幼馴染の登場、会話
+;幼馴染の登録
 [chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
-[chara_show name="osananajimi" face="happy"]
 ;幼馴染の表情を登録
 [chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
 [chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
 [chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
+;幼馴染の登場
+[chara_show name="osananajimi" face="happy"]
 
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
