@@ -17,9 +17,12 @@
 待ちに待ったレクリエーション！！クイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
 #majimegane
+[chara_show name="majimegane"]
 フフフ...やっと僕の本領を発揮できますね... [p]
 ハレンチな姿は見せませんよ！[p]
+[chara_hide name="majimegane"]
 #osananajimi
+[chara_show name="osananajimi"]
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
@@ -45,9 +48,11 @@
 [jump target="*return"]
 
 *return
+[chara_hide name="osananajimi"]
 #司会
 第１問の解答こちら！[p]
 #majimegane
+[chara_show name="majimegane"]
 はぅ！！！[p]
 ;服が破れるイラスト追加
 #みんな
