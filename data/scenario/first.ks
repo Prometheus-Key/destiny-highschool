@@ -3,7 +3,7 @@
 [layopt layer="message0" visible="false"]
 
 ;背景を表示
-[bg storage="indream.jpg" time="3000"]
+[bg storage="indream.jpg" time="1500"]
 
 ;メッセージウィンドウの位置、サイズ、枠画像、文字の余白をまとめて設定
 [position layer="message0" width="1500" height="232" top="488" left="0" marginl="30" margint="15" marginr="30" marginb="30"]
@@ -82,7 +82,7 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
-@jump storage=latetime.ks target=*common
+[jump storage="latetime.ks" target="*start"]
 
 
 *select2
@@ -92,7 +92,7 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
-@jump storage=latetime.ks target=*common
+[jump storage="latetime.ks" target="*start"]
 
 
 *select3
@@ -102,4 +102,4 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
-@jump storage=latetime.ks target=*common
+[jump storage="latetime.ks" target="*start"]

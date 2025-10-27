@@ -1,5 +1,5 @@
 ;シーン2：遅刻ダッシュ
-*common
+*start
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
 [position frame="frame/flame01.png"]
