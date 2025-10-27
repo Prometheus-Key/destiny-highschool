@@ -19,3 +19,4 @@
 音源、BGMなど
 ・「魔王魂」さん　https://maou.audio/
 ・「DOVA-SYNDROME」さん　https://dova-s.jp/
+・「効果音ラボ」さん　https://soundeffect-lab.info/

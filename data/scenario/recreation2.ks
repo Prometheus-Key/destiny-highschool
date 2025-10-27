@@ -20,9 +20,12 @@
 今回はクイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
 #majimegane
+[chara_show name="majimegane"]
 フフフ...やっと僕の本領を発揮できますね... [p]
 ハレンチな姿は見せませんよ！[p]
+[chara_hide name="majimegane"]
 #osananajimi
+[chara_show name="osananajimi"]
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
@@ -51,9 +54,11 @@
 
 ;共通会話復帰
 *return
+[chara_hide name="osananajimi"]
 #司会
 第１問の解答こちら！[p]
 #majimegane
+[chara_show name="majimegane"]
 はぅ！！！[p]
 ;TODO：爆発音追加
 ;TODO：服が破れるイラスト追加
