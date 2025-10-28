@@ -15,15 +15,23 @@
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
 ;司会登場（シルエット）
-[chara_show name="mobu/student_man2"]
+[chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
+[chara_show name="shikai"]
 #司会
 待ちに待ったレクリエーション！[r]
 今回はワードウルフを行います！[p]
 ではグループを組んでくださーい！[p]
+[chara_hide name="shikai"]
+[chara_show name="kikokusijo"]
+[chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
+[chara_show name="shikai"]
+[chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
+[chara_show name="shikai"]
 #kikokusijo
 [ruby text="ヘ"]He[ruby text="イ"]y![emb exp="f.playername"]、俺と組まないか？あと2人なんだ[p]
 #&f.playername
 いいの？ありがとう！もう一人、、、[p]
+[chara_show name="osananajimi"]
 #osananajimi
 [emb exp="f.playername"]～！まだ空いてる？[l][r]
 どこもいっぱいでさー[p]
@@ -58,14 +66,15 @@
 ;共通会話復帰
 *common
 #kikokusijo
+[chara_show name="kikokusijo"]
 よーし、人数もそろったし、Let's Start![p]
 [mask_off time="250"]
 [wait time="250"]
 #&f.playername
 （初詣かー）[p]
 #kikokusijo
-（ファーストキス...か。）[l][r]
-（大分Se[ruby text="セ"]n[ruby text="ン"]s[ruby text="シ"]i[ruby text="テ"]t[ruby text="ィ"]i[ruby text="ブ"]veな内容じゃないか）[p]
+（ファーストキス...か。[l][r]
+だいぶSe[ruby text="セ"]n[ruby text="ン"]s[ruby text="シ"]i[ruby text="テ"]t[ruby text="ィ"]i[ruby text="ブ"]veな内容じゃないか）[p]
 #司会
 それでは議論を始めてください！[p]
 #osananajimi
@@ -88,7 +97,7 @@ What!?人が多いときにするのか!?これを!?[p]
 #生徒B
 そもそも、帰国子女はこれやったことあるの？[p]
 #kikokusijo
-Stupid!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
+[ruby text="ス"]S[ruby text="チュ"]t[ruby text="ー"]u[ruby text="ピ"]p[ruby text="ッ"]i[ruby text="ド"]d!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
 #&f.playername
 そんなに怒鳴らなくても...[p]
 （多分、帰国子女君なんだろうな）[p]
@@ -128,7 +137,7 @@ kawaii!?...[l][r]
 #&f.playername
 逆になんであれでウルフじゃないと思ってたの？[p]
 #kikokusijo
-シャラップ!!多数派がうるせぇぞ![l][r]
+S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby text="プ"]Up!!多数派がうるせぇぞ![l][r]
 次だ、次!![p]
 #&f.playername
 （顔、真っ赤になっちゃった...）[p]
