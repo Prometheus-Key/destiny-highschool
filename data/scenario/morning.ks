@@ -6,11 +6,14 @@
 
 ;幼馴染の登場
 [chara_new name="osananajimi" storage="akane/normal.png" jname="白石ゆり"]
+;幼馴染の登録
+[chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
 ;幼馴染の表情を登録
 [chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
 [chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
 [chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
-;幼馴染の表情変更
+;幼馴染の登場、会話
+[chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
 [chara_show name="osananajimi" face="happy"]
 
 #osananajimi

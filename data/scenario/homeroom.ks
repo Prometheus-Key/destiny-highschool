@@ -173,7 +173,7 @@ You!良いセンスしてんじゃねぇか[r]
 *select
 [layopt layer="message0" visible="false"]
 [glink target="*turn1" text="ほんとだよー、皆個性豊かだから難しかった！"][r]
-[glink target="*turn2" text="幼馴染が応援してくれたから選べたんだよ！"][r]
+[glink target="*turn2" text="ゆりが応援してくれたから選べたんだよ！"][r]
 [layopt layer="message0" visible="true"]
 [s]
 
@@ -189,7 +189,7 @@ You!良いセンスしてんじゃねぇか[r]
 ゆりが応援してくれたから選べたんだよ！[p]
 #osananajimi
 うぇ!?そんなことないよ～[l][r]
-決めてくれたのは[emb exp="f.playername"]なんだから！[p]
+決めてくれたのは、[emb exp="f.playername"]なんだから！[p]
 #&f.playername
 励まされたのは本当だよ？[r]
 ありがとう、ゆり！[p]

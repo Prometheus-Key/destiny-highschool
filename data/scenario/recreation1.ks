@@ -104,7 +104,7 @@ What!?人が多いときにするのか!?これを!?[p]
 #
 結果発表
 #kikokusijo
-おったまget down![r]
+おったまg[ruby text="ゲ"]e[ruby text="ッ"]t[ruby text="ト"] d[ruby text="ダ"]o[ruby text="ウ"]w[ruby text="ン"]n![r]
 まさか俺がウルフだったとは...[p]
 #&f.playername
 すごく分かりやすかったよ...[p]
