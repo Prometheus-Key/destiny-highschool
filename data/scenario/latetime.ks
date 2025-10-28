@@ -12,7 +12,7 @@
 
 ;メッセージウィンドウに名前欄を追加
 [position layer="message0" width="1500" height="232" top="488" left="0" marginl="40" margint="45" marginr="40" marginb="30"]
-[ptext name="chara_name_area" layer=message0 width="200" color=white x=60 y=490 size=30]
+[ptext name="chara_name_area" layer=message0 width="500" color=white x=60 y=490 size=30]
 [chara_config ptext="chara_name_area"]
 
 #&f.playername
