@@ -95,7 +95,7 @@ Stupid!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いす�
 #
 結果発表
 #kikokusijo
-おったまget down![r]
+おったまg[ruby text="ゲ"]e[ruby text="ッ"]t[ruby text="ト"] d[ruby text="ダ"]o[ruby text="ウ"]w[ruby text="ン"]n![r]
 まさか俺がウルフだったとは...[p]
 #&f.playername
 すごく分かりやすかったよ...[p]

@@ -53,7 +53,7 @@
 #kikokusijo
 おやおや、[ruby text="キ"]c[ruby text="ュ"]u[ruby text="ー"]t[ruby text="ト"]eな[ruby text="ガ"]g[ruby text="ー"]i[ruby text="ル"]rlちゃん♪[l][r]
 そんなに走ってアグレッシブだね～[p]
-おっと、俺も急いでんだった！T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ム"]e [ruby text="イ"]I[ruby text="ズ"]s M[ruby text="マ"]o[ruby text="ネ"]n[ruby text="ー"]eyってね！[p][r]
+おっと、俺も急いでんだった！T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ム"]e [ruby text="イ"]i[ruby text="ズ"]s M[ruby text="マ"]o[ruby text="ネ"]n[ruby text="ー"]eyってね！[p][r]
 #
 [chara_hide name="kikokusijo"]
 #&f.playername
