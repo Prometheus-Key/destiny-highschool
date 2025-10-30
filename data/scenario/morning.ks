@@ -13,7 +13,6 @@
 [chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
 [chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
 ;幼馴染の登場、会話
-[chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
 [chara_show name="osananajimi" face="happy"]
 
 #osananajimi
@@ -63,7 +62,6 @@
 #
 
 ;転校生：帰国子女の登場
-[chara_new name="kikokusijo" storage="yamato/normal.png" jname="帰国子女"]
 [chara_show name="kikokusijo"]
 #kikokusijo
 H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ruby text="ブ"]e[ruby text="リ"]r[ruby text="ワ"]y[ruby text="ン"]one![r]

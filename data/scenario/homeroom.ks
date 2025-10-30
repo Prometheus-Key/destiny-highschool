@@ -40,7 +40,7 @@
 #kikokusijo
 気が強いなぁ、眼鏡君は！[r]
 優しくしないとモテないぜー？[p]
-#kinnikun
+#kinnnikunn
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
 #先生
@@ -70,7 +70,7 @@
 このクラスの風紀を守るのは僕の使命なんです!![p]
 #kikokusijo
 恋人もろくに作れねぇやつがクラスの気持ちなんて存じ上げ[ruby text="  ノ"]n[ruby text="ッ"]o[ruby text="ト"]tだろうが！[p]
-#kinnikun
+#kinnnikunn
 うーん、プロテインのおかげで、俺の上腕二頭筋も喜んでいるぞ！（ムキッ！）[p]
 #先生
 だめそうだな、、、[l][r]
@@ -83,7 +83,7 @@
 委員長補佐としての審美眼、確かめさせてもらいましょうか[p]
 #kikokusijo
 背に腹は[ruby text="ノ"]n[ruby text="ー"]o [ruby text="チ"]c[ruby text="ェ"]h[ruby text="ン"]a[ruby text="ジ"]ngeだぜ[p]
-#kinnikun
+#kinnnikunn
 今日も元気だな！大腿四頭筋！[p]
 #&f.playername
 （誰を選ぼう...）[p]
@@ -109,7 +109,7 @@ You!良いセンスしてんじゃねぇか[r]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-#kinnikun
+#kinnnikunn
 おお...広背筋が悲しんでいるぞ...[p]
 #
 [jump target="*common"]
@@ -126,7 +126,7 @@ You!良いセンスしてんじゃねぇか[r]
 こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
 まあ、副委員長の決めたことだ！ここで口出しても
 [ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
-#kinnikun
+#kinnnikunn
 おお...広背筋が悲しんでいるぞ...[p]
 #
 [jump target="*common"]
@@ -136,7 +136,7 @@ You!良いセンスしてんじゃねぇか[r]
 [eval exp="f.leader=3"]
 #&f.playername
 じゃあ、きんに君、お願いしてもいいかな？[p]
-#kinnikun
+#kinnnikunn
 キミは筋トレをするといい！[r]
 素質はだれにでもあるものだ！[p]
 #majimegane

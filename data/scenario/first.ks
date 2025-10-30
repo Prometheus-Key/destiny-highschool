@@ -23,29 +23,30 @@
 [layopt layer="message0" visible="false"]
 [edit name="f.playername" color="black" left="250" top="300" size="50" width="500" height="100"]
 [glink target="*jump" text="決定" x="800" y="320" cm="false"]
-
+;エンターキーに完了の役割を持たせる
 [iscript]
-
 $('.text_box').keypress(function (e) {
   if ( e.keyCode === 13 ) {
     TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
   }
 });
-
 [endscript]
 [s]
 
+;名前入力後共通ルート
 *jump
 [commit]
 [cm]
 [layopt layer="message0" visible="true"]
 ほう、『[emb exp="f.playername"]』というんだな？[p]
+
+;名前確認（Y/N)
 [layopt layer="message0" visible="false"]
 [glink target="*ok" text="そうですけど..."][r]
 [glink target="*cancel" text="違いますけど..."][r]
 [s]
 
-
+;OKパターン
 *ok
 [layopt layer="message0" visible="true"]
 [cm]
@@ -53,7 +54,7 @@ $('.text_box').keypress(function (e) {
 [jump target="*next"]
 [s]
 
-
+;NGパターン
 *cancel
 [layopt layer="message0" visible="true"]
 [cm]
@@ -64,16 +65,15 @@ $('.text_box').keypress(function (e) {
 
 ;3人選ばせる
 *next
-ここに3人のイケメン男子がおるじゃろう[l][r]
+ここに3人のイケメン男子がおるじゃろう[r]
 好きな男子を選ぶのじゃ[p]
 [layopt layer="message0" visible="false"]
 
 ; glinkタグを使って選択肢を表示
-[glink target="*select1" text="【１】帰国子女"][r]
-[glink target="*select2" text="【２】真面目君"][r]
-[glink target="*select3" text="【３】きんに君"][r]
+[glink target="*select1" text="帰国子女"][r]
+[glink target="*select2" text="真面目君"][r]
+[glink target="*select3" text="きんに君"][r]
 [s]
-
 
 *select1
 [eval exp="f.character=1"]
@@ -84,7 +84,6 @@ $('.text_box').keypress(function (e) {
 [layopt layer="message0" visible="false"]
 [jump storage="latetime.ks" target="*start"]
 
-
 *select2
 [eval exp="f.character=2"]
 [cm]
@@ -93,7 +92,6 @@ $('.text_box').keypress(function (e) {
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
 [jump storage="latetime.ks" target="*start"]
-
 
 *select3
 [eval exp="f.character=3"]

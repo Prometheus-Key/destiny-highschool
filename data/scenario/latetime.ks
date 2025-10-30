@@ -6,9 +6,9 @@
 [layopt layer="message0" visible="true"]
 
 ;登場人物の名前定義
-[chara_new name="kikokusijo" storage="mobu/student_man1.png" jname="帰国子女"]
+[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="帰国子女"]
 [chara_new name="majimegane" storage="mobu/student_man2.png" jname="真面眼鏡"]
-[chara_new name="kinnikun" storage="mobu/student_man3.png" jname="きんに君"]
+[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="きんに君"]
 
 ;メッセージウィンドウに名前欄を追加
 [position layer="message0" width="1500" height="232" top="488" left="0" marginl="40" margint="45" marginr="40" marginb="30"]
@@ -79,14 +79,14 @@
 
 ;シーン2-3：きんに君ルート
 *mascle
-[chara_show name="kinnikun"]
-#kinnikun
+[chara_show name="kinnnikunn"]
+#kinnnikunn
 すまないお嬢さん。[l][r]
 俺の胸筋でふきとばしてしまったようだ！[p]
 しかし立ち止まってはいられない！行くぞ俺の筋肉！[r]
 1!2!1!2![p]
 #
-[chara_hide name="kinnikun"]
+[chara_hide name="kinnnikunn"]
 #&f.playername
 （あれ、あの人どこかで...）[p]
 いや、そうだ。今はいそがないと！[p]
