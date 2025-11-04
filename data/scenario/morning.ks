@@ -5,8 +5,6 @@
 [bg storage="roomback_daytime.jpg" time="3000"]
 
 ;幼馴染の登場
-[chara_new name="osananajimi" storage="akane/normal.png" jname="白石ゆり"]
-;幼馴染の登録
 [chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
 ;幼馴染の表情を登録
 [chara_face name="osananajimi" face="angry" storage="akane/angry.png"]

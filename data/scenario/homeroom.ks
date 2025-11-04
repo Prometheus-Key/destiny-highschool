@@ -29,17 +29,23 @@
 #クラスメイト
 938点だって...!?そんなすごい点数を!?[p]
 #kikokusijo
+[chara_show name="kikokusijo"]
 オレも立候補するぜ☆[r]
 学級委員長ってのは周りを楽しませるもんだろ？[p]
 じゃあ、俺が出なきゃ誰が出るってんだ[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y？[p]
+[chara_hide name="hajime"]
 #クラスメイト
-転校初日で立候補...!?なんて肝が据わったやつなんだ...！[p]
+転校初日で立候補...!?なんて肝が据わったやつなんだ...![p]
 #majimegane
+[chara_show name="majimegane"]
 そこの帰国子女、出しゃばるのはやめたまえ。[r]
 他国に行って分をわきまえることも忘れたのかい？[p]
+[chara_hide name="majimegane"]
 #kikokusijo
+[chara_show name="kikokusijo"]
 気が強いなぁ、眼鏡君は！[r]
 優しくしないとモテないぜー？[p]
+[chara_hide name="kikokusijo"]
 #kinnnikunn
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
@@ -91,9 +97,9 @@
 
 ; glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="【１】帰国子女"]
-[glink target="*select2" text="【２】真面眼鏡"]
-[glink target="*select3" text="【３】きんに君"]
+[glink target="*select1" text="帰国子女"]
+[glink target="*select2" text="真面眼鏡"]
+[glink target="*select3" text="きんに君"]
 [layopt layer="message0" visible="true"]
 [s]
 
