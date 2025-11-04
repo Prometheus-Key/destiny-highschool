@@ -105,22 +105,22 @@
 ;衝撃を受けた音
 な、なんですって...？[p]
 5点きざみ？？？[p]
-5てん...5... ...！！[p]
+5てん...5... ...!![p]
 ;大爆発するメガネ
 #&f.playername
-真面眼鏡く～～～ん！！！！！[p]
+真面眼鏡く～～～ん!!![p]
 [jump target="*common"]
 
 *select2
 [layopt layer="message0" visible="true"]
 #&f.playername
-（わざと間違え教えちゃお！）[p]
+（わざと間違え教えちゃお!）[p]
 [font size="10"]...真面眼鏡君、答えこれだよ[p]
 #majimegane
-アバダケタブラ！！！！[p]
+アバダケタブラ!!![p]
 ;大爆発
 #みんな
-おい！委員長が爆発したぞ！！[p]
+おい！委員長が爆発したぞ!![p]
 #&f.playername
 ...大変だなぁ[p]
 [jump target="*common"]
