@@ -61,11 +61,14 @@
 [chara_show name="majimegane"]
 はぅ！！！[p]
 ;TODO：爆発音追加
+[playse storage="爆発1.mp3"]
 ;TODO：服が破れるイラスト追加
 #みんな
 おい、委員長が爆発したぞ！！[p]
 #majimegane
 くっ...このくらい...！もう一度です！[p]
+[mask time="1000"]
+[mask_off time="1000"]
 #司会
 第２問はこちら！[p]
 #majimegane
