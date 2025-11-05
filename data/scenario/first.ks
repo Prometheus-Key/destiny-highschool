@@ -94,6 +94,7 @@ $('.text_box').keypress(function (e) {
 [jump storage="latetime.ks" target="*start"]
 
 *select3
+
 [eval exp="f.character=3"]
 [cm]
 [layopt layer="message0" visible="true"]
