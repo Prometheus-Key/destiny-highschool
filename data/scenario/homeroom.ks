@@ -33,7 +33,7 @@
 オレも立候補するぜ☆[r]
 学級委員長ってのは周りを楽しませるもんだろ？[p]
 じゃあ、俺が出なきゃ誰が出るってんだ[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y？[p]
-[chara_hide name="hajime"]
+[chara_hide name="kikokusijo"]
 #クラスメイト
 転校初日で立候補...!?なんて肝が据わったやつなんだ...![p]
 #majimegane
@@ -75,7 +75,7 @@
 風紀の乱れ!![p]
 このクラスの風紀を守るのは僕の使命なんです!![p]
 #kikokusijo
-恋人もろくに作れねぇやつがクラスの気持ちなんて存じ上げ[ruby text="  ノ"]n[ruby text="ッ"]o[ruby text="ト"]tだろうが！[p]
+恋人もろくに作れねぇやつがクラスの気持ちなんて存じ上げ[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]tだろうが！[p]
 #kinnnikunn
 うーん、プロテインのおかげで、俺の上腕二頭筋も喜んでいるぞ！（ムキッ！）[p]
 #先生
