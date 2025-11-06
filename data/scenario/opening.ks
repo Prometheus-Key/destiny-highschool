@@ -104,4 +104,4 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
-[jump storage="endroll.ks" target="*start"]
+[jump storage="latetime.ks" target="*start"]

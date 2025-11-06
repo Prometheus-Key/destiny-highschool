@@ -18,6 +18,7 @@
 
 ;暗転（時間経過）
 [mask time="1000"]
+[mask_off]
 
 #アナウンサー
 ....校長先生、ありがとうございました。[p]
@@ -53,6 +54,7 @@ W[ruby text="ウ"]e[ruby text="ィ"] m[ruby text="マ"]u[ruby text="ス"]s[ruby 
 
 ;暗転（時間経過）
 [mask time="1000"]
+[mask_off]
 
 #&f.playername
 あんなことするんだったら事前に言っといてよ...[p]
@@ -79,6 +81,7 @@ That's right! みんな俺を身にきてるからな...[p]
 
 ;暗転（時間経過）
 [mask time="1000"]
+[mask_off]
 
 #osananajimi
 え、アレつけて行っちゃたの？[p]

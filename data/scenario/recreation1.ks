@@ -15,7 +15,6 @@
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
 ;司会登場（シルエット）
-[chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
 [chara_show name="shikai"]
 #司会
 待ちに待ったレクリエーション！[r]
