@@ -3,7 +3,7 @@
 *start
 ;操作無効
 [wait time="500"]
-;背景を表示
+;背景を表示＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠要画像変更
 [bg storage="roomback_daytime.jpg" time="3000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
@@ -40,6 +40,8 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+;お化け屋敷の背景？＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
+[bg storage="roomback_daytime.jpg" time="3000"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -156,6 +158,8 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+;背景変更＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
+[bg storage="roomback_daytime.jpg" time="3000"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -179,6 +183,8 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+;背景変更＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
+[bg storage="roomback_daytime.jpg" time="3000"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -205,8 +211,6 @@
 [layopt layer="message0" visible="true"]
 [s]
 
-
-;
 *tukiau
 #osananajimi
 ...！えへ、えへへ...！やったー！！[p]
