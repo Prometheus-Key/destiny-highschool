@@ -18,7 +18,10 @@
 今日はもう寝るか...[p]
 [chara_hide name="kinnnikunn"]
 
+
 ;夢の中
+[mask time="500"]
+[mask_off time="500"]
 #？
 筋■■欲■い■すか？[p]
 #kinnnikunn
@@ -45,6 +48,8 @@
 [chara_hide name="kinnnikunn"]
 
 ;起きる
+[mask time="500"]
+[mask_off time="500"]
 [chara_show name="kinnnikunn"]
 はっ...俺は...　あの夢は一体...？[p]
 でもあれが本当なら...[p]
@@ -74,6 +79,8 @@
 [chara_hide name="kinnnikunn"]
 
 ;学校の裏山
+[mask time="500"]
+[mask_off time="500"]
 #&f.playername
 はぁ..はぁ..やっと追いついた...筋君何してるの？[p]
 #kinnnikunn
@@ -123,13 +130,13 @@
 筋君　ダメッ！[p]
 #
 ギューン[p]
-#kinnnikunn？
+#きんに君？
 [chara_show name="kinnnikunn"]
 これが我の求めていたモノ...！[p]
 [chara_hide name="kinnnikunn"]
 #&f.playername
 筋君...？パッと見変わらないけど...[p]
-#kinnnikunn？
+#きんに君？
 [chara_show name="kinnnikunn"]
 久方振りの肉体...!やはり筋肉はいい...[p]
 [chara_hide name="kinnnikunn"]
@@ -184,6 +191,8 @@
 [chara_hide name="kinnnikunn"]
 
 ;場面転換
+[mask time="500"]
+[mask_off time="500"]
 #&f.playername
 私が助けなきゃ...でもどうすれば...[p]
 #majimegane
