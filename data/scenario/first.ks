@@ -1,104 +1,33 @@
-;シーン1：夢の中でオープニング
-*start
-[layopt layer="message0" visible="false"]
+;シーン0:共通設定
 
-;背景を表示
-[bg storage="indream.jpg" time="1500"]
+;メッセージレイヤー非表示
+[layopt layer="message0" visible="false"]
 
 ;メッセージウィンドウの位置、サイズ、枠画像、文字の余白をまとめて設定
 [position layer="message0" width="1500" height="232" top="488" left="0" marginl="30" margint="15" marginr="30" marginb="30"]
 
-;メッセージウィンドウをクリアしてテキストを表示
-[cm]
+;メッセージウィンドウに名前欄を追加
+[position layer="message0" width="1500" height="232" top="488" left="0" marginl="40" margint="45" marginr="40" marginb="30"]
+[ptext name="chara_name_area" layer="message0" width="500" color="white" x="60" y="490" size="30"]
+[chara_config ptext="chara_name_area"]
 
-;最初のセリフの直前にメッセージレイヤーを再表示する
-[layopt layer="message0" visible="true"]
-こんにちは。お嬢ちゃん。[l][r]
-名前を教えてくれるか？[p]
-[jump target="*input"]
+;キャラクター全員登録
+;帰国子女
+[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="帰国子女"]
+;真面眼鏡
+[chara_new name="majimegane" storage="mobu/student_man2.png" jname="真面眼鏡"]
+;きんに君
+[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="きんに君"]
+;幼馴染
+[chara_new name="osananajimi" storage="akane/happy.png" jname="白石ゆり"]
+;幼馴染の表情
+[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
+[chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
+[chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
+;生徒A
+;生徒B
+;司会
+[chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
 
-;主人公の名前を入力させる
-*input
-[cm]
-[layopt layer="message0" visible="false"]
-[edit name="f.playername" color="black" left="250" top="300" size="50" width="500" height="100"]
-[glink target="*jump" text="決定" x="800" y="320" cm="false"]
-;エンターキーに完了の役割を持たせる
-[iscript]
-$('.text_box').keypress(function (e) {
-  if ( e.keyCode === 13 ) {
-    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
-  }
-});
-[endscript]
-[s]
-
-;名前入力後共通ルート
-*jump
-[commit]
-[cm]
-[layopt layer="message0" visible="true"]
-ほう、『[emb exp="f.playername"]』というんだな？[p]
-
-;名前確認（Y/N)
-[layopt layer="message0" visible="false"]
-[glink target="*ok" text="そうですけど..."][r]
-[glink target="*cancel" text="違いますけど..."][r]
-[s]
-
-;OKパターン
-*ok
-[layopt layer="message0" visible="true"]
-[cm]
-いい名前じゃな。[p]
-[jump target="*next"]
-[s]
-
-;NGパターン
-*cancel
-[layopt layer="message0" visible="true"]
-[cm]
-すまんの。最近耳が遠くてな。[r]
-もう一度名前を教えてくれるか？[p]
-[jump target="*input"]
-[s]
-
-;3人選ばせる
-*next
-ここに3人のイケメン男子がおるじゃろう[r]
-好きな男子を選ぶのじゃ[p]
-[layopt layer="message0" visible="false"]
-
-; glinkタグを使って選択肢を表示
-[glink target="*select1" text="帰国子女"][r]
-[glink target="*select2" text="真面目君"][r]
-[glink target="*select3" text="きんに君"][r]
-[s]
-
-*select1
-[eval exp="f.character=1"]
-[cm]
-[layopt layer="message0" visible="true"]
-ほっほ、おぬしなかなかいい目をしとるの[l][r]
-さあ、楽しい学園生活のはじまりじゃ[p]
-[layopt layer="message0" visible="false"]
-[jump storage="latetime.ks" target="*start"]
-
-*select2
-[eval exp="f.character=2"]
-[cm]
-[layopt layer="message0" visible="true"]
-ほっほ、おぬしなかなかいい目をしとるの[l][r]
-さあ、楽しい学園生活のはじまりじゃ[p]
-[layopt layer="message0" visible="false"]
-[jump storage="latetime.ks" target="*start"]
-
-*select3
-
-[eval exp="f.character=3"]
-[cm]
-[layopt layer="message0" visible="true"]
-ほっほ、おぬしなかなかいい目をしとるの[l][r]
-さあ、楽しい学園生活のはじまりじゃ[p]
-[layopt layer="message0" visible="false"]
-[jump storage="latetime.ks" target="*start"]
+;シーン1へジャンプ
+[jump storage="opening.ks" target="*start"]
