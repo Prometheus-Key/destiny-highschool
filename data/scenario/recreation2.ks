@@ -60,15 +60,19 @@
 #majimegane
 [chara_show name="majimegane"]
 はぅ！！！[p]
-;TODO：爆発音追加
-[playse storage="爆発1.mp3"]
+
+;爆発の効果音
+[playse storage="explosion.mp3"]
+
 ;TODO：服が破れるイラスト追加
 #みんな
 おい、委員長が爆発したぞ！！[p]
 #majimegane
 くっ...このくらい...！もう一度です！[p]
+
+;暗転（時間経過）
 [mask time="1000"]
-[mask_off time="1000"]
+
 #司会
 第２問はこちら！[p]
 #majimegane
@@ -79,13 +83,17 @@
 もしかして...真面眼鏡君って勉強できない...？[p]
 #司会
 続いて第３問！[p]
+
 ;デデンの効果音
+[playse storage="quiz.mp3"]
+
 #majimegane
 くっ...これは...！？[p]
 #&f.playername
 （私この問題の答え知ってる...！）[p]
 （どうしよっかな...）[p]
 
+;glinkで選択肢表示
 [layopt layer="message0" visible="false"]
 [glink target="*select1" text="答えを教える"][r]
 [glink target="*select2" text="間違いを教える"][r]
@@ -105,11 +113,11 @@
 #&f.playername
 あの、ずっと思ってたんだけど、TOIECは5点刻みだよ？[p]
 #majimegane
-;衝撃を受けた音
+;TODO：衝撃を受けた音
 な、なんですって...？[p]
 5点きざみ？？？[p]
 5てん...5... ...!![p]
-;大爆発するメガネ
+;TODO：大爆発するメガネのイラスト追加
 #&f.playername
 真面眼鏡く～～～ん!!![p]
 [jump target="*common"]
@@ -121,7 +129,7 @@
 [font size="10"]...真面眼鏡君、答えこれだよ[p]
 #majimegane
 アバダケタブラ!!![p]
-;大爆発
+;TODO：大爆発の音追加
 #みんな
 おい！委員長が爆発したぞ!![p]
 #&f.playername

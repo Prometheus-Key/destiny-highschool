@@ -5,16 +5,6 @@
 [position frame="frame/flame01.png"]
 [layopt layer="message0" visible="true"]
 
-;登場人物の名前定義
-[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="帰国子女"]
-[chara_new name="majimegane" storage="mobu/student_man2.png" jname="真面眼鏡"]
-[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="きんに君"]
-
-;メッセージウィンドウに名前欄を追加
-[position layer="message0" width="1500" height="232" top="488" left="0" marginl="40" margint="45" marginr="40" marginb="30"]
-[ptext name="chara_name_area" layer="message0" width="500" color="white" x="60" y="490" size="30"]
-[chara_config ptext="chara_name_area"]
-
 #&f.playername
 ふゎーー。ん、夢か。[l][r]
 今何時かな？[p]
@@ -33,7 +23,7 @@
 ;ぶつかるシーン
 [quake time="800" wait="false"]
 ;倒れる音を鳴らす。
-[playse storage="倒れる.mp3"]
+[playse storage="falldown.mp3"]
 [cm]
 #
 ードン！[p]

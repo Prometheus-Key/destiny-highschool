@@ -1,11 +1,12 @@
 ;エンドロール
 *start
+[cm]
 ;背景変更
 [bg storage="indream.jpg" time="100"]
 ;メニューボタンの非表示
 @hidemenubutton
 ;スキップボタン
-[glink name="sukip" color="btn_05_black" size="18"  width="200"  x="800"  y="5"  text="skip"  storage="first.ks"  target="start" ]
+[glink name="sukip" color="btn_05_black" size="18"  width="200"  x="800"  y="5"  text="skip"  storage="opening.ks"  target="start" ]
 [anim name="sukip" time="10" opacity="150"]
 ;スタッフロール
 [layopt layer="0" visible="false"]
