@@ -20,8 +20,11 @@
 
 
 ;夢の中
-[mask time="500"]
-[mask_off time="500"]
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
 #？
 筋■■欲■い■すか？[p]
 #kinnnikunn
@@ -48,8 +51,11 @@
 [chara_hide name="kinnnikunn"]
 
 ;起きる
-[mask time="500"]
-[mask_off time="500"]
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
 [chara_show name="kinnnikunn"]
 はっ...俺は...　あの夢は一体...？[p]
 でもあれが本当なら...[p]
@@ -79,8 +85,11 @@
 [chara_hide name="kinnnikunn"]
 
 ;学校の裏山
-[mask time="500"]
-[mask_off time="500"]
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
 #&f.playername
 はぁ..はぁ..やっと追いついた...筋君何してるの？[p]
 #kinnnikunn
