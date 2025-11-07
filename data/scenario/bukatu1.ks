@@ -1,0 +1,148 @@
+*start
+#&f.playername
+今日は広報部の部活の取材だ！[r]
+まずは天文部へ行かなきゃ！[p]
+
+失礼します！広報部の[emb exp="f.playername"]です！[r]
+本日はよろしくお願いします！[p]
+#部長
+よろしくね。実は今回後輩がどうしても説明したいって聞かなくてね。[r]
+任せてもいいかな？[p]
+#&f.playername
+大丈夫ですよ！[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+俺が満を持して[ruby text="エ"]E[ruby text="ン"]n[ruby text="ト"]t[ruby text="リ"]r[ruby text="ー"]y！[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+帰国子女君！天文部だったんだね！[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+そうだ。俺は小さいころから星を見るのが好きなんだ！[p]
+輝いてる物を見ると自分自身も輝いてるように感じるんだ！[p]
+どうだ、[emb exp="f.playername"]も俺のことを観測してみないか！？[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+取材はするけど、観測はしないよ...[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+まずは見てくれ！数々の天文学に関する知識が集まった本を！[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+すごい数だね！全部で何冊くらいあるの？[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+１００冊以上はあるだろう。[r]
+しかし半分以上はすでに読み終えてしまったのだよ。[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+本当に！すごいね！[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+そうだろう。今部長に頼み込んで本を追加してもらっている所だ。[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+これ望遠鏡だよね！？これで星を見てるの？[p]
+;TODO:なぜかわからんけど本棚の画像を追加
+#kikokusijo
+[chara_show name="kikokusijo"]
+[ruby text="イ"]E[ruby text="グ"]x[ruby text="ザ"]a[ruby text="ク"]c[ruby text="ト"]t[ruby text="リ"]l[ruby text="ー"]y！
+２００倍までズームが可能だ。[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+すごい！これでくっきり星見れるね！[p]
+そういえば星占いができるって聞いたんだけど[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+P[ruby text="ポ"]o[ruby text="ッ"]s[ruby text="シ"]s[ruby text="ブ"]i[ruby text="ル"]ble
+一応知識はあるからできるぞ[r]
+えーと、お前の星座は？[p]
+[ruby text="フ"]H[ruby text="ー"]m[ruby text="ム"]m...[ruby text="ワ"]W[ruby text="ッ"]h[ruby text="ツ"]at！？[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+どうしたの[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+俺とお前の愛称がベリーグッドだよ！[p]
+こりゃS[ruby text="サ"]u[ruby text="プ"]r[ruby text="ラ"]p[ruby text="イ"]r[ruby text="ズ"]iseだぜ！！[p]
+[chara_hide name="kikokusijo"]
+#部長
+すまん盛り上がっている所悪いが、俺先に帰るからなー[r]
+帰国子女鍵返しとけよー[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby text="タ"]s[ruby text="ン"]t[ruby text="ド"]and！
+了解です！[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+そういえば時間も遅くなっちゃったね。そろそろ帰る？[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+もう少し時間あるか？今日は晴れているから星がc[ruby text="ク"]l[ruby text="リ"]e[ruby text="ア"]ar
+に見えるはずだ[p]
+一緒にs[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]r[ruby text="ダ"]d[ruby text="ス"]u[ruby text="ト"]st
+見に行かないかい？[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+いいの！？行こう！[p]
+;TODO:望遠鏡の絵をおそらく追加？
+;二人が見上げるシーン追加
+#&f.playername
+学校の裏山にこんな場所あったなんて知らなかったよ...[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+天文学部の先輩から教えてもらった
+[ruby text="ホ"]h[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ス"]s[ruby text="ポ"]p[ruby text="ッ"]o[ruby text="ト"]t
+だ。[r]
+２人だけの[ruby text="シ"]S[ruby text="ー"]e[ruby text="ク"]c[ruby text="レ"]r[ruby text="ッ"]e[ruby text="ト"]t
+だぜ☆[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+...綺麗だね...[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+...ああ...[p]
+...星を好きになったのは５歳の頃だ...[p]
+
+[chara_hide name="kikokusijo"]
+;回想（たぶん絵が入る）
+;TODO:小さい頃の帰国子女の絵が入る
+[chara_show name="kikokusijo"]
+今でもハッキリと覚えている...[r]
+g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa
+の家で見た流星群[p]
+あの感動を超えるものはなかなかないよ...[r]
+本気で星になりたいと思って本や資料を読んだよ...[p]
+でもなれないって分かったんだ。[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+...[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+そこで
+[ruby text="ミ"]m[ruby text="ー"]e
+は閃いたんだ[r]
+[ruby text="ミ"]m[ruby text="ー"]e
+自身が
+[ruby text="ス"]s[ruby text="タ"]t[ruby text="ー"]ar
+となり輝けばいいんだとね[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+帰国子女君ならなれるよ！絶対に！！[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+...T[ruby text="サ"]h[ruby text="ン"]a[ruby text="ク"]n[ruby text="ス"]ks...[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+てか時間大丈夫？[p]
+#kikokusijo
+[chara_show name="kikokusijo"]
+[ruby text="オ"]O[ruby text="ウ"]h [ruby text="シ"]s[ruby text="ッ"]h[ruby text="ト"]it！
+門が閉まるまで後５分しかない！[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+荷物おいてきたままだよ！走ろう！[p]
+
+タタタ...
+
+
