@@ -187,4 +187,4 @@ Fuck![p]
 #クラスメイト
 やったー！[p]
 
-[jump storage="bunkasai5.ks" target="*start"]
+[jump storage="bunkasai3.ks" target="*start"]
