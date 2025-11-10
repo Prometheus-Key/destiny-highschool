@@ -3,6 +3,14 @@
 今日は広報部の部活の取材だ！[r]
 まずは天文部へ行かなきゃ！[p]
 
+;暗転
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
+
+;TODO:部室の画像追加？（要相談）
 失礼します！広報部の[emb exp="f.playername"]です！[r]
 本日はよろしくお願いします！[p]
 #部長
@@ -63,7 +71,7 @@ P[ruby text="ポ"]o[ruby text="ッ"]s[ruby text="シ"]s[ruby text="ブ"]i[ruby t
 どうしたの[p]
 #kikokusijo
 [chara_show name="kikokusijo"]
-俺とお前の愛称がベリーグッドだよ！[p]
+俺とお前の相性がベリーグッドだよ！[p]
 こりゃS[ruby text="サ"]u[ruby text="プ"]r[ruby text="ラ"]p[ruby text="イ"]r[ruby text="ズ"]iseだぜ！！[p]
 [chara_hide name="kikokusijo"]
 #部長
@@ -86,7 +94,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 #&f.playername
 いいの！？行こう！[p]
 ;TODO:望遠鏡の絵をおそらく追加？
-;二人が見上げるシーン追加
+;TODO:二人が見上げるシーン追加
 #&f.playername
 学校の裏山にこんな場所あったなんて知らなかったよ...[p]
 #kikokusijo
@@ -103,8 +111,15 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 [chara_show name="kikokusijo"]
 ...ああ...[p]
 ...星を好きになったのは５歳の頃だ...[p]
-
 [chara_hide name="kikokusijo"]
+
+;暗転
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
+
 ;回想（たぶん絵が入る）
 ;TODO:小さい頃の帰国子女の絵が入る
 [chara_show name="kikokusijo"]
@@ -142,7 +157,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa
 [chara_hide name="kikokusijo"]
 #&f.playername
 荷物おいてきたままだよ！走ろう！[p]
-
+#
 タタタ...
 
 
