@@ -200,8 +200,12 @@
 [chara_hide name="kinnnikunn"]
 
 ;場面転換
-[mask time="500"]
-[mask_off time="500"]
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
+
 #&f.playername
 私が助けなきゃ...でもどうすれば...[p]
 #majimegane
@@ -256,3 +260,123 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 絶対に助けるよ！[p]
 #３人
 オオ！[p]
+
+;暗転
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
+
+#金剛
+（お前は俺にとってのヒーローだというのに...）[p]
+早く元に戻れ...筋！[p]
+#院瀬見
+（一緒に金剛のダンナ倒すって誓ったじゃねーか！）[p]
+早く戻らねえと、筋トレ教えねーぞ！[p]
+
+;暗転
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
+
+#３人
+[chara_show name="majimegane"]
+[chara_show name="kikokusijo"]
+着い...[p]
+[chara_hide name="majimegane"]
+[chara_hide name="kikokusijo"]
+;TODO:ボロボロになったみんなの画像？
+#悪魔
+[chara_show name="kinnnikunn"]
+少し遅かったじゃないか女ァ...[p]
+[chara_hide name="kinnnikunn"]
+#kikokusijo
+[chara_show name="kikokusijo"]
+いつもの優しい筋とは
+[ruby text="ビ"]B[ruby text="ッ"]i[ruby text="グ"]g d[ruby text="デ"]i[ruby text="フ"]f[ruby text="ァ"]f[ruby text="レ"]e[ruby text="ン"]r[ruby text="ツ"]ence
+だな[p]
+[chara_hide name="kikokusijo"]
+#majimegane
+[chara_show name="majimegane"]
+どのタイミングで奴にぶち込むか...[p]
+[chara_hide name="majimegane"]
+#&f.playername
+筋君！早く戻ってよ！その筋肉は傷つけるためのモノじゃないんだよ！[p]
+#悪魔
+[chara_show name="kinnnikunn"]
+たいして[ruby text="タンパ"]筋[ruby text="ク質"]肉はないが...　残党は狩っておかなければな...[p]
+[chara_hide name="kinnnikunn"]
+;TODO:文字大きく
+ギュン！[p]
+#？
+やめなさい！[p]
+#悪魔
+[chara_show name="kinnnikunn"]
+う、体が...？[p]
+[chara_hide name="kinnnikunn"]
+#majimegane
+[chara_show name="majimegane"]
+胸筋が...光ってる...？[p]
+[chara_hide name="majimegane"]
+
+;TODO:悪魔が苦しむ画像追加
+#kikokusijo
+[chara_show name="kikokusijo"]
+おい、モ〇イクみたいになってるぞ！[p]
+[chara_hide name="kikokusijo"]
+#&f.playername
+まさか...[p]
+#ボブ・ステファニー
+筋！そこのお嬢さんにも言われてるじゃない！[p]
+お前の筋肉は人を守るための筋肉だぞ！[p]
+自分の異名を忘れるな！お前は「ヒーロー」だ！[p]
+#&f.playername
+よくわからないけど隙ができたよ！[p]
+#悪魔
+あれはまさか...ファストフード！？[p]
+#majimegane
+[chara_show name="majimegane"]
+筋が太れば貴方は器に興味を示さなくなると考えたんです[p]
+[chara_hide name="majimegane"]
+#kikokusijo
+[chara_show name="kikokusijo"]
+これで[ruby text="フ"]f[ruby text="ィ"]i[ruby text="二"]n[ruby text="ッ"]i[ruby text="シ"]s[ruby text="ュ"]h
+だ！[p]
+[chara_hide name="kikokusijo"]
+;TODO:悪魔にハンバーガー詰め込む画像
+
+;ここからは太った筋の立ち絵？
+#kinnnikunn
+[chara_show name="kinnnikunn"]
+む、俺は一体...この体は...[p]
+[chara_hide name="kinnnikunn"]
+#&f.playername
+戻った！やったー！[p]
+#kinnnikunn
+[chara_show name="kinnnikunn"]
+[emb exp="f.playername"]がやってくれたんだな...感謝する[p]
+[chara_hide name="kinnnikunn"]
+#kikokusijo
+[chara_show name="kikokusijo"]
+[ruby text="フ"]f[ruby text="ァ"]u[ruby text="ッ"]〇[ruby text="〇"]k！！[p]
+[chara_hide name="kikokusijo"]
+#majimegane
+[chara_show name="majimegane"]
+僕たちも忘れないでください！！[p]
+[chara_hide name="majimegane"]
+#kinnnikunn
+[chara_show name="kinnnikunn"]
+また１からのスタートという訳か...[p]
+[chara_hide name="kinnnikunn"]
+#&f.playername
+今度はちゃんと私たちに頼ってよ！[r]
+１人で変なことしちゃ駄目！[p]
+#kinnnikunn
+[chara_show name="kinnnikunn"]
+...よし、決めた！！[p]
+これまでのサポート、筋肉へのひたむきな思い...[p]
+君が、俺のトレーナーだな...！[p]
+[chara_hide name="kinnnikunn"]
