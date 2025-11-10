@@ -1,4 +1,4 @@
-;眼鏡ー文化祭
+;シーン8-2:文化祭（真面眼鏡）
 
 *start
 
@@ -114,3 +114,6 @@ TOEICって５点刻みだよ？[p]
 #&f.playername
 　くーーーん！！！！[p]
 ーこれからにぎやかになりそうー[p]
+
+;シーン10へジャンプ
+[jump storage="endroll.ks" target="*start"]

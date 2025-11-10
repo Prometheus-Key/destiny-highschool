@@ -25,7 +25,9 @@
 [chara_face name="osananajimi" face="normal" storage="akane/normal.png"]
 [chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
 ;生徒A
+[chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
 ;生徒B
+[chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
 ;司会
 [chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
 

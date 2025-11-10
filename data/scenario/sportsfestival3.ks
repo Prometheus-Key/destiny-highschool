@@ -1,4 +1,4 @@
-;シーン6-3:体育祭（きんに君）
+;シーン7-3:体育祭（きんに君）
 *start
 ;背景設定
 [bg storage="ground.jpg" time="1000"]
@@ -187,4 +187,5 @@ Fuck![p]
 #クラスメイト
 やったー！[p]
 
+;シーン8-3へジャンプ
 [jump storage="bunkasai3.ks" target="*start"]

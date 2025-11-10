@@ -1,3 +1,4 @@
+;シーン6-1:部活動（帰国子女）
 *start
 #&f.playername
 今日は広報部の部活の取材だ！[r]
@@ -124,8 +125,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 ;TODO:小さい頃の帰国子女の絵が入る
 [chara_show name="kikokusijo"]
 今でもハッキリと覚えている...[r]
-g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa
-の家で見た流星群[p]
+g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の家で見た流星群[p]
 あの感動を超えるものはなかなかないよ...[r]
 本気で星になりたいと思って本や資料を読んだよ...[p]
 でもなれないって分かったんだ。[p]
@@ -134,12 +134,10 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa
 ...[p]
 #kikokusijo
 [chara_show name="kikokusijo"]
-そこで
-[ruby text="ミ"]m[ruby text="ー"]e
+そこで[ruby text="ミ"]m[ruby text="ー"]e
 は閃いたんだ[r]
 [ruby text="ミ"]m[ruby text="ー"]e
-自身が
-[ruby text="ス"]s[ruby text="タ"]t[ruby text="ー"]ar
+自身が[ruby text="ス"]s[ruby text="タ"]t[ruby text="ー"]ar
 となり輝けばいいんだとね[p]
 [chara_hide name="kikokusijo"]
 #&f.playername
@@ -152,12 +150,13 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa
 てか時間大丈夫？[p]
 #kikokusijo
 [chara_show name="kikokusijo"]
-[ruby text="オ"]O[ruby text="ウ"]h [ruby text="シ"]s[ruby text="ッ"]h[ruby text="ト"]it！
+[ruby text="オ"]O[ruby text="ウ"]h [ruby text="シ"]s[ruby text="ッ"]h[ruby text="ト"]it！[p]
 門が閉まるまで後５分しかない！[p]
 [chara_hide name="kikokusijo"]
 #&f.playername
 荷物おいてきたままだよ！走ろう！[p]
 #
-タタタ...
+タタタ...[p]
 
-
+;シーン7-1へジャンプ
+[jump storage="sportsfestival1.ks" target="*start"]

@@ -22,17 +22,16 @@
 ではグループを組んでくださーい！[p]
 [chara_hide name="shikai"]
 [chara_show name="kikokusijo"]
-[chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
-[chara_show name="shikai"]
-[chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
-[chara_show name="shikai"]
+[chara_show name="studentA"]
+[chara_show name="studentB"]
 #kikokusijo
 [ruby text="ヘ"]He[ruby text="イ"]y![emb exp="f.playername"]、俺と組まないか？あと2人なんだ[p]
 #&f.playername
 いいの？ありがとう！もう一人、、、[p]
-[chara_show name="osananajimi"]
 #osananajimi
-[emb exp="f.playername"]～！まだ空いてる？[l][r]
+[emb exp="f.playername"]～！
+[chara_show name="osananajimi"]
+まだ空いてる？[l][r]
 どこもいっぱいでさー[p]
 #
 
@@ -57,8 +56,8 @@
 #&f.playername
 うん、ゆりがほしい！[p]
 #osananajimi
-えへへ、なんか告白みたいな言い方ー![p]
-も～お、勘違いしちゃうよ?[p]
+えへへ、なんか告白みたいな言い方ー![l][r]
+もお～、勘違いしちゃうよ?[p]
 でも良かったー！おじゃましまーす！[p]
 [jump target="*common"]
 
@@ -66,7 +65,7 @@
 *common
 #kikokusijo
 [chara_show name="kikokusijo"]
-よーし、人数もそろったし、Let's Start![p]
+よーし、人数もそろったし、L[ruby text="レ"]e[ruby text="ッ"]t'[ruby text="ツ"]s S[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]r[ruby text="ト"]t![p]
 [mask_off time="250"]
 [wait time="250"]
 #&f.playername
@@ -80,6 +79,7 @@
 これって、（年の）初めにするよね！[p]
 #kikokusijo
 そりゃ名前にもあるしな![r]
+;TODO:
 タイミングとかムードも大事だよな[p]
 #&f.playername
 たしかに、人多いときあるもんねー[p]
@@ -146,3 +146,6 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 *end
 #
 楽しいレクリエーションが続いた
+
+;シーン6-1へジャンプ
+[jump storage="bukatu1.ks" target="*start"]

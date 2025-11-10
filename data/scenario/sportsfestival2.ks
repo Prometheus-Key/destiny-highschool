@@ -1,4 +1,4 @@
-;シーン6-2:体育祭（真面眼鏡）
+;シーン7-2:体育祭（真面眼鏡）
 *start
 #&f.playername
 今日は待ちに待った体育祭！[l][r]
@@ -107,4 +107,5 @@
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
 
-[jump storage="bunkasai2.ks" target="*start" ]
+;シーン8-2へジャンプ
+[jump storage="bunkasai2.ks" target="*start"]

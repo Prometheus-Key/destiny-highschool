@@ -139,3 +139,6 @@
 *common
 #
 こうしてレクリエーションは幕を閉じた[p]
+
+;シーン6-2へジャンプ
+[jump storage="bukatu2.ks" target="*start"]

@@ -131,5 +131,5 @@
 え、気絶してる!?[p]
 [emb exp="f.playername"]～～～!!![p]
 
-;シーン6-3へジャンプ
+;シーン7-3へジャンプ
 [jump storage="sportsfestival3.ks" target="*start"]

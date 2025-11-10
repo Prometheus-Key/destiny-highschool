@@ -1,4 +1,4 @@
-;シーン7-3:文化祭（きんに君）
+;シーン8-3:文化祭（きんに君）
 *start
 ;背景設定（教室前）
 [bg storage="roomfront_daytime.jpg"]
@@ -174,3 +174,6 @@
 ;筋どっか行く
 #&f.playername
 筋君...[p]
+
+;シーン9へジャンプ
+[jump storage="batorowa.ks" target="*start"]

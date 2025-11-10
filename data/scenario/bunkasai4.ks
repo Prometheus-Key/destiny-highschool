@@ -1,4 +1,4 @@
-;幼なじみ文化祭
+;シーン8-3:文化祭（幼馴染）
 
 *start
 ;操作無効
@@ -222,3 +222,6 @@
 #osananajimi
 ...！えへ、えへへ...！やったー！！[p]
 ありがとう...！これからもよろしくね！！[emb exp="f.playername"]！！[p]
+
+;シーン10へジャンプ
+[jump storage="endroll.ks" target="*start"]

@@ -1,3 +1,4 @@
+;シーン9:バトルロワイヤル（きんに君）
 *start
 #osananajimi
 [chara_show name="osananajimi"]
@@ -380,3 +381,6 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 これまでのサポート、筋肉へのひたむきな思い...[p]
 君が、俺のトレーナーだな...！[p]
 [chara_hide name="kinnnikunn"]
+
+;シーン10へジャンプ
+[jump storage="endroll.ks" target="*start"]

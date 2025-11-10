@@ -20,8 +20,8 @@
 *input
 [cm]
 [layopt layer="message0" visible="false"]
-[layopt layer="0" visible="true"]
-[ptext layer="0" text="名前を入力し、決定ボタンまたはEnterキーを押してください" x="270" y="200" size="25"]
+[layopt layer="2" visible="true"]
+[ptext layer="2" text="名前を入力し、決定ボタンまたはEnterキーを押してください" x="270" y="200" size="25"]
 [edit name="f.playername" color="black" left="250" top="300" size="50" width="500" height="100" maxchars="15"]
 [glink target="*jump" text="決定" x="800" y="320" cm="false"]
 
@@ -39,7 +39,7 @@ $('.text_box').keypress(function (e) {
 *jump
 [commit]
 [cm]
-[layopt layer="0" visible="flase"]
+[layopt layer="2" visible="flase"]
 [layopt layer="message0" visible="true"]
 ほう、『[emb exp="f.playername"]』というんだな？[p]
 
