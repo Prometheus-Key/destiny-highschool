@@ -11,6 +11,7 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+[chara_config talk_focus="blur" blur_value="2"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
@@ -70,11 +71,11 @@
 よーし、人数もそろったし、L[ruby text="レ"]e[ruby text="ッ"]t'[ruby text="ツ"]s S[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]r[ruby text="ト"]t![p]
 [mask_off time="250"]
 [wait time="250"]
+#抽選結果
+帰国子女：ファーストキス[r]
+他のみんな：初詣[p]
 #&f.playername
-（初詣かー）[p]
-#kikokusijo
-（ファーストキス...か。[l][r]
-だいぶSe[ruby text="セ"]n[ruby text="ン"]s[ruby text="シ"]i[ruby text="テ"]t[ruby text="ィ"]i[ruby text="ブ"]veな内容じゃないか）[p]
+（初詣かー、ほかのみんなは何引いたんだろう...）[p]
 #司会
 それでは議論を始めてください！[p]
 #osananajimi

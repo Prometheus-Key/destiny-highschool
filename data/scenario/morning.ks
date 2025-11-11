@@ -6,7 +6,6 @@
 
 ;幼馴染の登場、会話
 [chara_show name="osananajimi" face="normal"]
-
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]

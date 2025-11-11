@@ -1,17 +1,33 @@
 ;シーン9:バトルロワイヤル（きんに君）
 *start
-#osananajimi
+
+;暗転継続
+;幼馴染登場
 [chara_show name="osananajimi"]
+;背景設定（教室後ろ）
+[bg storage="roomback_daytime.jpg" time="500"]
+;暗転解除
+[mask_off time="1500"]
+
+;会話開始
+#osananajimi
 筋君、ボディビル大会負けてから元気ないね...[p]
-[chara_hide name="osananajimi"]
 #&f.playername
 ね...いつも豪快に笑ってたから...早く元気になってほしいな...[p]
+[chara_hide name="osananajimi"]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ...[p]
 [chara_hide name="kinnnikunn"]
 
+;暗転（時間経過）
+[mask time="500"]
+;TODO:背景追加（きんに君の家）
+;背景変更（きんに君の家）
+[bg storage=""]
+
 ;筋の家
+
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 最近はどうもモチベが上がらない...[r]

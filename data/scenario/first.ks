@@ -13,11 +13,11 @@
 
 ;キャラクター全員登録
 ;帰国子女
-[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="帰国子女"]
+[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="悠真ジュレーン安藤"]
 ;真面眼鏡
-[chara_new name="majimegane" storage="mobu/student_man2.png" jname="真面眼鏡"]
+[chara_new name="majimegane" storage="mobu/student_man2.png" jname="八田莉吏"]
 ;きんに君
-[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="きんに君"]
+[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="筋野筋太郎"]
 ;幼馴染
 [chara_new name="osananajimi" storage="osananajimi/normal.png" jname="白石ゆり"]
 ;幼馴染の表情
