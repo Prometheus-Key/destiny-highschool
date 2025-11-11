@@ -5,7 +5,7 @@
 [bg storage="roomback_daytime.jpg" time="3000"]
 
 ;幼馴染の登場、会話
-[chara_show name="osananajimi" face="happy"]
+[chara_show name="osananajimi" face="normal"]
 
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
@@ -14,7 +14,7 @@
 ごめんごめん。寝坊しちゃってさ！[p]
 #osananajimi
 ;幼馴染の表情変更
-[chara_mod name="osananajimi" face="angry"]
+[chara_mod name="osananajimi" face="normal"]
 もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
 [chara_mod name="osananajimi" face="normal"]
 
