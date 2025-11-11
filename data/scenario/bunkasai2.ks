@@ -110,6 +110,8 @@ TOEICって５点刻みだよ？[p]
 #majimegane
 わ、わあぁ...！！！[p]
 ;TODO：爆発する眼鏡
+[playse storage="explosion.mp3"]
+[wait time=2000]
 ;爆発する眼鏡
 #&f.playername
 　くーーーん！！！！[p]
