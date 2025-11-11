@@ -97,9 +97,9 @@
 
 ; glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="帰国子女"]
-[glink target="*select2" text="真面眼鏡"]
-[glink target="*select3" text="きんに君"]
+[glink target="*select1" text="悠馬ジュレーン安藤"]
+[glink target="*select2" text="八田莉吏"]
+[glink target="*select3" text="筋野筋太郎"]
 [layopt layer="message0" visible="true"]
 [s]
 
@@ -107,7 +107,7 @@
 *select1
 [eval exp="f.leader=1"]
 #&f.playername
-じゃあ、帰国子女君、お願いしてもいいかな？[p]
+じゃあ、悠馬君、お願いしてもいいかな？[p]
 #kikokusijo
 You!良いセンスしてんじゃねぇか[r]
 今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
@@ -124,7 +124,7 @@ You!良いセンスしてんじゃねぇか[r]
 *select2
 [eval exp="f.leader=2"]
 #&f.playername
-じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
+じゃあ、莉吏君、お願いしてもいいかな？[p]
 #majimegane
 なかなかいい目をお持ちですね！[r]
 それはそうだ！ぼくのTOEICの点数は938点なのですから!![p]
@@ -141,7 +141,7 @@ You!良いセンスしてんじゃねぇか[r]
 *select3
 [eval exp="f.leader=3"]
 #&f.playername
-じゃあ、きんに君、お願いしてもいいかな？[p]
+じゃあ、筋太郎君、お願いしてもいいかな？[p]
 #kinnnikunn
 キミは筋トレをするといい！[r]
 素質はだれにでもあるものだ！[p]

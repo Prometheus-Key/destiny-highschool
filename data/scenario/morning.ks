@@ -56,7 +56,7 @@
 [chara_show name="kikokusijo"]
 #kikokusijo
 H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ruby text="ブ"]e[ruby text="リ"]r[ruby text="ワ"]y[ruby text="ン"]one![r]
-[ruby text="マ"]M[ruby text="イ"]y [ruby text="ネ"]n[ruby text="ー"]a[ruby text="ム"]me [ruby text="イ"]i[ruby text="ズ"]s 帰国子女.[p]
+[ruby text="マ"]M[ruby text="イ"]y [ruby text="ネ"]n[ruby text="ー"]a[ruby text="ム"]me [ruby text="イ"]i[ruby text="ズ"]s 悠馬.[p]
 このあいだ日本に帰国したところだ！[p]
 
 #クラスメイト

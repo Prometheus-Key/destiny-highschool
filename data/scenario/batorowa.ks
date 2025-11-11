@@ -11,7 +11,7 @@
 
 ;会話開始
 #osananajimi
-筋君、ボディビル大会負けてから元気ないね..[p]
+筋太郎君、ボディビル大会負けてから元気ないね..[p]
 #&f.playername
 ね...いつも豪快に笑ってたから...早く元気になってほしいな...[p]
 [chara_hide name="osananajimi"]
@@ -91,7 +91,7 @@
 [chara_hide name="kinnnikunn"]
 #osananajimi
 [chara_show name="osananajimi"]
-え、あれ筋肉君だよね！？本なんて借りるの初めて見た！[p]
+え、あれ筋太郎君だよね！？本なんて借りるの初めて見た！[p]
 [chara_hide name="osananajimi"]
 #&f.playername
 何の本借りたんだろう...？　んっ「召喚の儀式」...？[p]
@@ -108,7 +108,7 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 #&f.playername
-はぁ..はぁ..やっと追いついた...筋君何してるの？[p]
+はぁ..はぁ..やっと追いついた...筋太郎君何してるの？[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 な、[emb exp="f.playername"]！？なぜ君が...[p]
@@ -129,7 +129,7 @@
 [chara_hide name="kinnnikunn"]
 #&f.playername
 気持ちはわかるけど...自分の力で鍛えてこその”ボディビルド”じゃないの？[r]
-筋君らしくないよ...[p]
+筋太郎君らしくないよ...[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ム...それはわかっているが...[p]
@@ -153,15 +153,15 @@
 これで...俺に更なる筋肉が...[p]
 [chara_hide name="kinnnikunn"]
 #&f.playername
-筋君　ダメッ！[p]
+筋太郎君　ダメッ！[p]
 #
 ギューン[p]
-#きんに君？
+#筋太郎君？
 [chara_show name="kinnnikunn"]
 これが我の求めていたモノ...！[p]
 [chara_hide name="kinnnikunn"]
 #&f.playername
-筋君...？パッと見変わらないけど...[p]
+筋太郎君...？パッと見変わらないけど...[p]
 #きんに君？
 [chara_show name="kinnnikunn"]
 久方振りの肉体...!やはり筋肉はいい...[p]
@@ -184,7 +184,7 @@
 なぜか筋肉がザワついてね...２人と一緒になって来たの[p]
 #&f.playername
 （ジョ〇ョのス〇ンドじゃん...）[p]
-筋君が筋肉の妖精を呼び出したと思ったら実は悪魔で取り憑かれちゃって...[p]
+筋太郎君が筋肉の妖精を呼び出したと思ったら実は悪魔で取り憑かれちゃって...[p]
 #院瀬見
 そんな非科学的なものに頼るとは...[r]
 見損なったぞ！筋！[p]
@@ -256,7 +256,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [chara_hide name="kikokusijo"]
 #majimegane
 [chara_show name="majimegane"]
-...筋から筋肉を失くせばいいのではないでしょうか[p]
+...筋太郎から筋肉を失くせばいいのではないでしょうか[p]
 [chara_hide name="majimegane"]
 #&f.playername
 え？[p]
@@ -312,7 +312,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [chara_hide name="kinnnikunn"]
 #kikokusijo
 [chara_show name="kikokusijo"]
-いつもの優しい筋とは
+いつもの優しい筋太郎とは
 [ruby text="ビ"]B[ruby text="ッ"]i[ruby text="グ"]g d[ruby text="デ"]i[ruby text="フ"]f[ruby text="ァ"]f[ruby text="レ"]e[ruby text="ン"]r[ruby text="ツ"]ence
 だな[p]
 [chara_hide name="kikokusijo"]
@@ -321,7 +321,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 どのタイミングで奴にぶち込むか...[p]
 [chara_hide name="majimegane"]
 #&f.playername
-筋君！早く戻ってよ！その筋肉は傷つけるためのモノじゃないんだよ！[p]
+筋太郎君！早く戻ってよ！その筋肉は人を傷つけるためのモノじゃないんだよ！[p]
 #悪魔
 [chara_show name="kinnnikunn"]
 たいして[ruby text="タンパ"]筋[ruby text="ク質"]肉はないが...　残党は狩っておかなければな...[p]
@@ -356,7 +356,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 あれはまさか...ファストフード！？[p]
 #majimegane
 [chara_show name="majimegane"]
-筋が太れば貴方は器に興味を示さなくなると考えたんです[p]
+筋太郎が太れば貴方は器に興味を示さなくなると考えたんです[p]
 [chara_hide name="majimegane"]
 #kikokusijo
 [chara_show name="kikokusijo"]

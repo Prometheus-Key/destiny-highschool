@@ -72,7 +72,7 @@
 [mask_off time="250"]
 [wait time="250"]
 #抽選結果
-帰国子女：ファーストキス[r]
+悠馬：ファーストキス[r]
 他のみんな：初詣[p]
 #&f.playername
 （初詣かー、ほかのみんなは何引いたんだろう...）[p]
@@ -97,12 +97,12 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 #kikokusijo
 人が多いときにするのか!?これを!?[p]
 #生徒B
-そもそも、帰国子女はこれやったことあるの？[p]
+そもそも、悠馬はこれやったことあるの？[p]
 #kikokusijo
 [ruby text="ス"]S[ruby text="チュ"]t[ruby text="ー"]u[ruby text="ピ"]p[ruby text="ッ"]i[ruby text="ド"]d!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
 #&f.playername
 そんなに怒鳴らなくても...[p]
-（多分、帰国子女君なんだろうな）[p]
+（多分、悠馬君なんだろうな）[p]
 
 ;暗転（時間経過）
 [mask time="500"]
