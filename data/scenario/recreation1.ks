@@ -11,7 +11,7 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
-[chara_config talk_focus="blur" blur_value="2"]
+[chara_config talk_focus="blur" blur_value="10"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
@@ -155,6 +155,8 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 *end
 #
 楽しいレクリエーションが続いた[p]
+
+[chara_config talk_focus="blur" blur_value="0"]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

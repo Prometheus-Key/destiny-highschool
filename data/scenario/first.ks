@@ -21,9 +21,11 @@
 ;幼馴染
 [chara_new name="osananajimi" storage="osananajimi/normal.png" jname="白石ゆり"]
 ;幼馴染の表情
-[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
+[chara_face name="osananajimi" face="angry" storage=""]
 [chara_face name="osananajimi" face="normal" storage="osananajimi/normal.png"]
-[chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
+[chara_face name="osananajimi" face="happy" storage=""]
+;カツオ
+[chara_new name="katsuo" storage="mobu/student_man4.png" jname="勝男"]
 ;生徒A
 [chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
 ;生徒B
