@@ -20,10 +20,12 @@
 待ちに待ったレクリエーション！[r]
 今回はワードウルフを行います！[p]
 ではグループを組んでくださーい！[p]
+[mask time="500"]
 [chara_hide name="shikai"]
 [chara_show name="kikokusijo"]
 [chara_show name="studentA"]
 [chara_show name="studentB"]
+[mask_off time="500"]
 #kikokusijo
 [ruby text="ヘ"]He[ruby text="イ"]y![emb exp="f.playername"]、俺と組まないか？あと2人なんだ[p]
 #&f.playername
@@ -79,12 +81,12 @@
 これって、（年の）初めにするよね！[p]
 #kikokusijo
 そりゃ名前にもあるしな![r]
-;TODO:
+;TODO:英語化
 タイミングとかムードも大事だよな[p]
 #&f.playername
 たしかに、人多いときあるもんねー[p]
 #kikokusijo
-What!?人が多いときにするのか!?これを!?[p]
+W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときにするのか!?これを!?[p]
 #生徒A
 人が多いときとかあんまなくねーか？[p]
 #osananajimi
@@ -100,8 +102,13 @@ What!?人が多いときにするのか!?これを!?[p]
 #&f.playername
 そんなに怒鳴らなくても...[p]
 （多分、帰国子女君なんだろうな）[p]
+
+;暗転（時間経過）
+[mask time="500"]
+[mask_off]
+
 #
-結果発表
+-結果発表[p]
 #kikokusijo
 おったまg[ruby text="ゲ"]e[ruby text="ッ"]t[ruby text="ト"] d[ruby text="ダ"]o[ruby text="ウ"]w[ruby text="ン"]n![r]
 まさか俺がウルフだったとは...[p]
@@ -109,6 +116,7 @@ What!?人が多いときにするのか!?これを!?[p]
 すごく分かりやすかったよ...[p]
 #kikokusijo
 日本のキス文化がここまで進んでたのかとm[ruby text="ミ"]i[ruby text="ス"]s[ruby text="テ"]t[ruby text="イ"]a[ruby text="ク"]keしたぜ。[p]
+;TODO:英語化
 これじゃ恥のダブルペイントだ![p]
 
 ;glinkタグを使って選択肢を表示
@@ -145,7 +153,7 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 ;共通会話復帰
 *end
 #
-楽しいレクリエーションが続いた
+楽しいレクリエーションが続いた[p]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]
