@@ -2,10 +2,12 @@
 *start
 
 ;背景を表示
-[bg storage="roomback_daytime.jpg" time="3000"]
-
+[bg storage="roomback_daytime.jpg" time="1000"]
+;TODO:ガラガラのドアの音
+[mask_off time="500"]
 ;幼馴染の登場、会話
-[chara_show name="osananajimi" face="normal"]
+[chara_show name="osananajimi" face="unismile"]
+[layopt layer="message0" visible="true"]
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]
@@ -13,9 +15,9 @@
 ごめんごめん。寝坊しちゃってさ！[p]
 #osananajimi
 ;幼馴染の表情変更
-[chara_mod name="osananajimi" face="normal"]
+[chara_mod name="osananajimi" face="uniangry"]
 もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
-[chara_mod name="osananajimi" face="normal"]
+[chara_mod name="osananajimi" face="uninormal"]
 
 ;幼馴染の紹介
 #&f.playername

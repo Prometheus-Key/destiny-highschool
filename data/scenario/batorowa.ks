@@ -42,25 +42,25 @@
 [wait time="500"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
-#？
+#hatena
 筋■■欲■い■すか？[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ？[p]
 [chara_hide name="kinnnikunn"]
-#？
+#hatena
 筋肉が欲しいですか？[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ..ああ。欲しい。俺は筋肉が欲しい...[p]
 [chara_hide name="kinnnikunn"]
-#？
+#hatena
 では、私を見つけてください...[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ...あなたは...？[p]
 [chara_hide name="kinnnikunn"]
-#？
+#hatena
 私は筋肉の妖精...[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]

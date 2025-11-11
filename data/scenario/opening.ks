@@ -85,6 +85,7 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
+[mask time="1000"]
 [jump storage="latetime.ks" target="*start"]
 
 *select2
@@ -94,6 +95,7 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
+[mask time="1000"]
 [jump storage="latetime.ks" target="*start"]
 
 *select3
@@ -103,4 +105,5 @@ $('.text_box').keypress(function (e) {
 ほっほ、おぬしなかなかいい目をしとるの[l][r]
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
+[mask time="1000"]
 [jump storage="latetime.ks" target="*start"]

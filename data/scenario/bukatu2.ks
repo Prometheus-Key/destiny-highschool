@@ -15,13 +15,14 @@
 [chara_hide name="majimegane"]
 #&f.playername
 あぁ！それなら行くよ！[p]
+#
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
-[wait time="500"]
-[mask_off time="1000"]
+[mask time="500"]
+[mask_off]
 [layopt layer="message0" visible="true"]
 
+#&f.playername
 荷物ってこれ？重そー...[p]
 #majimegane
 [chara_show name="majimegane"]
