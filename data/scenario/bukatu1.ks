@@ -128,5 +128,6 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 #
 タタタ...[p]
 
+;
 ;シーン7-1へジャンプ
 [jump storage="sportsfestival1.ks" target="*start"]

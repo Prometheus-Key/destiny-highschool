@@ -11,21 +11,25 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+;会話開始
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
-
+#
 ;司会登場（シルエット）
+[chara_show name="shikai"]
 #司会
 待ちに待ったレクリエーション！！[r]
 今回はクイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
+#
+[chara_show name="majimegane" face=""]
 #majimegane
-[chara_show name="majimegane"]
 フフフ...やっと僕の本領を発揮できますね... [p]
 ハレンチな姿は見せませんよ！[p]
+#
 [chara_hide name="majimegane"]
+[chara_show name="osananajimi" face="unishy"]
 #osananajimi
-[chara_show name="osananajimi"]
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
@@ -43,6 +47,9 @@
 
 ;選択肢2
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりは私が守るよ...！[p]

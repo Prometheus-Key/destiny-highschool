@@ -11,6 +11,7 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+;発言者以外ぼかし（強度10）
 [chara_config talk_focus="blur" blur_value="10"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
@@ -46,6 +47,9 @@
 
 ;選択肢1
 *turn1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ちょうど良かった！来てほしい！[p]
@@ -55,6 +59,9 @@
 
 ;選択肢2
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 うん、ゆりがほしい！[p]
@@ -156,7 +163,13 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 #
 楽しいレクリエーションが続いた[p]
 
+;
+
+;発言者以外ぼかし解除
 [chara_config talk_focus="blur" blur_value="0"]
+
+;暗転（シーン変更）
+[mask time="1000"]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

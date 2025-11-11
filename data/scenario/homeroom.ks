@@ -190,12 +190,16 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;選択によって発言分岐
 *turn1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
 #&f.playername
 ほんとだよー、皆個性豊かだから難しかった！[p]
 何とかなって良かったー!![r]
 [jump target="*return"]
 
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
 #&f.playername
 ゆりが応援してくれたから選べたんだよ！[p]\
 ;TODO:変数+1
@@ -213,10 +217,12 @@ You!良いセンスしてんじゃねぇか[r]
 
 *return
 明日から楽しみだね！[p]
-[layopt layer="message0" visible="false"]
 
 ;1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
+
+;メッセージ枠非表示
+[layopt layer="message0" visible="false"]
 
 ;幼馴染退場
 [chara_hide name="osananajimi"]

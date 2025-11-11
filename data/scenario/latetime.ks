@@ -3,8 +3,10 @@
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
 [position frame="frame/flame01.png"]
+[mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+;TODO:雀の鳴き声
 #&f.playername
 ふゎーー。ん、夢か。[l][r]
 今何時かな？[p]
@@ -39,8 +41,8 @@
 
 ;シーン2-1：帰国子女ルート
 *return
-[chara_show name="kikokusijo"]
-#kikokusijo
+[chara_show name="kikokusijo" face="confidence"]
+#hatena
 おやおや、[ruby text="キ"]c[ruby text="ュ"]u[ruby text="ー"]t[ruby text="ト"]eな[ruby text="ガ"]g[ruby text="ー"]i[ruby text="ル"]rlちゃん♪[l][r]
 そんなに走ってアグレッシブだね～[p]
 おっと、俺も急いでんだった！T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ム"]e [ruby text="イ"]i[ruby text="ズ"]s M[ruby text="マ"]o[ruby text="ネ"]n[ruby text="ー"]eyってね！[p][r]
@@ -55,7 +57,7 @@
 ;シーン2-2：真面眼鏡ルート
 *glass
 [chara_show name="majimegane"]
-#majimegane
+#hatena
 どこを見てるいるんですか！まったく危ない...。[p]
 #&f.playername
 ごめんなさい。[p]
@@ -69,8 +71,8 @@
 
 ;シーン2-3：きんに君ルート
 *mascle
-[chara_show name="kinnnikunn"]
-#kinnnikunn
+[chara_show name="kinnnikunn" face="normal"]
+#hatena
 すまないお嬢さん。[l][r]
 俺の胸筋でふきとばしてしまったようだ！[p]
 しかし立ち止まってはいられない！行くぞ俺の筋肉！[r]
@@ -81,4 +83,6 @@
 （あれ、あの人どこかで...）[p]
 いや、そうだ。今はいそがないと！[p]
 #
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
 [jump storage="morning.ks" target="*start"]

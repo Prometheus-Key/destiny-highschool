@@ -13,6 +13,9 @@
 [s]
 
 *select1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 うん、頑張ろ！[p]
@@ -20,6 +23,9 @@
 [jump target="common"]
 
 *select2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりとだったら優勝できる気がする！頑張ろ！[p]
