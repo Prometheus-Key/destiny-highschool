@@ -126,6 +126,8 @@
 #&f.playername
 でも、それだと自分から服をはじけさせたことに...[p]
 ;TODO：衝撃を受けた音
+[playse storage="ショック2.mp3"]
+[wait time=2000]
 莉吏くん？[p]
 ;TODO：大爆発するメガネのイラスト追加
 莉吏く～～～ん!!![p]
@@ -139,6 +141,8 @@
 #majimegane
 アバダケタブラ!!![p]
 ;TODO：大爆発の音追加
+[playse storage="explosion.mp3"]
+[wait time=1000]
 #みんな
 おい！委員長が爆発したぞ!![p]
 #&f.playername
