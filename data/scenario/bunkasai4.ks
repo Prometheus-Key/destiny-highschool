@@ -87,7 +87,9 @@
 *select1
 ;TODO：文字小さく
 #&f.playername
+[font size=18]
 ほら！手つないだら怖くないんじゃない？[p]
+[resetfont]
 #osananajimi
 ！！[p]
 #&f.playername
@@ -215,10 +217,10 @@
 ;１択
 [layopt layer="message0" visible="false"]
 [glink target="*tukiau" text="もちろん！"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
 *tukiau
+[layopt layer="message0" visible="true"]
 #osananajimi
 ...！えへ、えへへ...！やったー！！[p]
 ありがとう...！これからもよろしくね！！[emb exp="f.playername"]！！[p]
