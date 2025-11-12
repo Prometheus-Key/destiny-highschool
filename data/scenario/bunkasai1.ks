@@ -25,8 +25,7 @@
 [layopt layer="message0" visible="true"]
 
 #kikokusijo
-;TODO:英語化
-よぉ[emb exp="f.playername"]、この水族館、俺のベストスポットなんだ。[l][r]
+よぉ[emb exp="f.playername"]、この水族館、俺のb[ruby text="ベ"]e[ruby text="ス"]st[ruby text="ト"] s[ruby text="ス"]p[ruby text="ポ"]o[ruby text="ッ"]t[ruby text="ト"]なんだ。[l][r]
 おまえとも行きたくてな。[p]
 
 ;暗転
@@ -40,9 +39,9 @@
 #&f.playername
 今年の出し物は屋台だね！作って売りまくるぞー！
 #kikokusijo
-;TODO:英語化
-[emb exp="f.playername"]、食材を近くのスーパーで見ときたいんだがいいかい？
+[emb exp="f.playername"]、食材を近くのs[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]rm[ruby text="マ"]a[ruby text="ー"]r[ruby text="ケ"]k[ruby text="ッ"]e[ruby text="ト"]tで見ときたいんだがいいかい？
 
+;文化祭当日
 #&f.playername
 今日、文化祭だね！[p]
 #osananajimi
@@ -52,11 +51,12 @@
 #&f.playername
 え、約束したっけ？[p]
 #kikokusijo
-約束も何も俺と一緒に回ることこそディスティニーだからな☆[p]
+約束も何も俺と一緒に回ることこそD[ruby text="デ"]e[ruby text="ィ"]s[ruby text="ス"]t[ruby text="テ"]i[ruby text="ィ"]n[ruby text="二"]y[ruby text="ィ"]
+だからな☆[p]
 #osananajimi
-[emb exp="f.playername"]と　君ってそんなに仲良かったっけ？[p]
+[emb exp="f.playername"]と悠馬君ってそんなに仲良かったっけ？[p]
 #&f.playername
-　君、最近遊びに誘ってくれるんだよね。[p]
+悠馬君、最近遊びに誘ってくれるんだよね。[p]
 #osananajimi
 でも、ずるいよ！私も一緒に回りたい！[p]
 #&f.playername
@@ -80,7 +80,7 @@
 #kikokusijo
 俺の分から取りなよ。[p]
 #osananajimi
-私も無くなっちゃったよー。　君出してよー泣[p]
+私も無くなっちゃったよー。悠馬君出してよー泣[p]
 #kikokusijo
 いや、そんな金ないよ？[p]
 #osananajimi
@@ -91,7 +91,7 @@
 
 ;疑い
 #&f.playername
-ゆりちゃん、やっぱ　君の様子おかしいよね？[p]
+ゆりちゃん、やっぱ悠馬君の様子おかしいよね？[p]
 #osananajimi
 うん...[emb exp="f.playername"]にだけ優しいし...[p]
 
@@ -99,13 +99,12 @@
 #kikokusijo
 次はどこに行こうかー[p]
 #&f.playername
-　君今日なんかおかしいよ！[l][r]
+悠馬君今日なんかおかしいよ！[l][r]
 なんでわたしだけに優しくするの？[p]
 #osananajimi
 そーだ！そーだ！[p]
 #kikokusijo
-;TODO:英語化
-そりゃあ[emb exp="f.playername"]は俺のガールフレンドだからだろ？[p]
+そりゃあ[emb exp="f.playername"]は俺のg[ruby text="ガ"]i[ruby text="ー"]r[ruby text="ル"]l fr[ruby text="フ"]i[ruby text="レ"]e[ruby text="ン"]n[ruby text="ド"]dだからだろ？[p]
 ;TODO:主人公と幼なじみの名前を表示させる
 ;主人公と幼なじみの名前を表示させる
 #&f.playername
@@ -116,8 +115,7 @@
 いや、私告白されてないんだけど！[p]
 #kikokusijo
 告白？何のことだい？[l][r]
-;TODO:ルビ振り
-俺たちが付き合うことこそDestinyだろ？[p]
+俺たちが付き合うことこそD[ruby text="デ"]e[ruby text="ィ"]s[ruby text="ス"]t[ruby text="テ"]i[ruby text="ィ"]n[ruby text="二"]y[ruby text="ィ"]だろ？[p]
 #&f.playername
 冗談やめてよ！[l][r]
 ゆりちゃん行こう！[p]
@@ -129,13 +127,13 @@
 #kikokusijo
 ...W[ruby text="ホ"]h[ruby text="ワ"]y[ruby text="イ"] j[ruby text="ジ"]a[ruby text="ャ"]p[ruby text="パ"]an[ruby text="二"]e[ruby text="ー"]s[ruby text="ズ"]e p[ruby text="ピ"]e[ruby text="ー"]op[ruby text="ポ"]l[ruby text="ー"]e？[p]
 #&f.playername
-どういうこと？なんで私　君と付き合ってることになってるんだろう？[p]
+どういうこと？なんで私悠馬君と付き合ってることになってるんだろう？[p]
 #osananajimi
 ...んー、そんな話聞いたことないよー[p]
 #&f.playername
 勝手に付き合ってるなんて考えるの信じられない！[p]
 #osananajimi
-　君根が真面目だから...なんかおかしいなー...[p]
+悠馬君根が真面目だから...なんかおかしいなー...[p]
 #&f.playername
 ...ってか私、そろそろシフト変わらなきゃじゃん！[l][r]
 行ってくるね！[p]
@@ -147,14 +145,14 @@
 #osananajimi
 ...何かなー...[p]
 プルプルプル（電話が鳴る音）[p]
-　君からだ！[p]
+悠馬君からだ！[p]
 #kikokusijo
 ゆり、少し相談があるんだが...[p]
 
 
 ;夕方
 #&f.playername
-ふー仕事疲れたー！あれ、　君からLINE...[p]
+ふー仕事疲れたー！あれ、悠馬君からLINE...[p]
 #kikokusijo
 「後夜祭が終わったら、裏山に来てください。話したいことがあります。」[p]
 #&f.playername
@@ -185,7 +183,7 @@
 
 ;回想
 #osananajimi
-つまり、　君的には何回かデートしてるからもう付き合ってる状態だって思ってたって事？[p]
+つまり、悠馬君的には何回かデートしてるからもう付き合ってる状態だって思ってたって事？[p]
 #kikokusijo
 Y[ruby text="イ"]e[ruby text="ェ"]s[ruby text="ス"]、アメリカでは、それが普通だったからな。[p]
 #osananajimi
@@ -195,12 +193,12 @@ Y[ruby text="イ"]e[ruby text="ェ"]s[ruby text="ス"]、アメリカでは、�
 文化の違いか...レクリエーションの時もあったな。[l][r]
 もっと日本の文化について学んでいれば良かったな...[p]
 #osananajimi
-それに、　君普段言葉に英語が混ざっちゃって変な文章になってるんだよね。[l][r]
+それに、悠馬君普段言葉に英語が混ざっちゃって変な文章になってるんだよね。[l][r]
 それでより冗談っぽく思われたのかもね。[p]
 #kikokusijo
 喋る言葉も確かに大事だな...分かった。気をつけよう。[p]
 #osananajimi
-ってか　君普通に喋れたんだね...[p]
+ってか悠馬君普通に喋れたんだね...[p]
 
 ;回想終了
 #&f.playername
@@ -210,10 +208,11 @@ Y[ruby text="イ"]e[ruby text="ェ"]s[ruby text="ス"]、アメリカでは、�
 転校してきたばかりの俺をみんなが上げてくれる中、俺と対等に接してくれたのは[emb exp="f.playername"]だけだった。[p]
 だから、俺と付き合ってくれないか！[p]
 
-;TODO:選択肢にする
-;選択肢
-#&f.playername
-はい！[p]
+[layopt layer="message0" visible="false"]
+[glink target="*tukiau" text="はい！"][r]
+[layopt layer="message0" visible="true"]
+[s]
 
+*tukiau
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]
