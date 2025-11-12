@@ -127,7 +127,7 @@
 ー２人が走って行くー[p]
 
 #kikokusijo
-...Why japanese people？[p]
+...W[ruby text="ホ"]h[ruby text="ワ"]y[ruby text="イ"] j[ruby text="ジ"]a[ruby text="ャ"]p[ruby text="パ"]an[ruby text="二"]e[ruby text="ー"]s[ruby text="ズ"]e p[ruby text="ピ"]e[ruby text="ー"]op[ruby text="ポ"]l[ruby text="ー"]e？[p]
 #&f.playername
 どういうこと？なんで私　君と付き合ってることになってるんだろう？[p]
 #osananajimi
@@ -160,9 +160,13 @@
 #&f.playername
 まさか...[p]
 
+#会場アナウンス
 以上で後夜祭、全日程を終了します！皆さん夜道に気をつけてお帰りください！[p]
+#モブA
 ってか今日、しし座流星群見られるらしいよ！[l][r]
+#モブB
 マジ！めっちゃレアじゃん！[p]
+#
 
 ;TODO:背景変更
 ;背景変更
@@ -183,7 +187,7 @@
 #osananajimi
 つまり、　君的には何回かデートしてるからもう付き合ってる状態だって思ってたって事？[p]
 #kikokusijo
-Yes、アメリカでは、それが普通だったからな。[p]
+Y[ruby text="イ"]e[ruby text="ェ"]s[ruby text="ス"]、アメリカでは、それが普通だったからな。[p]
 #osananajimi
 日本だとちゃんと「あなたのことが好きです。私と付き合ってください。」[l][r]
 って言葉にしないといけないからね...[p]
