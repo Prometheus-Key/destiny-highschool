@@ -13,23 +13,48 @@
 
 ;キャラクター全員登録
 ;帰国子女
-[chara_new name="kikokusijo" storage="kikokusijo/smile.png" jname="帰国子女"]
+[chara_new name="kikokusijo" storage="kikokusijo/confidence.png" jname="悠真ジュレーン安藤"]
+[chara_face name="kikokusijo" face="confidence" storage="kikokusijo/confidence.png"]
+[chara_face name="kikokusijo" face="emoi" storage="kikokusijo/emoi.png"]
+[chara_face name="kikokusijo" face="panic" storage="kikokusijo/panic.png"]
+[chara_face name="kikokusijo" face="peconfidence" storage="kikokusijo/peconfidence.png"]
+[chara_face name="kikokusijo" face="question" storage="kikokusijo/question.png"]
 ;真面眼鏡
-[chara_new name="majimegane" storage="mobu/student_man2.png" jname="真面眼鏡"]
+[chara_new name="majimegane" storage="mobu/student_man2.png" jname="八田莉吏"]
 ;きんに君
-[chara_new name="kinnnikunn" storage="mobu/student_man3.png" jname="きんに君"]
+[chara_new name="kinnnikunn" storage="kinnnikun/normal.png" jname="筋野筋太郎"]
+[chara_face name="kinnnikunn" face="amaze" storage="kinnnikun/amaze.png"]
+[chara_face name="kinnnikunn" face="batorowa" storage="kinnnikun/batorowa.png"]
+[chara_face name="kinnnikunn" face="confidence" storage="kinnnikun/confidence.png"]
+[chara_face name="kinnnikunn" face="pe" storage="kinnnikun/pe.png"]
+[chara_face name="kinnnikunn" face="normal" storage="kinnnikun/normal.png"]
 ;幼馴染
-[chara_new name="osananajimi" storage="osananajimi/normal.png" jname="白石ゆり"]
-;幼馴染の表情
-[chara_face name="osananajimi" face="angry" storage="akane/angry.png"]
-[chara_face name="osananajimi" face="normal" storage="osananajimi/normal.png"]
-[chara_face name="osananajimi" face="happy" storage="akane/happy.png"]
+[chara_new name="osananajimi" storage="osananajimi/uniform/normal.png" jname="白石ゆり"]
+[chara_face name="osananajimi" face="uniangry" storage="osananajimi/uniform/angry.png"]
+[chara_face name="osananajimi" face="uninormal" storage="osananajimi/uniform/normal.png"]
+[chara_face name="osananajimi" face="unimotivation" storage="osananajimi/uniform/motivation.png"]
+[chara_face name="osananajimi" face="unishy" storage="osananajimi/uniform/shy.png"]
+[chara_face name="osananajimi" face="unismile" storage="osananajimi/uniform/smile.png"]
+[chara_face name="osananajimi" face="cloangry" storage="osananajimi/clothes/angry.png"]
+[chara_face name="osananajimi" face="clonormal" storage="osananajimi/clothes/normal.png"]
+[chara_face name="osananajimi" face="clomotivation" storage="osananajimi/clothes/motivation.png"]
+[chara_face name="osananajimi" face="closhy" storage="osananajimi/clothes/shy.png"]
+[chara_face name="osananajimi" face="pesmile" storage="osananajimi/clothes/smile.png"]
+[chara_face name="osananajimi" face="peangry" storage="osananajimi/sportsfestival/angry.png"]
+[chara_face name="osananajimi" face="penormal" storage="osananajimi/sportsfestival/normal.png"]
+[chara_face name="osananajimi" face="pemotivation" storage="osananajimi/sportsfestival/motivation.png"]
+[chara_face name="osananajimi" face="peshy" storage="osananajimi/sportsfestival/shy.png"]
+[chara_face name="osananajimi" face="pesmile" storage="osananajimi/sportsfestival/smile.png"]
+;カツオ
+[chara_new name="katsuo" storage="mobu/student_man4.png" jname="勝男"]
 ;生徒A
 [chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
 ;生徒B
 [chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
 ;司会
 [chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
+;？？？
+[chara_new name="hatena" storage="mobu/student_man4.png" jname="？？？"]
 
 ;シーン1へジャンプ
 [jump storage="opening.ks" target="*start"]

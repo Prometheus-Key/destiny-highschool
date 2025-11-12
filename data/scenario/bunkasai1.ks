@@ -25,6 +25,7 @@
 [layopt layer="message0" visible="true"]
 
 #kikokusijo
+;TODO:英語化
 よぉ[emb exp="f.playername"]、この水族館、俺のベストスポットなんだ。[l][r]
 おまえとも行きたくてな。[p]
 
@@ -39,6 +40,7 @@
 #&f.playername
 今年の出し物は屋台だね！作って売りまくるぞー！
 #kikokusijo
+;TODO:英語化
 [emb exp="f.playername"]、食材を近くのスーパーで見ときたいんだがいいかい？
 
 #&f.playername
@@ -102,6 +104,7 @@
 #osananajimi
 そーだ！そーだ！[p]
 #kikokusijo
+;TODO:英語化
 そりゃあ[emb exp="f.playername"]は俺のガールフレンドだからだろ？[p]
 ;TODO:主人公と幼なじみの名前を表示させる
 ;主人公と幼なじみの名前を表示させる
@@ -113,6 +116,7 @@
 いや、私告白されてないんだけど！[p]
 #kikokusijo
 告白？何のことだい？[l][r]
+;TODO:ルビ振り
 俺たちが付き合うことこそDestinyだろ？[p]
 #&f.playername
 冗談やめてよ！[l][r]

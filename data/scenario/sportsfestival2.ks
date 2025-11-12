@@ -13,6 +13,9 @@
 [s]
 
 *select1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 うん、頑張ろ！[p]
@@ -20,6 +23,9 @@
 [jump target="common"]
 
 *select2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりとだったら優勝できる気がする！頑張ろ！[p]
@@ -40,13 +46,13 @@
 #&f.playername
 この競技って誰が出るんだっけ？[p]
 #osananajimi
-たしか、真面眼鏡君だった気がする！[l]
+たしか、莉吏君だった気がする！[l]
 ほら！[p]
 ;TODO:死ぬほどいやそうな顔の真面眼鏡挿入
 #&f.playername
 なんかめちゃくちゃ嫌そうじゃない？[p]
 #osananajimi
-確か、真面眼鏡君って走るの苦手じゃなかったっけ？[p]
+確か、莉吏君って走るの苦手じゃなかったっけ？[p]
 #&f.playername
 だからあんなに不服なんだね...[p]
 #放送委員
@@ -54,10 +60,10 @@
 よーいドン！[p]
 ;TODO:歓声追加？
 #&f.playername
-真面眼鏡君、頑張れー！！[p]
+莉吏君、頑張れー！！[p]
 #osananajimi
 負けるなー！[l]え、待って...？[l][r]
-真面眼鏡君、溶けてない...!?[p]
+莉吏君、溶けてない...!?[p]
 #&f.playername
 な、なんだってー！！[p]
 #osananajimi

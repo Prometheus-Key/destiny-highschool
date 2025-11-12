@@ -11,6 +11,8 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+;発言者以外ぼかし（強度10）
+[chara_config talk_focus="blur" blur_value="10"]
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
@@ -45,6 +47,9 @@
 
 ;選択肢1
 *turn1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ちょうど良かった！来てほしい！[p]
@@ -54,6 +59,9 @@
 
 ;選択肢2
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 うん、ゆりがほしい！[p]
@@ -70,11 +78,11 @@
 よーし、人数もそろったし、L[ruby text="レ"]e[ruby text="ッ"]t'[ruby text="ツ"]s S[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]r[ruby text="ト"]t![p]
 [mask_off time="250"]
 [wait time="250"]
+#抽選結果
+悠馬：ファーストキス[r]
+他のみんな：初詣[p]
 #&f.playername
-（初詣かー）[p]
-#kikokusijo
-（ファーストキス...か。[l][r]
-だいぶSe[ruby text="セ"]n[ruby text="ン"]s[ruby text="シ"]i[ruby text="テ"]t[ruby text="ィ"]i[ruby text="ブ"]veな内容じゃないか）[p]
+（初詣かー、ほかのみんなは何引いたんだろう...）[p]
 #司会
 それでは議論を始めてください！[p]
 #osananajimi
@@ -96,12 +104,12 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 #kikokusijo
 人が多いときにするのか!?これを!?[p]
 #生徒B
-そもそも、帰国子女はこれやったことあるの？[p]
+そもそも、悠馬はこれやったことあるの？[p]
 #kikokusijo
 [ruby text="ス"]S[ruby text="チュ"]t[ruby text="ー"]u[ruby text="ピ"]p[ruby text="ッ"]i[ruby text="ド"]d!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
 #&f.playername
 そんなに怒鳴らなくても...[p]
-（多分、帰国子女君なんだろうな）[p]
+（多分、悠馬君なんだろうな）[p]
 
 ;暗転（時間経過）
 [mask time="500"]
@@ -154,6 +162,14 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 *end
 #
 楽しいレクリエーションが続いた[p]
+
+;
+
+;発言者以外ぼかし解除
+[chara_config talk_focus="blur" blur_value="0"]
+
+;暗転（シーン変更）
+[mask time="1000"]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

@@ -24,7 +24,7 @@
 [chara_show name="kikokusijo"]
 俺が満を持して[ruby text="エ"]E[ruby text="ン"]n[ruby text="ト"]t[ruby text="リ"]r[ruby text="ー"]y！[p]
 #&f.playername
-帰国子女君！天文部だったんだね！[p]
+悠馬君！天文部だったんだね！[p]
 #kikokusijo
 そうだ。俺は小さいころから星を見るのが好きなんだ！[p]
 輝いてる物を見ると自分自身も輝いてるように感じるんだ！[p]
@@ -62,7 +62,7 @@ P[ruby text="ポ"]o[ruby text="ッ"]s[ruby text="シ"]s[ruby text="ブ"]i[ruby t
 こりゃS[ruby text="サ"]u[ruby text="プ"]r[ruby text="ラ"]p[ruby text="イ"]r[ruby text="ズ"]iseだぜ！！[p]
 #部長
 すまん盛り上がっている所悪いが、俺先に帰るからなー[r]
-帰国子女鍵返しとけよー[p]
+悠馬、鍵返しとけよー[p]
 #kikokusijo
 u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby text="タ"]s[ruby text="ン"]t[ruby text="ド"]and！
 了解です！[p]
@@ -115,7 +115,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 自身が[ruby text="ス"]s[ruby text="タ"]t[ruby text="ー"]ar
 となり輝けばいいんだとね[p]
 #&f.playername
-帰国子女君ならなれるよ！絶対に！！[p]
+悠馬君ならなれるよ！絶対に！！[p]
 #kikokusijo
 ...T[ruby text="サ"]h[ruby text="ン"]a[ruby text="ク"]n[ruby text="ス"]ks...[p]
 #&f.playername
@@ -128,5 +128,6 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 #
 タタタ...[p]
 
+;
 ;シーン7-1へジャンプ
 [jump storage="sportsfestival1.ks" target="*start"]

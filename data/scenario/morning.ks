@@ -2,11 +2,12 @@
 *start
 
 ;背景を表示
-[bg storage="roomback_daytime.jpg" time="3000"]
-
+[bg storage="roomback_daytime.jpg" time="1000"]
+;TODO:ガラガラのドアの音
+[mask_off time="500"]
 ;幼馴染の登場、会話
-[chara_show name="osananajimi" face="normal"]
-
+[chara_show name="osananajimi" face="unismile"]
+[layopt layer="message0" visible="true"]
 #osananajimi
 おっはよー！[emb exp="f.playername"]！[l][r]
 良かったー。おそいから会えないのかと思ったよー[p]
@@ -14,9 +15,9 @@
 ごめんごめん。寝坊しちゃってさ！[p]
 #osananajimi
 ;幼馴染の表情変更
-[chara_mod name="osananajimi" face="normal"]
+[chara_mod name="osananajimi" face="uniangry"]
 もう、[emb exp="f.playername"]はいつもそうなんだからー[p]
-[chara_mod name="osananajimi" face="normal"]
+[chara_mod name="osananajimi" face="uninormal"]
 
 ;幼馴染の紹介
 #&f.playername
@@ -57,7 +58,7 @@
 [chara_show name="kikokusijo"]
 #kikokusijo
 H[ruby text="ハ"]e[ruby text="ロ"]l[ruby text="ー"]lo! E[ruby text="エ"]v[ruby text="ブ"]e[ruby text="リ"]r[ruby text="ワ"]y[ruby text="ン"]one![r]
-[ruby text="マ"]M[ruby text="イ"]y [ruby text="ネ"]n[ruby text="ー"]a[ruby text="ム"]me [ruby text="イ"]i[ruby text="ズ"]s 帰国子女.[p]
+[ruby text="マ"]M[ruby text="イ"]y [ruby text="ネ"]n[ruby text="ー"]a[ruby text="ム"]me [ruby text="イ"]i[ruby text="ズ"]s 悠馬.[p]
 このあいだ日本に帰国したところだ！[p]
 
 #クラスメイト

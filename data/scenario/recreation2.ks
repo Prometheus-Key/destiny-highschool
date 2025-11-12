@@ -11,21 +11,25 @@
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+;会話開始
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
-
+#
 ;司会登場（シルエット）
+[chara_show name="shikai"]
 #司会
 待ちに待ったレクリエーション！！[r]
 今回はクイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
+#
+[chara_show name="majimegane" face=""]
 #majimegane
-[chara_show name="majimegane"]
 フフフ...やっと僕の本領を発揮できますね... [p]
 ハレンチな姿は見せませんよ！[p]
+#
 [chara_hide name="majimegane"]
+[chara_show name="osananajimi" face="unishy"]
 #osananajimi
-[chara_show name="osananajimi"]
 服が破けるって...なにそれちょーヤバいじゃん！！[p]
 
 ;glinkタグを使って選択肢を表示
@@ -43,6 +47,9 @@
 
 ;選択肢2
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりは私が守るよ...！[p]
@@ -80,7 +87,7 @@
 くそ...まだまだ本気を出していないだけです！[p]
 僕のTOIECの点数は938点なのにぃ！！！[p]
 #&f.playername
-もしかして...真面眼鏡君って勉強できない...？[p]
+もしかして...莉吏君って勉強できない...？[p]
 #司会
 続いて第３問！[p]
 
@@ -103,30 +110,32 @@
 *select1
 [layopt layer="message0" visible="true"]
 #&f.playername
-（真面眼鏡君のこと、助けてあげなくちゃ！）[p]
-（...真面眼鏡君、答えこれだよ）コソッ[p]
+君のこと、助けてあげなくちゃ！）[p]
+（...莉吏君、答えこれだよ）コソッ[p]
 #majimegane
 ...フ、フン...僕が助けられるとは... [p]
 なかなか優秀な補佐官ではないですか！[p]
 褒めてさしあげますよ！えぇ！TOIEC938点の[r]
 僕に褒められるなどあなたも鼻が高いでしょう！[p]
 #&f.playername
-あの、ずっと思ってたんだけど、TOIECは5点刻みだよ？[p]
+莉吏君ってクイズ苦手だったんだね[p]
 #majimegane
-;TODO：衝撃を受けた音
-な、なんですって...？[p]
-5点きざみ？？？[p]
-5てん...5... ...!![p]
-;TODO：大爆発するメガネのイラスト追加
+いいえ!!いーいえ！[p]
+わ、ざ、と、間違えただけですが！？[p]
+ええ、もちろん[p]
 #&f.playername
-真面眼鏡く～～～ん!!![p]
+でも、それだと自分から服をはじけさせたことに...[p]
+;TODO：衝撃を受けた音
+莉吏くん？[p]
+;TODO：大爆発するメガネのイラスト追加
+莉吏く～～～ん!!![p]
 [jump target="*common"]
 
 *select2
 [layopt layer="message0" visible="true"]
 #&f.playername
 （わざと間違え教えちゃお!）[p]
-[font size="10"]...真面眼鏡君、答えこれだよ[p]
+[font size="10"]...莉吏君、答えこれだよ[p]
 #majimegane
 アバダケタブラ!!![p]
 ;TODO：大爆発の音追加

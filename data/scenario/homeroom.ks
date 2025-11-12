@@ -28,6 +28,11 @@
 なぜなら、僕のTOEICの点数は938点だからです！[p]
 #クラスメイト
 938点だって...!?そんなすごい点数を!?[p]
+#kinnnikunn
+俺も立候補するぞ！[l][r]
+俺は1日3回プロテインを飲む時間を作る！[p]
+#ゴリラたち
+うおー！！待ってたぞ！！ウホ！ウホ！[p]
 #kikokusijo
 [chara_show name="kikokusijo"]
 オレも立候補するぜ☆[r]
@@ -97,9 +102,9 @@
 
 ; glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="帰国子女"]
-[glink target="*select2" text="真面眼鏡"]
-[glink target="*select3" text="きんに君"]
+[glink target="*select1" text="悠馬ジュレーン安藤"]
+[glink target="*select2" text="八田莉吏"]
+[glink target="*select3" text="筋野筋太郎"]
 [layopt layer="message0" visible="true"]
 [s]
 
@@ -107,7 +112,7 @@
 *select1
 [eval exp="f.leader=1"]
 #&f.playername
-じゃあ、帰国子女君、お願いしてもいいかな？[p]
+じゃあ、悠馬君、お願いしてもいいかな？[p]
 #kikokusijo
 You!良いセンスしてんじゃねぇか[r]
 今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
@@ -124,7 +129,7 @@ You!良いセンスしてんじゃねぇか[r]
 *select2
 [eval exp="f.leader=2"]
 #&f.playername
-じゃあ、真面眼鏡君、お願いしてもいいかな？[p]
+じゃあ、莉吏君、お願いしてもいいかな？[p]
 #majimegane
 なかなかいい目をお持ちですね！[r]
 それはそうだ！ぼくのTOEICの点数は938点なのですから!![p]
@@ -141,7 +146,7 @@ You!良いセンスしてんじゃねぇか[r]
 *select3
 [eval exp="f.leader=3"]
 #&f.playername
-じゃあ、きんに君、お願いしてもいいかな？[p]
+じゃあ、筋太郎君、お願いしてもいいかな？[p]
 #kinnnikunn
 キミは筋トレをするといい！[r]
 素質はだれにでもあるものだ！[p]
@@ -185,14 +190,19 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;選択によって発言分岐
 *turn1
+;幼馴染好感度DRAW
+[eval exp="f.likepoint = f.likepoint + 0"]
 #&f.playername
 ほんとだよー、皆個性豊かだから難しかった！[p]
 何とかなって良かったー!![r]
 [jump target="*return"]
 
 *turn2
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
 #&f.playername
-ゆりが応援してくれたから選べたんだよ！[p]
+ゆりが応援してくれたから選べたんだよ！[p]\
+;TODO:変数+1
 #osananajimi
 うぇ!?そんなことないよ～[l][r]
 決めてくれたのは、[emb exp="f.playername"]なんだから！[p]
@@ -207,10 +217,12 @@ You!良いセンスしてんじゃねぇか[r]
 
 *return
 明日から楽しみだね！[p]
-[layopt layer="message0" visible="false"]
 
 ;1秒かけて画面を真っ暗にする（フェードアウト）
 [mask time="1000"]
+
+;メッセージ枠非表示
+[layopt layer="message0" visible="false"]
 
 ;幼馴染退場
 [chara_hide name="osananajimi"]
