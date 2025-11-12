@@ -96,6 +96,7 @@
 [mask_off]
 
 ;TODO:お化け屋敷背景
+[bg storage="obakeyasiki.jpg" time="1000"]
 ;お化け屋敷
 #&f.playername
 怖ーい！[p]
@@ -109,6 +110,7 @@
 [mask_off]
 
 ;TODO：カジノ背景
+[bg storage="kazino.jpg" time="1000"]
 ;カジノ
 #&f.playername
 お金スッカラカンになっちゃった...[p]
@@ -242,6 +244,7 @@
 [mask_off]
 
 ;TODO:背景裏山
+[bg storage="yamayoru.jpg" time="1000"]
 ;背景変更
 #&f.playername
 着いた...[p]

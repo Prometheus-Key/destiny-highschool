@@ -24,7 +24,7 @@
 [mask time="500"]
 ;TODO:背景追加（きんに君の家）
 ;背景変更（きんに君の家）
-[bg storage=""]
+[bg storage="heya.jpg" time="1000"]
 
 ;筋の家
 

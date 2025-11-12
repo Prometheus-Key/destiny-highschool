@@ -13,6 +13,7 @@
 [layopt layer="message0" visible="true"]
 
 ;TODO:部室の画像追加？（要相談）
+[bg storage="文化系の部室（夕方）.jpg" time="1000"]
 失礼します！広報部の[emb exp="f.playername"]です！[r]
 本日はよろしくお願いします！[p]
 #部長

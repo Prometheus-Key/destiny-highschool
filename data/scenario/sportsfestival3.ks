@@ -83,6 +83,9 @@
 ...え？[p]
 #
 ;TODO:ガキンの音入れる
+[playse storage="ロボットを殴る1.mp3"]
+[wait time=500]
+[playse storage="ロボットを殴る1.mp3"]
 -ガキン！ガキン！[p]
 #kinnnikunn
 ああ、昔を思い出すなぁ...[p]
