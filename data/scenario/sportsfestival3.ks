@@ -195,5 +195,7 @@ Fuck![p]
 #クラスメイト
 やったー！[p]
 
+;隠し幼馴染ルート
+[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=1"]
 ;シーン8-3へジャンプ
 [jump storage="bunkasai3.ks" target="*start"]

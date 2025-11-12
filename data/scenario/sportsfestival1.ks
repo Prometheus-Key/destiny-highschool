@@ -142,5 +142,7 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 #&f.playername
 ...うん[p]
 
+;隠し幼馴染ルート
+[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=2"]
 ;シーン8-1へジャンプ
 [jump storage="bunkasai1.ks" target="*start"]
