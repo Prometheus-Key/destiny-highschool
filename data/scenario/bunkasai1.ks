@@ -16,6 +16,7 @@
 
 #
 ある日[p]
+[chara_mod name="kikokusijo" face="confidence" ]
 #kikokusijo
 なぁ、[emb exp="f.playername"]、今暇か？[l][r]
 最近できた喫茶店、一緒に行かないか？[p]
@@ -99,11 +100,11 @@
 だからな☆[p]
 #osananajimi
 [chara_mod name="osananajimi" face="uninormal"]
-[emb exp="f.playername"]と悠馬君ってそんなに仲良かったっけ？[p]
+[emb exp="f.playername"]と悠真君ってそんなに仲良かったっけ？[p]
 #&f.playername
-悠馬君、最近遊びに誘ってくれるんだよね。[p]
+悠真君、最近遊びに誘ってくれるんだよね。[p]
+[chara_mod name="osananajimi" face="uniangry" ]
 #osananajimi
-[chara_mod name="osananajimi" face="uniangry"]
 でも、ずるいよ！私も一緒に回りたい！[p]
 #&f.playername
 じゃあ、３人でまわろ！それならいいでしょ！[p]
@@ -137,7 +138,7 @@
 
 ;疑い
 #&f.playername
-ゆりちゃん、やっぱ悠馬君の様子おかしいよね？[p]
+ゆりちゃん、やっぱ悠真君の様子おかしいよね？[p]
 #osananajimi
 [chara_mod name="osananajimi" face="unishy"]
 うん...[emb exp="f.playername"]にだけ優しいし...[p]
@@ -151,7 +152,7 @@
 #kikokusijo
 次はどこに行こうかー[p]
 #&f.playername
-悠馬君今日なんかおかしいよ！[l][r]
+悠真君今日なんかおかしいよ！[l][r]
 なんでわたしだけに優しくするの？[p]
 #osananajimi
 [chara_mod name="osananajimi" face="uniangry"]
@@ -193,14 +194,14 @@
 [layopt layer="message0" visible="true"]
 
 #&f.playername
-どういうこと？なんで私、悠馬君と付き合ってることになってるんだろう？[p]
+どういうこと？なんで私、悠真君と付き合ってることになってるんだろう？[p]
 #osananajimi
 [chara_mod name="osananajimi" face="unishy"]
 ...んー、そんな話聞いたことないよー[p]
 #&f.playername
 勝手に付き合ってるなんて考えるの信じられない！[p]
 #osananajimi
-悠馬君根が真面目だから...なんかおかしいなー...[p]
+悠真君根が真面目だから...なんかおかしいなー...[p]
 #&f.playername
 ...ってか私、そろそろシフト変わらなきゃじゃん！[l][r]
 行ってくるね！[p]
@@ -213,7 +214,7 @@
 #osananajimi
 ...何かなー...[p]
 プルプルプル（電話が鳴る音）[p]
-悠馬君からだ！[p]
+悠真君からだ！[p]
 #kikokusijo
 ゆり、少し相談があるんだが...[p]
 
@@ -225,7 +226,7 @@
 
 ;夕方
 #&f.playername
-ふー仕事疲れたー！あれ、悠馬君からLINE...[p]
+ふー仕事疲れたー！あれ、悠真君からLINE...[p]
 #kikokusijo
 「後夜祭が終わったら、裏山に来てください。話したいことがあります。」[p]
 #&f.playername
@@ -270,7 +271,7 @@
 
 ;回想
 #osananajimi
-つまり、悠馬君的には何回かデートしてるから[r]
+つまり、悠真君的には何回かデートしてるから[r]
 もう付き合ってる状態だって思ってたって事？[p]
 #kikokusijo
 [ruby text="イ"]Y[ruby text="ェ"]e[ruby text="ス"]s、アメリカでは、それが普通だったからな。[p]
@@ -283,13 +284,13 @@
 の時もあったな。[l][r]
 もっと日本の文化について学んでいれば良かったな...[p]
 #osananajimi
-それに悠馬君、普段言葉に英語が混ざっちゃって変な文章になってるんだよね。[l][r]
+それに悠真君、普段言葉に英語が混ざっちゃって変な文章になってるんだよね。[l][r]
 それでより冗談っぽく思われたのかもね。[p]
 #kikokusijo
 喋る言葉も確かに大事だな...分かった。気をつけよう。[p]
 #osananajimi
 [chara_mod name="osananajimi" face="unishy"]
-ってか悠馬君普通に喋れたんだね...[p]
+ってか悠真君普通に喋れたんだね...[p]
 
 [mask time="500"]
 [chara_hide name="osananajimi"]
