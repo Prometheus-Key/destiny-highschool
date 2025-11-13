@@ -79,16 +79,16 @@
 [chara_new name="hatena" storage="mobu/student_man4.png" jname="？？？"]
 
 ;タイトル画面
-[bg storage="../image/title/title.png"]
+;[bg storage="../image/title/title.png"]
 ;スペースキーにスタートの役割を持たせる
-[iscript]
-$('.text_box').keypress(function (e) {
-  if ( e.keyCode === 32 ) {
-    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
-  }
-});
-[endscript]
-[s]
+;[iscript]
+;$('.text_box').keypress(function (e) {
+;  if ( e.keyCode === 32 ) {
+;    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
+;  }
+;});
+;[endscript]
+;[s]
 
 ;シーン1へジャンプ
 *jumo

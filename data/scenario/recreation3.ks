@@ -124,12 +124,30 @@
 なっ[p]
 #osananajimi
 [emb exp="f.playername"]、見てよ私の絵！[p]
+
+;glinkタグを使って選択肢を表示
+[layopt layer="message0" visible="false"]
+[glink target="*select1" text="え、ヘタクソすぎる!?"]
+[glink target="*select2" text=""]
+[s]
+
+*select1
+[layopt layer="message0" visible="true"]
+#&f.playername
+え、ヘタクソすぎる!![p]
+#
+[jump target="common"]
+
+*select2
+[layopt layer="message0" visible="true"]
 #&f.playername
 つ...！[p]
 #osananajimi
 [emb exp="f.playername"]？[l][r]
 え、気絶してる!?[p]
 [emb exp="f.playername"]～～～!!![p]
+[jump target="common"]
 
+*common
 ;シーン7-3へジャンプ
 [jump storage="sportsfestival3.ks" target="*start"]
