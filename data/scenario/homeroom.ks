@@ -61,7 +61,7 @@
 じゃあ、そこ3人で話し合ってくれー[l][r]
 んじゃ次、副委員長になりたい人ー[p]
 #osananajimi
-[chara_mod name="osananajimi" face="unimotivation" ]
+[chara_show name="osananajimi" face="unimotivation" ]
 ねぇねぇ[emb exp="f.playername"]、立候補しちゃったらー？[p]
 #&f.playername
 私が!?[p]
