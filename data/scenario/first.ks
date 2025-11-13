@@ -1,5 +1,9 @@
 ;シーン0:共通設定
 
+*start
+;エンドロールレイヤー非表示
+[layopt layer="1" visible="false"]
+
 ;メッセージレイヤー非表示
 [layopt layer="message0" visible="false"]
 
