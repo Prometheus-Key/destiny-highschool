@@ -1,6 +1,6 @@
 ;シーン8-2:文化祭（真面眼鏡）
 *start
-[mask = "100"]
+[mask time="100"]
 [wait time="60"]
 [chara_hide name="majimegane"]
 [chara_hide name="osananajimi"]
