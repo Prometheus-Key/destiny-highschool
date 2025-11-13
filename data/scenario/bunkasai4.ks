@@ -5,7 +5,7 @@
 [wait time="500"]
 ;TODO:背景変更
 ;背景を表示
-[bg storage="roomback_daytime.jpg" time="3000"]
+[bg storage="bunkasai.jpg" time="3000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 
@@ -44,7 +44,7 @@
 [wait time="500"]
 ;TODO:お化け屋敷の背景挿入
 ;お化け屋敷の背景？
-[bg storage="roomback_daytime.jpg" time="3000"]
+[bg storage="obakeyasiki.jpg" time="3000"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -193,7 +193,7 @@
 [wait time="500"]
 ;TODO：背景裏山
 ;背景変更
-[bg storage="roomback_daytime.jpg" time="3000"]
+[bg storage="yamayoru.jpg" time="3000"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 

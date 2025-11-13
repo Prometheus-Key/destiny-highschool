@@ -108,11 +108,7 @@
 [chara_mod name="kikokusijo" face="confidence"]
 [chara_mod name="osananajimi" face="unishy"]
 ;TODO:お化け屋敷背景
-;[bg storage="roomback_daytime.jpg" time="1000"]
-[wait time="500"]
-[mask_off time="300"]
-[layopt layer="message0" visible="true"]
-
+[bg storage="obakeyasiki.jpg" time="1000"]
 ;お化け屋敷
 #&f.playername
 怖ーい！[p]
@@ -125,11 +121,7 @@
 [mask time="1000"]
 [chara_mod name="osananajimi" face="uninormal"]
 ;TODO：カジノ背景
-;[bg storage="roomback_daytime.jpg" time="1000"]
-[wait time="500"]
-[mask_off time="300"]
-[layopt layer="message0" visible="true"]
-
+[bg storage="kazino.jpg" time="1000"]
 ;カジノ
 #&f.playername
 お金スッカラカンになっちゃった...[p]
@@ -273,6 +265,8 @@
 [mask_off]
 [layopt layer="message0" visible="true"]
 
+;TODO:背景裏山
+[bg storage="yamayoru.jpg" time="1000"]
 ;背景変更
 #&f.playername
 着いた...[p]

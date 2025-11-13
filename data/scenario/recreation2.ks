@@ -130,6 +130,8 @@
 [wait time=2000]
 莉吏くん？[p]
 ;TODO：大爆発するメガネのイラスト追加
+[playse storage="explosion.mp3"]
+[wait time=1000]
 莉吏く～～～ん!!![p]
 [jump target="*common"]
 
