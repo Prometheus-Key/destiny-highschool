@@ -76,14 +76,14 @@
 #katsuo
 オラ、とっとと死ね！[p]
 #
-;TODO:ガキンの音入れる
+
 [playse storage="ロボットを殴る1.mp3"]
 -ガキン！[p]
 [playse storage="ロボットを殴る1.mp3"]
 #kastuo
 ...え？[p]
 #
-;TODO:ガキンの音入れる
+
 [playse storage="ロボットを殴る1.mp3"]
 [wait time=500]
 [playse storage="ロボットを殴る1.mp3"]
@@ -171,10 +171,10 @@ Fuck![p]
 スタート位置についてください！[p]
 レディー[p]
 #
-;TODO:ピストルの音追加
+
 [playse storage="拳銃を撃つ.mp3"]
 -パンッ！[p]
-;TODO:応援の歓声追加？
+
 [playse storage="黄色い悲鳴.mp3"]
 [wait time=2000]
 ;暗転（時間経過）

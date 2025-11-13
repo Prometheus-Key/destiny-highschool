@@ -22,7 +22,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
-;TODO:背景追加（きんに君の家）
+
 ;背景変更（きんに君の家）
 [bg storage="heya.jpg" time="1000"]
 
