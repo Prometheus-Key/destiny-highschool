@@ -135,6 +135,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 ;[bg storage="roomback_daytime.jpg" time="300"]
 [chara_show name="kikokusijo"]
 [cm]
+[playbgm storage="tear.mp3"]
 [mask_off time="500"]
 [layopt layer="message0" visible="true"]
 

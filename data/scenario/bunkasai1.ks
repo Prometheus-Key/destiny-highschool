@@ -5,7 +5,7 @@
 [chara_hide name="osananajimi"]
 ;背景設定
 [bg storage="roomfront_daytime.jpg" time="100"]
-*start
+[playbgm storage="bunkasai.mp3" loop="true"]
 [mask_off time="1000"]
 
 ;デート３連続
@@ -313,5 +313,6 @@
 
 *tukiau
 [chara_hide name="kikokusijo"]
+[stopbgm]
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]

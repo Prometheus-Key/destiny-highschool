@@ -4,7 +4,7 @@
 ;背景を表示
 [bg storage="roomback_daytime.jpg" time="1000"]
 [playse storage="バスのドアが開く2.mp3"]
-[wait time=600]
+[wait time="600"]
 [mask_off time="500"]
 ;幼馴染の登場、会話
 [chara_show name="osananajimi" face="unismile"]
@@ -35,7 +35,7 @@
 
 ;ここでチャイムの音を鳴らす。
 [playse storage="tyaimu.mp3"]
-[wait time=5000]
+[wait time="5000"]
 [layopt layer="message0" visible="true"]
 
 #先生

@@ -1,7 +1,7 @@
 ;シーン8-2:文化祭（真面眼鏡）
-
 *start
-
+;BGM再生
+[playbgm storage="bunkasai.mp3"]
 #&f.playername
 今日は文化祭！いっぱい楽しむぞー！[p]
 #majimegane
@@ -116,6 +116,8 @@ TOEICって５点刻みだよ？[p]
 #&f.playername
 　くーーーん！！！！[p]
 ーこれからにぎやかになりそうー[p]
+
+[stopbgm]
 
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]

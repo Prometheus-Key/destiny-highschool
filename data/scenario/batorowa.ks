@@ -145,6 +145,8 @@
 #&f.playernam
 どうして今ここに...[p]
 
+;BGM再生
+[playbgm storage="buttle.mp3"]
 ;町中
 #？
 よく呼んでくれたな...[p]
@@ -363,6 +365,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 これで[ruby text="フ"]f[ruby text="ィ"]i[ruby text="二"]n[ruby text="ッ"]i[ruby text="シ"]s[ruby text="ュ"]h
 だ！[p]
 [chara_hide name="kikokusijo"]
+[stopbgm]
 ;TODO:悪魔にハンバーガー詰め込む画像
 
 ;ここからは太った筋の立ち絵？

@@ -1,5 +1,7 @@
 ;シーン8-3:文化祭（きんに君）
 *start
+;BGM再生
+[playbgm storage="bunkasai.mp3"]
 ;背景設定（教室前）
 [bg storage="roomfront_daytime.jpg"]
 #
