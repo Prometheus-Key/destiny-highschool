@@ -8,7 +8,7 @@
 
 
 [playse storage="スズメの鳴き声1.mp3"]
-[wait time=4000]
+[wait time=1500]
 #&f.playername
 
 ふゎーー。ん、夢か。[l][r]

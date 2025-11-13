@@ -1,12 +1,12 @@
 ;シーン6-1:部活動（帰国子女）
 *start
-
-[wait time="600"]
-[bg storage="roomback_daytime.jpg" time="1000"]
+[mask = "100"]
+[wait time="60"]
+[chara_hide name="kikokusijo"]
+[bg storage="roomback_daytime.jpg" time="10"]
 [position frame="frame/flame01.png"]
+[mask_off time="300"]
 [layopt layer="message0" visible="true"]
-[mask_off time="500"]
-[cm]
 
 #&f.playername
 今日は広報部の部活の取材だ！[r]
@@ -14,9 +14,10 @@
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
 [wait time="500"]
-[mask_off time="1000"]
+[bg storage="文化系の部室（夕方）.jpg" time="1"]
+[mask_off time="100"]
 [layopt layer="message0" visible="true"]
 
 
@@ -89,9 +90,10 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="500"]
+[bg storage="yamayoru.jpg" time="1000"]
 [wait time="500"]
-;TODO:望遠鏡の絵をおそらく追加？
-;[bg storage="roomback_daytime.jpg" time="1000"]
+[mask_off = "1000"]
+[layopt layer="message0" visible="true"]
 ;TODO:二人が見上げるシーン追加
 #&f.playername
 学校の裏山にこんな場所あったなんて知らなかったよ...[p]

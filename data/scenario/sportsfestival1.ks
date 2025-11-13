@@ -1,13 +1,14 @@
 ;シーン7-1:体育祭（帰国子女）
 *start
 
-[wait time="600"]
-
-;背景設定（学校のグラウンド）
-[bg storage="ground.jpg" time="600"]
-;メッセージ枠表示
+[mask = "10"]
+[chara_hide name="kikokusijo""]
+[wait time="60"]
+[bg storage="ground.jpg" time="60"]
 [position frame="frame/flame01.png"]
 [layopt layer="message0" visible="true"]
+[mask_off time="300"]
+
 
 #&f.playername
 今回は待ちに待った体育祭！皆で１位を目指そう！[p]
@@ -32,7 +33,7 @@
 #&f.playername
 ねえ、これ本当に大丈夫？恥ずかしいよ...[p]
 #kikokusijo
-[ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]em！ [ruby text="ゴ"]G[ruby text="ー"]o!!!
+[ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]em！ [ruby text="ゴ"]G[ruby text="ー"]o!!![p]
 #studentA
 アイツ、星になりきってるぞ（笑）[p]
 #studentB
@@ -163,12 +164,6 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 #&f.playername
 ...うん[p]
 
-;暗転
-[layopt layer="message0" visible="false"]
-[mask time="500"]
-[wait time="500"]
-[cm]
-[chara_hide name="kikokusijo"]
 
 ;隠し幼馴染ルート
 [jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=2"]
