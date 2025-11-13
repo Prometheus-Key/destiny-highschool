@@ -91,11 +91,6 @@ That's right! みんな俺を身にきてるからな...[p]
 第一種目はダンスです！[p]
 #&f.playername
 結局、悠馬君大丈夫かな？
-#
-
-;暗転（時間経過）
-[mask time="1000"]
-[mask_off]
 
 #osananajimi
 [chara_show name="kikokusijo" face="peconfidence"]

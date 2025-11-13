@@ -1,8 +1,12 @@
 ;シーン7-3:体育祭（きんに君）
 *start
-[mask_off time="1000"]
-;背景設定
-[bg storage="ground.jpg" time="1000"]
+[mask = "100"]
+[wait time="60"]
+;[chara_hide name="majimegane"]
+[bg storage="ground.jpg" time="10"]
+[position frame="frame/flame01.png"]
+[mask_off time="300"]
+[layopt layer="message0" visible="true"]
 
 #&f.playername
 今日は待ちに待った体育祭！私たちは赤組だ！[l][r]

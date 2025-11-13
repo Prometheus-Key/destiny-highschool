@@ -1,9 +1,16 @@
 ;シーン8-3:文化祭（きんに君）
 *start
+;背景設定（教室前）
+[mask = "100"]
+[wait time="60"]
+[chara_hide name="majimegane"]
+[bg storage="roomback_daytime.jpg"]
+[position frame="frame/flame01.png"]
+[mask_off time="300"]
+[layopt layer="message0" visible="true"]
+
 ;BGM再生
 [playbgm storage="bunkasai.mp3"]
-;背景設定（教室前）
-[bg storage="roomfront_daytime.jpg"]
 #
 -文化祭まで残り1か月[p]
 #&f.playername
@@ -59,6 +66,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[bg storage="bunkasai.jpg"]
 [mask_off]
 
 #
@@ -93,6 +101,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[bg storage="gymnasium03.png"]
 [mask_off]
 
 #studentA
@@ -166,6 +175,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[bg storage="roomback_daytime.jpg" time="100"]
 [mask_off]
 
 #&f.playername
