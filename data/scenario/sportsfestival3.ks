@@ -48,7 +48,7 @@
 ここは筋肉を目立たせるオレが！！[p]
 [chara_hide name="kinnnikunn"]
 
-#悠馬・莉吏
+#悠真・莉吏
 [chara_mod name="majimegane" face="peangry"]
 お前/貴方が一番ない！！[p]
 [chara_hide name="kikokusijo"]

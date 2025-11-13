@@ -14,7 +14,7 @@
 今回は待ちに待った体育祭！皆で１位を目指そう！[p]
 #osananajimi
 [chara_show name="osananajimi" face="penormal"]
-あれ、悠馬君は？[l][r]
+あれ、悠真君は？[l][r]
 [emb exp="f.playername"]、一緒に選手宣誓出るって言ってなかったっけ？[p]
 #&f.playername
 なんか準備してくるって言ってたんだよね...[r]
@@ -29,7 +29,8 @@
 
 #アナウンサー
 ....校長先生、ありがとうございました。[p]
-続きまして、選手宣誓です。悠馬ジュレーン安藤君、[emb exp="f.playername"]さん、お願いします。[p]
+続きまして、選手宣誓です。安藤ジュレーン悠真君、[emb exp="f.playername"]さん、お願いします。[p]
+[chara_show name="kikokusijo" face="noplogo"]
 #&f.playername
 ねえ、これ本当に大丈夫？恥ずかしいよ...[p]
 #kikokusijo
@@ -38,6 +39,7 @@
 アイツ、星になりきってるぞ（笑）[p]
 #studentB
 後ろの人も一緒に選手宣誓するのかな（笑）[p]
+[chara_hide name="kikokusijo"]
 #osananajimi
 [chara_show name="osananajimi" face="penormal"]
 [emb exp="f.playername"]...[l]
@@ -54,7 +56,7 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 #kikokusijo
 [ruby text="ウ"]W[ruby text="ィ"]e m[ruby text="マ"]u[ruby text="ス"]s[ruby text="ト"]t P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ミ"]m[ruby text="ス"]ise[p]
 #&f.playername
-令和７年１１月１５日、選手代表悠馬ジュレーン安藤、[emb exp="f.playername"][p]
+令和７年１１月１５日、選手代表悠真ジュレーン安藤、[emb exp="f.playername"][p]
 [chara_hide name="kikokusijo"]
 #
 -パチパチ...[p]
@@ -77,7 +79,7 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 #&f.playername
 もー！[p]
 っていうか次はダンスじゃん！[l][r]
-悠馬君、背中のやつとろうか？[p]
+悠真君、背中のやつとろうか？[p]
 #kikokusijo
 [ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]emだ。[l][r]
 俺はこのままS[ruby text="ス"]t[ruby text="テ"]a[ruby text="ー"]g[ruby text="ジ"]eへと降り立つぜ[p]
@@ -91,7 +93,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 #アナウンサー
 第一種目はダンスです！[p]
 #&f.playername
-結局、悠馬君大丈夫かな？
+結局、悠真君大丈夫かな？
 
 #osananajimi
 [chara_show name="kikokusijo" face="peconfidence"]
@@ -101,7 +103,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 ゆり、何を心配してるの？[p]
 #osananajimi
 [chara_mod name="osananajimi" face="peshy"]
-悠馬君、信じられないくらいダンス下手なんだよ...[p]
+悠真君、信じられないくらいダンス下手なんだよ...[p]
 #&f.playername
 え、嘘！[p]
 #osananajimi
@@ -109,6 +111,8 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 [chara_hide name="osananajimi"]
 #&f.playername
 あ、音楽始まった[p]
+
+[bg storage="dance.png"]
 
 #kikokusijo
 [chara_show name="kikokusijo" face="peconfidence"]
@@ -118,7 +122,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 
 ;glinkで選択肢表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="かっこいいよ！悠馬君！"]
+[glink target="*select1" text="かっこいいよ！悠真君！"]
 [glink target="*select2" text="ヘッタクソ！"]
 [s]
 
@@ -126,15 +130,15 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 *select1
 [layopt layer="message0" visible="true"]
 #&f.playername
-かっこいいよ！悠馬君！[p]
+かっこいいよ！悠真君！[p]
 #kikokusijo
 [chara_show name="kikokusijo" face="peconfidence"]
 HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="ー"]r[ruby text="ス"]se!![p]
 俺の姿に見惚れな[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y!![p]
+;帰国子女が光るイラストに差し替え
+[bg storage="dancepikapika.png"]
 #studentA
-うわー!!悠馬が光った！[p]
-;TODO：帰国子女が光るイラストに差し替え
-
+うわー!!悠真が光った！[p]
 #
 [jump target="*common"]
 
@@ -147,9 +151,10 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 [chara_show name="kikokusijo" face="peconfidence"]
 おい、聞こえてんぞ！[p]
 節穴の目でよく見とけ!![p]
+;帰国子女が光るイラストに差し替え
+[bg storage="dancepika.png"]
 #studentA
-うわー!!悠馬が光った！[p]
-;TODO：帰国子女が光るイラストに差し替え
+うわー!!悠真が光った！[p]
 #
 [jump target="*common"]
 
