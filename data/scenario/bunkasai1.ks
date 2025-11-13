@@ -1,6 +1,6 @@
 ;シーン8-1:文化祭（帰国子女）
 *start
-[mask = "100"]
+[mask time="100"]
 [wait time="600"]
 [chara_hide name="kikokusijo"]
 [bg storage="roomback_daytime.jpg" time="100"]
@@ -326,5 +326,6 @@
 
 *tukiau
 [chara_hide name="kikokusijo"]
+[stopbgm]
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]
