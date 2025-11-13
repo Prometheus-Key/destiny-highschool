@@ -22,7 +22,7 @@
 今回はクイズ大会を行います！[p]
 ちなみに間違えた人は服が破けます！[p]
 #
-[chara_show name="majimegane" face=""]
+[chara_show name="majimegane" face="unimotivation"]
 #majimegane
 フフフ...やっと僕の本領を発揮できますね... [p]
 ハレンチな姿は見せませんよ！[p]
@@ -53,6 +53,7 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりは私が守るよ...！[p]
+[chara_mod name="osananajimi" face="unimotivation" ]
 #osananajimi
 やだ[emb exp="f.playername"]ったらかっこいいー！ [p]
 ...へへ！よぉし！私もがんばらなくっちゃ！[p]
@@ -65,7 +66,7 @@
 #司会
 第１問の解答こちら！[p]
 #majimegane
-[chara_show name="majimegane"]
+[chara_show name="majimegane" face="uniredface" ]
 はぅ！！！[p]
 
 ;爆発の効果音
@@ -73,6 +74,7 @@
 
 #みんな
 おい、委員長が爆発したぞ！！[p]
+[chara_mod name="majimegane" face="unitrouble" ]
 #majimegane
 くっ...このくらい...！もう一度です！[p]
 
@@ -82,9 +84,11 @@
 
 #司会
 第２問はこちら！[p]
+[chara_mod name="majimegane" face="uniredface" ]
 #majimegane
 はぁん！！！！[p]
 [playse storage="explosion.mp3"]
+[chara_mod name="majimegane" face="unilargetrouble" ]
 くそ...まだまだ本気を出していないだけです！[p]
 僕のTOIECの点数は938点なのにぃ！！！[p]
 #&f.playername
@@ -97,6 +101,7 @@
 
 [chara_hide name="shikai"]
 
+[chara_mod name="majimegane" face="unilargetrouble" ]
 #majimegane
 くっ...これは...！？[p]
 #&f.playername
@@ -115,6 +120,7 @@
 #&f.playername
 （莉吏君のこと、助けてあげなくちゃ！）[p]
 （...莉吏君、答えこれだよ）コソッ[p]
+[chara_mod name="majimegane" face="unimotivation" ]
 #majimegane
 ...フ、フン...僕が助けられるとは... [p]
 なかなか優秀な補佐官ではないですか！[p]
@@ -122,17 +128,19 @@
 僕に褒められるなどあなたも鼻が高いでしょう！[p]
 #&f.playername
 莉吏君ってクイズ苦手だったんだね[p]
+[chara_mod name="majimegane" face="uniangry" ]
 #majimegane
 いいえ!!いーいえ！[p]
 わ、ざ、と、間違えただけですが！？[p]
 ええ、もちろん[p]
 #&f.playername
 でも、それだと自分から服をはじけさせたことに...[p]
-
+[chara_mod name="majimegane" face="unitrouble" ]
 [playse storage="ショック2.mp3"]
 [wait time=2000]
 莉吏くん？[p]
 
+[chara_mod name="majimegane" face="unilargetrouble" ]
 [playse storage="explosion.mp3"]
 [wait time=1000]
 莉吏く～～～ん!!![p]
@@ -145,6 +153,7 @@
 [font size="10"]
 ...莉吏君、答えこれだよ[p]
 [font size="28"]
+[chara_mod name="majimegane" face="unilargetrouble" ]
 #majimegane
 アバダケタブラ!!![p]
 
