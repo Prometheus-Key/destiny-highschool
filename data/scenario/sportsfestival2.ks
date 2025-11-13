@@ -28,7 +28,7 @@
 #&f.playername
 うん、頑張ろ！[p]
 #
-[jump target="common"]
+[jump target="*common"]
 
 *select2
 ;幼馴染好感度UP
@@ -43,21 +43,24 @@
 [chara_mod name="osananajimi" face="pemotivation"]
 でも、期待に応えられるようにはりきるぞー！[p]
 #
-[jump target="common"]
+[jump target="*common"]
 
 *common
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="osananajimi"]
 [mask_off]
 #放送委員
 さあ、続いての協議は借り物競争です！[p]
 親友、身に着けているもの、そしてー好きな人...！[l][r]
 ドキドキワクワクの協議のスタートです！[p]
+[chara_show name="osananajimi"]
 #&f.playername
 この競技って誰が出るんだっけ？[p]
 #osananajimi
 たしか、莉吏君だった気がする！[l]
 ほら！[p]
+[chara_hide name="osananajimi"]
 ;TODO:死ぬほどいやそうな顔の真面眼鏡挿入
 [chara_show name="majimegane" face="pebrake"]
 #&f.playername
@@ -66,7 +69,6 @@
 確か、莉吏君って走るの苦手じゃなかったっけ？[p]
 #&f.playername
 だからあんなに不服なんだね...[p]
-[chara_hide name="osananajimi"]
 #放送委員
 それでは位置について...[l]
 よーいドン！[p]
