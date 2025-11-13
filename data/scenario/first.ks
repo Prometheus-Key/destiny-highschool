@@ -43,7 +43,7 @@
 [chara_face name="majimegane" face="unishy2" storage="majimegane/uniform/shy2.png"]
 [chara_face name="majimegane" face="unismile" storage="majimegane/uniform/smile.png"]
 [chara_face name="majimegane" face="unitrouble" storage="majimegane/uniform/trouble.png"]
-[chara_face name="majimegane" face="uni" storage=""]
+;[chara_face name="majimegane" face="uni" storage=""]
 ;きんに君
 [chara_new name="kinnnikunn" storage="kinnnikun/normal.png" jname="筋野筋太郎"]
 [chara_face name="kinnnikunn" face="amaze" storage="kinnnikun/amaze.png"]
