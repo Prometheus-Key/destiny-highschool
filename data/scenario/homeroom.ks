@@ -43,7 +43,7 @@
 じゃあ、俺が出なきゃ誰が出るってんだ[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y？[p]
 #クラスメイト
 転校初日で立候補...!?なんて肝が据わったやつなんだ...![p]
-[chara_show name="majimegane" face="uniangry"  ]
+[chara_mod name="majimegane" face="uniangry"  ]
 #majimegane
 そこの帰国子女、出しゃばるのはやめたまえ。[r]
 他国に行って分をわきまえることも忘れたのかい？[p]
@@ -51,7 +51,7 @@
 気が強いなぁ、眼鏡君は！[r]
 優しくしないとモテないぜー？[p]
 #kinnnikunn
-[chara_show name="kinnnikunn" face="amaze"  ]
+[chara_mod name="kinnnikunn" face="amaze"  ]
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
 [chara_hide_all ]
@@ -61,7 +61,7 @@
 じゃあ、そこ3人で話し合ってくれー[l][r]
 んじゃ次、副委員長になりたい人ー[p]
 #osananajimi
-[chara_show name="osananajimi" face="unimotivation" ]
+[chara_mod name="osananajimi" face="unimotivation" ]
 ねぇねぇ[emb exp="f.playername"]、立候補しちゃったらー？[p]
 #&f.playername
 私が!?[p]
@@ -78,7 +78,7 @@
 他になりたい人ー、いないな。[l][r]
 じゃあ[emb exp="f.playername"]、副委員長よろしくな！[p]
 んじゃ、そこ3人[p]
-[chara_show name="majimegane" face="uniangry"  ]
+[chara_mod name="majimegane" face="uniangry"  ]
 #majimegane
 だから、僕は恋人を作らないんです!!わざと!![r]
 風紀の乱れ!![p]
@@ -96,7 +96,7 @@
 私がですか!?[p]
 #osananajimi
 頑張れ！[emb exp="f.playername"]！[p]
-[chara_show name="majimegane" face="unikirahate" ]
+[chara_mod name="majimegane" face="unikirahate" ]
 #majimegane
 委員長補佐としての審美眼、確かめさせてもらいましょうか[p]
 #kikokusijo
@@ -125,11 +125,11 @@
 You!良いセンスしてんじゃねぇか[r]
 今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
 にでものせてやるよ[p]
-[chara_show name="majimegane" face="unikiralargetrouble"  ]
+[chara_mod name="majimegane" face="unikiralargetrouble"  ]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-[chara_show name="kinnnikunn" face="amaze"  ]
+[chara_mod name="kinnnikunn" face="amaze"  ]
 #kinnnikunn
 おお...広背筋が悲しんでいるぞ...[p]
 #
@@ -140,16 +140,16 @@ You!良いセンスしてんじゃねぇか[r]
 [eval exp="f.leader=2"]
 #&f.playername
 じゃあ、莉吏君、お願いしてもいいかな？[p]
-[chara_show name="majimegane" face="unikiramotivation"  ]
+[chara_mod name="majimegane" face="unikiramotivation"  ]
 #majimegane
 なかなかいい目をお持ちですね！[r]
 それはそうだ！ぼくのTOEICの点数は938点なのですから!![p]
-[chara_show name="kikokusijo" face="emoi"  ]
+[chara_mod name="kikokusijo" face="emoi"  ]
 #kikokusijo
 こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
 まあ、副委員長の決めたことだ！ここで口出しても
 [ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]t [ruby text="ク"]c[ruby text="ー"]o[ruby text="ル"]olだな[p]
-[chara_show name="kinnnikunn" face="amaze"  ]
+[chara_mod name="kinnnikunn" face="amaze"  ]
 #kinnnikunn
 おお...広背筋が悲しんでいるぞ...[p]
 #
@@ -160,15 +160,15 @@ You!良いセンスしてんじゃねぇか[r]
 [eval exp="f.leader=3"]
 #&f.playername
 じゃあ、筋太郎君、お願いしてもいいかな？[p]
-[chara_show name="kinnnikunn" face="normal"  ]
+[chara_mod name="kinnnikunn" face="normal"  ]
 #kinnnikunn
 キミは筋トレをするといい！[r]
 素質はだれにでもあるものだ！[p]
-[chara_show name="majimegane" face="unikiralargetrouble"  ]
+[chara_mod name="majimegane" face="unikiralargetrouble"  ]
 #majimegane
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
-[chara_show name="kikokusijo" face="emoi"  ]
+[chara_mod name="kikokusijo" face="emoi"  ]
 #kikokusijo
 こいつが委員長なんて正直虫唾が[ruby text="ラ"]r[ruby text="ン"]u[ruby text="二"]n[ruby text="ン"]n[ruby text="グ"]ingだが、[r]
 まあ、副委員長の決めたことだ！ここで口出しても
@@ -192,7 +192,7 @@ You!良いセンスしてんじゃねぇか[r]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 ;幼馴染登場
-[chara_show name="osananajimi" face="unimotivation" ]
+[chara_mod name="osananajimi" face="unimotivation" ]
 
 #osananajimi
 副委員長の就任、おめでとー！[p]
@@ -220,14 +220,14 @@ You!良いセンスしてんじゃねぇか[r]
 [eval exp="f.likepoint = f.likepoint + 1"]
 #&f.playername
 ゆりが応援してくれたから選べたんだよ！[p]
-[chara_show name="osananajimi" face="unishy" ]
+[chara_mod name="osananajimi" face="unishy" ]
 #osananajimi
 うぇ!?そんなことないよ～[l][r]
 決めてくれたのは、[emb exp="f.playername"]なんだから！[p]
 #&f.playername
 励まされたのは本当だよ？[r]
 ありがとう、ゆり！[p]
-[chara_show name="osananajimi" face="unismile" ]
+[chara_mod name="osananajimi" face="unismile" ]
 #osananajimi
 えへへ、もう照れちゃうなー？[p]
 #&f.playername
