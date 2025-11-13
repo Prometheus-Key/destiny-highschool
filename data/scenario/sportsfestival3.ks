@@ -1,6 +1,6 @@
 ;シーン7-3:体育祭（きんに君）
 *start
-[mask = "100"]
+[mask time="100"]
 [wait time="60"]
 ;[chara_hide name="majimegane"]
 [bg storage="ground.jpg" time="10"]
@@ -12,6 +12,8 @@
 今日は待ちに待った体育祭！私たちは赤組だ！[l][r]
 みんなで1位を目指そう！[p]
 #kinnnikunn
+[chara_mod name="kinnnikunn" face="pe"]
+[chara_show name="kinnnikunn"]
 みんな、今日は俺に任せてくれ！[l][r]
 俺の筋肉が今こそ脚光を浴びるとき...[p]
 #&f.playername
@@ -25,21 +27,40 @@
 
 ;暗転（時間経過）
 [mask time="1000"]
+[chara_hide name="kinnnikunn"]
 [mask_off]
 
 #放送委員
 第3種目は組体操です！[p]
 
 #kikokusijo
+[chara_mod name="kikokusijo" face="peconfidence"]
+[chara_show name="kikokusijo"]
 おいこれ誰が上やるんだ？[l][r]
 もちろんS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rな俺だよな？[p]
 #majimegane
+[chara_mod name="majimegane" face="pekirasmile"]
+[chara_show name="majimegane"]
 いいえ！ここは身軽な僕でしょう！[l][r]
 僕のTOEICの点数は938点ですからね！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="pe" ]
 ここは筋肉を目立たせるオレが！！[p]
+[chara_hide name="kinnnikunn"]
+
 #悠馬・莉吏
+[chara_mod name="majimegane" face="peangry"]
 お前/貴方が一番ない！！[p]
+[chara_hide name="kikokusijo"]
+[chara_hide name="majimegane"]
+
+;暗転（時間経過）
+[mask time="500"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="majimegane"]
+[chara_mod name="kinnnikunn" face="pe" ]
+[wait time="500" ]
+[mask_off]
 
 #放送委員
 第4種目は騎馬戦です！[p]
@@ -51,24 +72,30 @@
 ;フォント戻す
 [font size="28"]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="pe"]
 ん、何か言ったか？[p]
 #生徒
 いや、何もいってないぜ！[l][r]
 頑張ろうぜ！[p]
 #kinnnikunn
 うむ、俺の筋肉が全て解決しよう[p]
+[chara_hide name="kinnnikunn"]
 [playbgm storage="suspicious.mp3"]
 #katsuo
+[chara_show name="katsuo"]
 ケッ！これだから運動しか取り柄のない単細胞がよっ[p]
 おい、お前らスタートの瞬間あの筋肉ダルマの所に行け[p]
 #
 え、大丈夫かな？[p]
+#katsuo
 俺はな、負ける訳ないって高くくってるヤツが絶望する顔が見たくてたまらねぇんだよ[p]
+#
 わ、わかった...[p]
 [stopbgm]
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="katsuo"]
 [mask_off]
 
 #放送委員
@@ -76,6 +103,7 @@
 #
 -ピーーッ！
 #katsuo
+[chara_show name="katsuo"]
 まずはセンコーの死角となる位置に行け！[l][r]
 その後はハチマキをとるフリをしながら腹パンを入れる[l][r]
 ひるんで前かがみになった隙にハチマキをとって俺の勝ちだ！[p]
@@ -88,19 +116,21 @@
 [playse storage="ロボットを殴る1.mp3"]
 -ガキン！[p]
 [playse storage="ロボットを殴る1.mp3"]
-#kastuo
+#katsuo
 ...え？[p]
 #
 
 [playse storage="ロボットを殴る1.mp3"]
-[wait time=500]
+[wait time="500"]
 [playse storage="ロボットを殴る1.mp3"]
 -ガキン！ガキン！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="pe"]
 ああ、昔を思い出すなぁ...[p]
 あれは、俺が小学生の頃だった...[p]
 #katsuo
 え、回想はいった？[p]
+[chara_hide name="katsuo"]
 #kinnnikunn
 俺も昔はかなり細かった... まるでもやしのようだった[p]
 道を歩いていると中学生のヤンキーと肩がぶつかったんだ[p]
@@ -109,12 +139,14 @@
 その日、俺は考えた。[r]
 俺がもっと強そうな人間に見えたらあいつらは手を出してこなかっただろうと。[p]
 しかしな、筋トレ中のボブとステファニーが答えるんだ。[p]
-#katauo
+#katsuo
 誰だよ[p]
+[chara_show name="katsuo"]
 #kinnnikunn
 俺の胸筋だが？[p]
 #katsuo
 回想中に普通に答えんなよ...[p]
+[chara_hide name="katsuo"]
 #kinnnikunn
 ボブとステファニーがな「お前の筋肉はな、傷つけるための筋肉ではないんだよ」ってな[p]
 そうだ、俺の筋肉は人を傷つけるための筋肉ではない。そう気づかせてくれたんだ[p]
@@ -140,6 +172,8 @@
 #&f.playername
 すごい試合だったね...[p]
 #osananajimi
+[chara_mod name="osananajimi" face="peshy"]
+[chara_show name="osananajimi"]
 ハグされた人、生きてるかな...[p]
 [chara_hide name="osananajimi"]
 #kinnnikunn
@@ -147,21 +181,34 @@
 勝利を分かち合うためにもハグをしないか？[p]
 #生徒A
 遠慮します！[p]
+[chara_hide name="kinnnikunn"]
+
+;暗転（時間経過）
+[mask time="500"]
+[chara_mod name="kikokusijo" face="peconfidence"]
+[mask_off]
 
 #放送委員
 最終種目はクラス対抗リレーです！[p]
 #osananajimi
+[chara_mod name="osananajimi" face="penormal" ]
+[chara_show name="osananajimi"]
 そういえば、アンカーってまだ決まってなかったよね？[p]
 #&f.playername
 うん、3人とも自分こそが！って感じで譲らなくて...[p]
 ほら...[p]
+[chara_hide name="osananajimi"]
 #kikokusijo
+[chara_show name="kikokusijo" face="peconfidence"]
 俺こそがアンカーにふさわしいとなぜわからないんだい!?[p]
-Can you understand？[p]
+[ruby text="キ"]C[ruby text="ャ"]a[ruby text="ン"]n [ruby text="ユ"]y[ruby text="ー"]ou un[ruby text="ア"]d[ruby text="ン"]e[ruby text="ダ"]r[ruby text="ス"]s[ruby text="タ"]t[ruby text="ン"]and？[p]
 #majimegane
+[chara_mod name="majimegane" face="peangry"]
+[chara_show name="majimegane"]
 僕こそがふさわしいでしょう！[p]
 僕のTOEICの点数は938点ですから！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="pe"]
 俺こそがアンカーになるべきだ。見よ、この大腿四頭筋を！[p]
 この洗練された筋肉を見てなぜ分からない!?[p]
 #3人
@@ -169,14 +216,17 @@ Can you understand？[p]
 #&f.playername
 ん～、私は筋太郎君がいいと思うな～[p]
 #kinnnikunn
-やはりな。[emb exp="f.playername"]は俺の筋肉を理解している。
+やはりな。[emb exp="f.playername"]は俺の筋肉を理解している。[p]
+[chara_hide name="kinnnikunn"]
 #kikokusijo
-Fuck![p]
+[ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k![p]
 #majimegane
 クソッ！[p]
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="majimegane"]
 [mask_off]
 
 #放送委員
@@ -198,8 +248,12 @@ Fuck![p]
 #&f.playername
 勝ってー！筋太郎君！[p]
 #majimegane
+[chara_mod name="majimegane" face="pekiraangry"]
+[chara_show name="majimegane"]
 負けたら承知しねーぞ！[p]
+[chara_hide name="majimegane"]
 #kinnnikunn
+;画像表示しなくていいかなと思ったので、してません。
 うぉーっ！[p]
 #放送委員
 ここで赤組がゴール！[p]

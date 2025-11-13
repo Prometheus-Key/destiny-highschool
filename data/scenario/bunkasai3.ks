@@ -16,8 +16,11 @@
 #&f.playername
 今日のHRではクラスの出し物を考えていきます！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 皆、存分に意見を言ってくれ[p]
+[chara_hide name="kinnnikunn" time="100"]
 #studentA
+[chara_show name="studentA"]
 はい！メイドとかどうすか!?[p]
 #&f.playername
 えー、恥ずかしいよ...[p]
@@ -26,14 +29,17 @@
 筋太郎と、運動部がメイドやるんだよ！[p]
 名付けて『筋肉メイド倶楽部』！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 ふむ、俺は筋肉を見せつけることができれば何でも構わない...[p]
 #studentA
 まあ、運動部の人が嫌じゃなければ...[p]
+[chara_hide name="studentA"]
 #クラスの女子
 うちらもソレ賛成だよー[p]
 #運動部
 俺らもいいぜ！
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 では、決まりだな。[p]
 女子の皆は衣装制作を頼みたい。[l][r]
 男子で食品を考えるのと買い出しはしておこう[p]
@@ -43,22 +49,26 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kinnnikunn"]
 [mask_off]
 
 #&f.playername
 衣装完成したよ！筋太郎君着てみて！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 ふむ、非常によい、感謝する！[p]
 食品について一応相談しておきたいのだが...[p]
 #
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kinnnikunn"]
 [mask_off]
 
 #&f.playername
-うん、それでいいと思う！
+うん、それでいいと思う！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 よし、あとは文化祭まで走りきるのみだ[p]
 #&f.playername
 頑張ろう！[p]
@@ -66,6 +76,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kinnnikunn"]
 [bg storage="bunkasai.jpg"]
 [mask_off]
 
@@ -76,65 +87,83 @@
 #studentB
 俺ら、筋太郎を見に来たのによぉ！[p]
 #osananajimi
+[chara_show name="osananajimi"]
 [emb exp="f.playername"]、やばいよ！[l][r]
 大勢の人が筋太郎君目当てで押し寄せてるよ！[p]
+[chara_hide name="osananajimi" time="200"]
 #&f.playername
 筋太郎君のシフト、午後からだったよね...？[l][r]
 まだ2時間以上あるじゃん!?[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="meidmusle"]
 誰か俺の事を呼んだか？[p]
 #&f.playername
 え!?筋太郎君!?[l]
 なんでいるの!?[p]
 #kinnnikunn
+[chara_mod name="kinnnikunn" face="meidkime"]
 俺を求めている声が聞こえてな...[p]
 #osananajimi
+[chara_show name="osananajimi"]
 筋野君、ヒーローみたいに登場だー！[p]
+[chara_hide name="osananajimi" time="200"]
 #studentB
 最高だぜ！我らのヒーロー！[p]
 #&f.playername
 ごめん、ありがとう筋太郎君！[p]
 #kinnnikunn
+[chara_mod name="kinnnikunn" face="meidmuslesmileeyeclose"]
 さぁ、俺の筋肉を見に来たのはどこのどいつだ！？[p]
 #studentA,studentB
 ウオー！！[p]
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kinnnikunn"]
 [bg storage="gymnasium03.png"]
+[cm]
 [mask_off]
 
 #studentA
 そろそろ、ボディビル大会が始まるな...[p]
 #studentB
 今年も大勢のボディビルダーが参加するんだろうか...[p]
-#studentC
+#生徒C
 正直、優勝するのは"筋肉四天王"の誰かだろうな...[p]
 
-;TODO:要確認
-;説明アナウンス的な
-#院瀬見龍
+;説明アナウンス
+#大会アナウンス
+ー院瀬見龍ー[r]
 計算され尽くしたカロリー量、そして筋トレ量、それらが織りなす芸術性を持った肉体。[l][r]
-肩に筋肉ではなくスパコンを載せてるとすら言われた男。人々は彼を「電卓型筋肉」という...[p]
-#巴涼子
-５人兄弟の長女。その雄大な背中に人々は敬服する。さながら皆の姉御。異名は「Queen of muscle」[p]
-#金剛力三
+肩に筋肉ではなくスパコンを載せてるとすら言われた男。[r]
+人々は彼を「電卓型筋肉」という...[p]
+#大会アナウンス
+ー巴涼子ー[r]
+５人兄弟の長女。その雄大な背中に人々は敬服する。さながら皆の姉御。[r]
+異名は「Queen of muscle」[p]
+#大会アナウンス
+ー金剛力三ー[r]
 絶対的王者 金剛家の末弟にして 金剛家最大の筋肉を持つと言われている。[l][r]
 王者の名にふさわしいその異名は...「キング・コング」[p]
-#筋野筋太郎
+#大会アナウンス
+ー筋野筋太郎ー[r]
 唯一の２年生。しかし、他の四天王に一切の見劣りを感じさせない、稀のバルク量。[l][r]
-その筋量を使って人を助けたエピソードは数知れず。呼ばれたらすぐ駆けつける、まさしく「ヒーロー」...[p]
+その筋量を使って人を助けたエピソードは数知れず。[r]
+呼ばれたらすぐ駆けつける、まさしく「ヒーロー」...[p]
 #&f.playername
 一体誰が優勝するんだろうな...[p]
 
 ;暗転（時間経過）
 [mask time="500"]
+[cm]
 [mask_off]
 
 #osananajimi
+[chara_show name="osananajimi"]
 そろそろだね...ボディビル大会...[p]
 #&f.playername
 筋太郎君なら絶対優勝できるよ！！私たちもコールがんばろ！[p]
+[chara_hide name="osananajimi" time="200"]
 #放送委員
 これよりボディビル大会を開始します！！[l][r]
 各選手の方は入場してください！！[p]
@@ -184,6 +213,7 @@
 #&f.playername
 筋太郎君、受賞こそできなかったけど十分かっこよかったよ！[p]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 ...今は、...少しほっといてくれないか...[p]
 [chara_hide name="kinnnikunn"]
 ;筋どっか行く
