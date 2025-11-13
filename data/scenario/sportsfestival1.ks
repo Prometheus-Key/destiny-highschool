@@ -86,14 +86,14 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 #&f.playername
 え、そのまま出るの!?[p]
 #kikokusijo
-T[ruby text="ザ"]h[ruby text="ッ"]a[ruby text="ツ"]t's r[ruby text="ラ"]i[ruby text="イ"]g[ruby text="ト"]ht! みんな俺を身にきてるからな...[p]
+T[ruby text="ザ"]h[ruby text="ッ"]a[ruby text="ツ"]t's r[ruby text="ラ"]i[ruby text="イ"]g[ruby text="ト"]ht! みんな俺を見にきてるからな...[p]
 文字通りs[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rになった俺を目に
 Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngしな...[p]
 [chara_hide name="kikokusijo"]
 #アナウンサー
 第一種目はダンスです！[p]
 #&f.playername
-結局、悠真君大丈夫かな？
+結局、悠真君大丈夫かな？[p]
 
 #osananajimi
 [chara_show name="kikokusijo" face="peconfidence"]
@@ -136,6 +136,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="ー"]r[ruby text="ス"]se!![p]
 俺の姿に見惚れな[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y!![p]
 ;帰国子女が光るイラストに差し替え
+[chara_hide_all]
 [bg storage="dancepikapika.png"]
 #studentA
 うわー!!悠真が光った！[p]
@@ -152,6 +153,7 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 おい、聞こえてんぞ！[p]
 節穴の目でよく見とけ!![p]
 ;帰国子女が光るイラストに差し替え
+[chara_hide_all]
 [bg storage="dancepika.png"]
 #studentA
 うわー!!悠真が光った！[p]
