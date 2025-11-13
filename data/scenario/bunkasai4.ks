@@ -86,9 +86,8 @@
 
 ;選択肢１
 *select1
-;TODO：文字小さく
 #&f.playername
-[font size=18]
+[font size="18"]
 ほら！手つないだら怖くないんじゃない？[p]
 [resetfont]
 #osananajimi
