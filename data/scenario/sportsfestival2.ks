@@ -124,7 +124,17 @@
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
 
-;隠し幼馴染ルート
-[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=3"]
-;シーン8-2へジャンプ
+;隠しルート判定
+[jump target="*turn0" cond="f.likepoint==0"]
+[jump target="*turn1" cond="f.likepoint==1"]
+[jump target="*turn2" cond="f.likepoint==2"]
+[jump target="*turn3" cond="f.likepoint==3"]
+
+*turn0
 [jump storage="bunkasai2.ks" target="*start"]
+*turn1
+[jump storage="bunkasai2.ks" target="*start"]
+*turn2
+[jump storage="bunkasai2.ks" target="*start"]
+*turn3
+[jump storage="bunkasai4.ks" target="*start"]

@@ -158,10 +158,19 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 ...まあ、本人が楽しそうに踊ってるからいいか...[p]
 #&f.playername
 ...うん[p]
+#
 
+;隠しルート判定
+[jump target="*turn0" cond="f.likepoint==0"]
+[jump target="*turn1" cond="f.likepoint==1"]
+[jump target="*turn2" cond="f.likepoint==2"]
+[jump target="*turn3" cond="f.likepoint==3"]
 
-;隠し幼馴染ルート
-[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=2"]
-;シーン8-1へジャンプ
-[jump storage="bunkasai1.ks" target="*start" cond="f.likepoint=1"]
-[jump storage="bunkasai1.ks" target="*start" cond="f.likepoint=0"]
+*turn0
+[jump storage="bunkasai1.ks" target="*start"]
+*turn1
+[jump storage="bunkasai1.ks" target="*start"]
+*turn2
+[jump storage="bunkasai4.ks" target="*start"]
+*turn3
+[jump storage="bunkasai4.ks" target="*start"]
