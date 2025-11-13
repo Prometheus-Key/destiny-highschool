@@ -204,6 +204,6 @@ Fuck![p]
 やったー！[p]
 
 ;隠し幼馴染ルート
-[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=1"]
+[jump storage="bunkasai4.ks" target="*start" cond="f.likepoint=2"]
 ;シーン8-3へジャンプ
 [jump storage="bunkasai3.ks" target="*start"]
