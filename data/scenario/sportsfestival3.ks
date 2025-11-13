@@ -34,7 +34,8 @@
 僕のTOEICの点数は938点ですからね！[p]
 #kinnnikunn
 ここは筋肉を目立たせるオレが！！[p]
-#kikokusijomajimegane
+;TODO:富安
+#悠馬・莉吏
 お前/貴方が一番ない！！[p]
 
 #放送委員
