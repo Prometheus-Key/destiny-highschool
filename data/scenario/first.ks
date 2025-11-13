@@ -101,6 +101,8 @@
 [chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
 ;生徒B
 [chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
+;部長
+[chara_new name="butyo" storage="mobu/student_man3.png" jname="部長"]
 ;司会
 [chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
 ;？？？
