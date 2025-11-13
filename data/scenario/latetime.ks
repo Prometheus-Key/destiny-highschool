@@ -2,13 +2,15 @@
 *start
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
+;BGM再生
+[playbgm storage="nicjijou.mp3" loop="true"]
 [position frame="frame/flame01.png"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
 
-[playse storage="スズメの鳴き声1.mp3"]
-[wait time=1500]
+[playse storage="スズメの鳴き声1.mp3" sprite_time="0-2000"]
+[wait time="1500"]
 #&f.playername
 
 ふゎーー。ん、夢か。[l][r]

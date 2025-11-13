@@ -14,7 +14,6 @@
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="500"]
 
-
 ;会話開始
 #先生
 それじゃあ、役員を決めるぞー[r]
@@ -100,7 +99,7 @@
 （誰を選ぼう...）[p]
 #
 
-; glinkタグを使って選択肢を表示
+;glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
 [glink target="*select1" text="悠馬ジュレーン安藤"]
 [glink target="*select2" text="八田莉吏"]
@@ -226,6 +225,9 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;幼馴染退場
 [chara_hide name="osananajimi"]
+
+;BGMストップ
+[stopbgm]
 
 ;委員長に選ばれた人によって分岐後シーン5へジャンプ
 [jump storage="recreation1.ks" target="*start" cond="f.leader==1"]
