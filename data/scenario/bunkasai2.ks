@@ -11,10 +11,12 @@
 
 #&f.playername
 今日は文化祭！いっぱい楽しむぞー！[p]
+[chara_show name="majimegane" face="uninormal"]
 #majimegane
 [emb exp="f.playername"]さん、お暇ですか？[p]
 #&f.playername
 委員長！あれ、委員会のお仕事は？[p]
+[chara_mod name="majimegane" face="unimotivation"]
 #majimegane
 休憩をもらったので、僕も回ろうと思いまして[l][r]
 何か気になるところなどありますか？僕もご一緒します。[p]
@@ -29,16 +31,19 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+[chara_mod name="majimegane" face="unismile"]
 #majimegane
 良い出店ですね。特にこのフライドポテト。冷めてもおいしいタイプですよ。[p]
 #&f.playername
 冷めてもおいしいとか分かるの？[p]
+[chara_mod name="majimegane" face="unimotivation"]
 #majimegane
 委員長の勘というやつです。[l][r]
 まぁ僕のTOEICの点数は９３８点なので♢[p]
 #&f.playername
 ...あの、　君。..[l][r]
 TOEICって５点刻みだよ？[p]
+[chara_mod name="majimegane" face="unikiralargetrouble"]
 #majimegane
 （ガビーン！！）[p]
 #&f.playername
@@ -53,6 +58,7 @@ TOEICって５点刻みだよ？[p]
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[chara_hide name="majimegane" ]
 [bg storage="学校の屋上（夕方）.jpg"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
@@ -60,26 +66,32 @@ TOEICって５点刻みだよ？[p]
 #&f.playername
 追いかけてきたはいいけど...ここ...屋上...？[p]
 ;眼鏡が落ち込んでいる画像
+[chara_mod name="majimegane" face="unikirahate"]
 #majimegane
 ...[p]
 #&f.playername
 め、眼鏡君...[p]
+[chara_mod name="majimegane" face="unikiranormal"]
 #majimegane
 僕は...本当は...９３５点なんです...[p]
 #&f.playername
 え、高！？！？[p]
+[chara_mod name="majimegane" face="unitrouble"]
 #majimegane
 満点を取れなかったことが悔しくて...[l][r]
 つい、変な見栄を張ってしまった。[p]
 #&f.playername
 いや、９３５点もすごいから！！[l][r]
 落ち込むような点数じゃないよ！！[p]
+[chara_mod name="majimegane" face="unishy"]
 #majimegane
 本当ですか？[p]
 #&f.playername
 そうだよ！いつもの　君に戻って！！[p]
+[chara_mod name="majimegane" face="unimotivation"]
 #majimegane
 そう...そうですね... はい！！僕は天才！！いつも通り誰よりも冴えている！！[p]
+[chara_mod name="majimegane" face="unishy2"]
 ...ですが...[p]
 #&f.playername
 ですが？[p]
@@ -95,6 +107,7 @@ TOEICって５点刻みだよ？[p]
 その... す...[p]
 #&f.playername
 す？[p]
+[chara_mod name="majimegane" face="uniredface"]
 #majimegane
 すき... です ... !![p]
 助手としてではなく。一人の女性として...[p]
@@ -108,19 +121,17 @@ TOEICって５点刻みだよ？[p]
 え、あ、わああ[p]
 #&f.playername
 ？ 莉吏君？[p]
-[chara_mod face="redface"]
 ;赤面の画
+[chara_mod name="majimegane" face="uniredface2"]
 #majimegane
 わ、わあぁ...！！！[p]
-[chara_show name="majimegane" face="uniredface2"]
-
 [playse storage="explosion.mp3"]
 [wait time=2000]
 ;爆発する眼鏡
-[chara_hide name="majimegane" ]
 #&f.playername
 莉吏くーーーん！！！！[p]
 ーこれからにぎやかになりそうー[p]
+[chara_hide name="majimegane" ]
 
 [stopbgm]
 
