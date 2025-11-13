@@ -23,11 +23,13 @@
 
 失礼します！広報部の[emb exp="f.playername"]です！[r]
 本日はよろしくお願いします！[p]
-#部長
+[chara_show name="butyo" ]
+#butyo
 よろしくね。実は今回後輩がどうしても説明したいって聞かなくてね。[r]
 任せてもいいかな？[p]
 #&f.playername
 大丈夫ですよ！[p]
+[chara_hide name="butyo" ]
 #kikokusijo
 [chara_show name="kikokusijo"]
 俺が満を持して[ruby text="エ"]E[ruby text="ン"]n[ruby text="ト"]t[ruby text="リ"]r[ruby text="ー"]y！[p]
@@ -69,7 +71,7 @@ P[ruby text="ポ"]o[ruby text="ッ"]s[ruby text="シ"]s[ruby text="ブ"]i[ruby t
 俺とお前の相性が
 v[ruby text="ベ"]e[ruby text="リ"]r[ruby text="ー"]y g[ruby text="グ"]o[ruby text="ッ"]o[ruby text="ド"]dだよ！[r]
 こりゃS[ruby text="サ"]u[ruby text="プ"]r[ruby text="ラ"]p[ruby text="イ"]r[ruby text="ズ"]iseだぜ！！[p]
-#部長
+#butyo
 すまん盛り上がっている所悪いが、俺先に帰るからなー[r]
 悠馬、鍵返しとけよー[p]
 [chara_mod name="kikokusijo" face="confidence"]
