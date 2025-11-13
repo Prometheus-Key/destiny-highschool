@@ -77,7 +77,6 @@
 [layopt layer="message0" visible="false"]
 [mask time="700"]
 [wait time="500"]
-[chara_show name="osananajimi"]
 [chara_hide name="kikokusijo"]
 [mask_off]
 [layopt layer="message0" visible="true"]
@@ -87,7 +86,7 @@
 
 #&f.playername
 今日、文化祭だね！[p]
-[chara_mod name="osananajimi" face="unimotivation"]
+[chara_show name="osananajimi" face="uninormal" ]
 #osananajimi
 うん、[emb exp="f.playername"]ちゃん！一緒に回らない？[p]
 #kikokusijo

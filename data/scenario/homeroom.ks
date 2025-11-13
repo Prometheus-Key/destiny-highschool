@@ -61,7 +61,7 @@
 じゃあ、そこ3人で話し合ってくれー[l][r]
 んじゃ次、副委員長になりたい人ー[p]
 #osananajimi
-[chara_mod name="osananajimi" face="unimotivation" ]
+[chara_show name="osananajimi" face="unimotivation" ]
 ねぇねぇ[emb exp="f.playername"]、立候補しちゃったらー？[p]
 #&f.playername
 私が!?[p]
@@ -78,7 +78,7 @@
 他になりたい人ー、いないな。[l][r]
 じゃあ[emb exp="f.playername"]、副委員長よろしくな！[p]
 んじゃ、そこ3人[p]
-[chara_mod name="majimegane" face="uniangry"  ]
+[chara_show name="majimegane" face="uniangry"  ]
 #majimegane
 だから、僕は恋人を作らないんです!!わざと!![r]
 風紀の乱れ!![p]
@@ -192,7 +192,7 @@ You!良いセンスしてんじゃねぇか[r]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 ;幼馴染登場
-[chara_mod name="osananajimi" face="unimotivation" ]
+[chara_show name="osananajimi" face="unimotivation" ]
 
 #osananajimi
 副委員長の就任、おめでとー！[p]
