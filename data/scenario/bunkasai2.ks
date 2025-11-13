@@ -1,6 +1,6 @@
 ;シーン8-2:文化祭（真面眼鏡）
 *start
-[mask = "100"]
+[mask = "1000"]
 [wait time="60"]
 [chara_hide name="majimegane"]
 [chara_hide name="osananajimi"]
@@ -111,7 +111,7 @@ TOEICって５点刻みだよ？[p]
 #majimegane
 え、あ、わああ[p]
 #&f.playername
-？ 　君？[p]
+？ 莉吏君？[p]
 ;TODO:眼鏡赤面の画像
 ;赤面の画
 #majimegane
@@ -121,10 +121,11 @@ TOEICって５点刻みだよ？[p]
 [wait time=2000]
 ;爆発する眼鏡
 #&f.playername
-　くーーーん！！！！[p]
+莉吏くーーーん！！！！[p]
 ーこれからにぎやかになりそうー[p]
 
 [stopbgm]
 
 ;シーン10へジャンプ
+[layopt layer="message0" visible="false"]
 [jump storage="endroll.ks" target="*start"]
