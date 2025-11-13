@@ -1,6 +1,14 @@
 ;シーン8-2:文化祭（真面眼鏡）
 
 *start
+[mask = "100"]
+[wait time="60"]
+[chara_hide name="majimegane"]
+[chara_hide name="osananajimi"]
+[bg storage="bunkasai.jpg" time="10"]
+[position frame="frame/flame01.png"]
+[mask_off time="300"]
+[layopt layer="message0" visible="true"]
 
 #&f.playername
 今日は文化祭！いっぱい楽しむぞー！[p]
@@ -48,12 +56,12 @@ TOEICって５点刻みだよ？[p]
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[bg storage="学校の屋上（夕方）.jpg"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
 #&f.playername
 追いかけてきたはいいけど...ここ...屋上...？[p]
-;TODO:画像
 ;眼鏡が落ち込んでいる画像
 #majimegane
 ...[p]

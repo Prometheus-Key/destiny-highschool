@@ -1,5 +1,14 @@
 ;シーン6-2:部活動（真面眼鏡）
 *start
+
+[mask = "100"]
+[wait time="60"]
+[chara_hide name="majimegane"]
+[bg storage="roomback_daytime.jpg" time="10"]
+[position frame="frame/flame01.png"]
+[mask_off time="300"]
+[layopt layer="message0" visible="true"]
+
 #&f.playername
 ２年生になってから早数か月。新しいクラスにも慣れてきたなー[p]
 #majimegane
@@ -19,6 +28,7 @@
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="500"]
+[bg storage="rouka.jpg" time="10"]
 [mask_off]
 [layopt layer="message0" visible="true"]
 

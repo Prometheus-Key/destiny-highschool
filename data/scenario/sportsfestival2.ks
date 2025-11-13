@@ -1,5 +1,13 @@
 ;シーン7-2:体育祭（真面眼鏡）
 *start
+[mask = "100"]
+[wait time="60"]
+[chara_hide name="majimegane"]
+[bg storage="ground.jpg" time="10"]
+[position frame="frame/flame01.png"]
+[mask_off time="300"]
+[layopt layer="message0" visible="true"]
+
 #&f.playername
 今日は待ちに待った体育祭！[l][r]
 頑張るぞ！[p]
