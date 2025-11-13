@@ -79,11 +79,13 @@
 
 ;暗転（時間経過）
 [mask time="1000"]
+[mask_off]
 
 #司会
 第２問はこちら！[p]
 #majimegane
 はぁん！！！！[p]
+[playse storage="explosion.mp3"]
 くそ...まだまだ本気を出していないだけです！[p]
 僕のTOIECの点数は938点なのにぃ！！！[p]
 #&f.playername
@@ -93,6 +95,8 @@
 
 ;デデンの効果音
 [playse storage="quiz.mp3"]
+
+[chara_hide name="shikai"]
 
 #majimegane
 くっ...これは...！？[p]
