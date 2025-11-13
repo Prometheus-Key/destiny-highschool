@@ -99,6 +99,7 @@
 ;デデンの効果音
 [playse storage="quiz.mp3"]
 
+[chara_config talk_focus="blur" blur_value="0"]
 [chara_hide name="shikai"]
 
 [chara_mod name="majimegane" face="unilargetrouble" ]

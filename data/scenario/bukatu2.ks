@@ -17,6 +17,7 @@
 #&f.playername
 委員長！？いいけど、何？[p]
 #majimegane
+[chara_show name="majimegane"]
 僕の所属する生徒会執行部で大荷物を運ばなければならず...[r]
 人手があると助かるのですが[p]
 #&f.playername
@@ -37,14 +38,17 @@
 #&f.playername
 はーい。よし、じゃあこれを持とう！[r]
 委員長、これどこに運べば...[p]
+[chara_mod name="majimegane" face="unikiranormal" ]
 #majimegane
 ...[p]
 #&f.playername
 委員長？[p]
+[chara_mod name="majimegane" face="unikirahate" ]
 #majimegane
 ...　...（ガタガタガタ...）[p]
 #&f.playername
 委員長！？大丈夫！？重いんじゃない！？[p]
+[chara_mod name="majimegane" face="unikiralargetrouble" ]
 #majimegane
 そ、そそそそんなことは...！！[r]
 この、僕が...！この荷物を運べないほど弱くなぞ...！[p]
@@ -58,22 +62,28 @@
 
 ;荷物を下す
 #majimegane
+[chara_mod name="majimegane" face="unikiratrouble" ]
 はあ！！[r]
 ぜー...ぜー...よし、しょうがない！[p]
+[chara_mod name="majimegane" face="unimotivation" ]
 [emb exp="f.playername"]のお願いを受け入れましょう！[p]
 #&f.playername
 お願いっていうか眼鏡君の手伝いじゃ...[p]
 #majimegane
+[chara_mod name="majimegane" face="unikiramotimotivation" ]
 さあ行きますよ助手君！！[p]
 #&f.playername
 わ、ちょっとそんなに急いで動いたら！[p]
 #majimegane
+[chara_mod name="majimegane" face="unikiratrouble" ]
 うぼあーーー！！！！[p]
+[chara_hide name="majimegane"]
 
 #&f.playername
 眼鏡くーーーん！！！[p]
 [wait time="500"]
 -----まだまだ慣れないことばかりだ------[p]
+[chara_hide name="majimegane"]
 
 ;シーン7-2へジャンプ
 [mask time="3000"]

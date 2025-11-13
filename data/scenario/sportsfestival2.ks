@@ -2,7 +2,6 @@
 *start
 [mask time="100"]
 [wait time="60"]
-[chara_hide name="majimegane"]
 [bg storage="ground.jpg" time="10"]
 [position frame="frame/flame01.png"]
 [mask_off time="300"]
@@ -11,6 +10,7 @@
 #&f.playername
 今日は待ちに待った体育祭！[l][r]
 頑張るぞ！[p]
+[chara_show name="osananajimi" face="penormal"]
 #osananajimi
 おはよ、[emb exp="f.playername"]！[l][r]
 私たち赤組、優勝目指して頑張ろうね！[p]
@@ -37,8 +37,10 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 ゆりとだったら優勝できる気がする！頑張ろ！[p]
+[chara_mod name="osananajimi" face="peshy"]
 #osananajimi
 やだもう！持ち上げすぎだよ～[p]
+[chara_mod name="osananajimi" face="pemotivation"]
 でも、期待に応えられるようにはりきるぞー！[p]
 #
 [jump target="common"]
@@ -57,6 +59,7 @@
 たしか、莉吏君だった気がする！[l]
 ほら！[p]
 ;TODO:死ぬほどいやそうな顔の真面眼鏡挿入
+[chara_show name="majimegane" face="pebrake"]
 #&f.playername
 なんかめちゃくちゃ嫌そうじゃない？[p]
 #osananajimi
@@ -72,6 +75,7 @@
 [wait time="2000"]
 #&f.playername
 莉吏君、頑張れー！！[p]
+[chara_show name="majimegane" face="pemelt"]
 #osananajimi
 負けるなー！[l]え、待って...？[l][r]
 莉吏君、溶けてない...!?[p]
@@ -83,14 +87,17 @@
 何を言ってるの...？とにかく、頑張れー！！[p]
 #放送委員
 ここで赤組、お題コーナーに入りました！[p]
+[chara_mod name="majimegane" face="pebrake"]
 #osananajimi
 真面目鏡君、やっと引けたね！[p]
+[chara_mod name="majimegane" face="pekiraangry"]
 #&f.playername
 え、なんかこっちに向かってきてない!?[p]
+[chara_mod name="majimegane" face="pelargetrouble"]
 #majimegane
 [emb exp="f.playername"]さん、僕とき、来てください！[p]
 #&f.playername
-私!?で、でも...[p]
+私！？で、でも...[p]
 #osananajimi
 [emb exp="f.playername"]、真面目鏡君の体力が尽きる前に早く行ってあげて！[p]
 #&f.playername
@@ -98,12 +105,14 @@
 #放送委員
 赤組！そのお題は？[p]
 #&f.playername
-（お題って何だろう...好きな人とか...!?）[p]
+（お題って何だろう...好きな人とか...！？）[p]
+[chara_mod name="majimegane" face="peangry"]
 #majimegane
 お題は...[l]
 助手です！[p]
 #&f.playername
 じょ、助手!?!?[p]
+[chara_mod name="majimegane" face="pekiramotimotivation"]
 #majimegane
 僕の価値を見出した神秘眼、[r]
 そして補佐する力...!![r]
@@ -114,13 +123,16 @@
 こちら判定は...[l]
 〇！！[r]
 赤組クリアです！！[p]
+[chara_mod name="majimegane" face="pemotivation"]
 #majimegane
 ふふふ、僕と君のタッグを証明できましたね[p]
 #&f.playername
 （好きな人じゃなかったか...まあ、真面目鏡君だしな！）[p]
+[chara_mod name="osananajimi" face="pemotivation"]
 #osananajimi
 お疲れ様ー！！大活躍だったね！！[p]
 次の競技始まるよ！真面目鏡君と一緒に見よう！[p]
+[chara_mod name="majimegane" face="pesmile"]
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
 
