@@ -1,5 +1,6 @@
 ;シーン7-3:体育祭（きんに君）
 *start
+[mask_off time="1000"]
 ;背景設定
 [bg storage="ground.jpg" time="1000"]
 

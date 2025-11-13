@@ -1,25 +1,32 @@
 ;シーン8-1:文化祭（帰国子女）
 *start
-[mask_off time="1000"]
 
+[wait time="600"]
+[position frame="frame/flame01.png"]
+[cm]
 ;デート３連続
 ;背景を表示
-[bg storage="roomback_daytime.jpg" time="1000"]
+[bg storage="roomback_daytime.jpg" time="300"]
 ;キャラ表示
 [chara_show name="kikokusijo"]
 [layopt layer="message0" visible="true"]
+[mask_off time="500"]
 
+#
+ーとある日[p]
 #kikokusijo
 なぁ、[emb exp="f.playername"]、今暇か？[l][r]
 最近できた喫茶店、一緒に行かないか？[p]
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
 [wait time="500"]
-[mask_off time="1000"]
+[mask_off time="500"]
 [layopt layer="message0" visible="true"]
 
+#
+ー別の日[p]
 #kikokusijo
 [emb exp="f.playername"]、最近この店気になってるんだが...[l][r]
 俺一人じゃハードルが高いんだ...[p]
@@ -31,6 +38,8 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+#
+ーさらに別の日[p]
 #kikokusijo
 よぉ[emb exp="f.playername"]、この水族館、俺のb[ruby text="ベ"]e[ruby text="ス"]s[ruby text="ト"]t [ruby text="ス"]s[ruby text="ポ"]p[ruby text="ッ"]o[ruby text="ト"]tなんだ。[l][r]
 おまえとも行きたくてな。[p]
@@ -42,6 +51,8 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+#
+ー文化祭前日
 ;文化祭準備
 #&f.playername
 今年の出し物は屋台だね！作って売りまくるぞー！[p]
@@ -55,6 +66,7 @@
 [wait time="500"]
 [chara_show name="osananajimi"]
 [chara_hide name="kikokusijo"]
+[bg storage="room.jpg" time="300"]
 [mask_off]
 [layopt layer="message0" visible="true"]
 
@@ -90,11 +102,11 @@
 [chara_mod name="kikokusijo" face="emoi"]
 ･･･そうしようか。[p]
 
+
+[layopt layer="message0" visible="false"]
 [mask time="1000"]
 [chara_mod name="kikokusijo" face="confidence"]
 [chara_mod name="osananajimi" face="unishy"]
-[mask_off]
-
 ;TODO:お化け屋敷背景
 [bg storage="obakeyasiki.jpg" time="1000"]
 ;お化け屋敷
@@ -105,10 +117,9 @@
 #osananajimi
 置いてかないでよー[p]
 
+[layopt layer="message0" visible="false"]
 [mask time="1000"]
 [chara_mod name="osananajimi" face="uninormal"]
-[mask_off]
-
 ;TODO：カジノ背景
 [bg storage="kazino.jpg" time="1000"]
 ;カジノ
@@ -130,9 +141,11 @@
 #&f.playername
 ...[p]
 
-[mask time="1000"]
+[mask time="600"]
+[wait time="500"]
 [chara_hide name="kikokusijo"]
 [chara_mod name="osananajimi" face="uninormal"]
+[bg storage="rouka.jpg" time="400"]
 [mask_off]
 
 ;疑い
@@ -142,7 +155,8 @@
 [chara_mod name="osananajimi" face="unishy"]
 うん...[emb exp="f.playername"]にだけ優しいし...[p]
 
-[mask time="1000"]
+[mask time="500"]
+[wait time="500"]
 [chara_show name="kikokusijo"]
 [chara_mod name="osananajimi" face="uninormal"]
 [mask_off]
@@ -159,9 +173,10 @@
 #kikokusijo
 [chara_mod name="kikokusijo" face="emoi"]
 そりゃあ[emb exp="f.playername"]は俺のg[ruby text="ガ"]i[ruby text="ー"]r[ruby text="ル"]l fr[ruby text="フ"]i[ruby text="レ"]e[ruby text="ン"]n[ruby text="ド"]dだからだろ？[p]
-;TODO:主人公と幼なじみの名前を表示させる
-;主人公と幼なじみの名前を表示させる
-#&f.playername
+#&f.playername 
+え？[p]
+[chara_mod name="osananajimi" face="unishy"]
+#osananajimi
 え？[p]
 #kikokusijo
 [chara_mod name="kikokusijo" face="question"]
@@ -220,7 +235,9 @@
 
 [layopt layer="message0" visible="false"]
 [mask time="500"]
+[wait time="500"]
 [chara_hide name="osananajimi"]
+[bg storage="room.jpg" time="1000"]
 [mask_off]
 [layopt layer="message0" visible="true"]
 
@@ -238,10 +255,15 @@
 ってか今日、しし座流星群見られるらしいよ！[p]
 #生徒B
 マジ！めっちゃレアじゃん！[p]
-#
 
+
+[layopt layer="message0" visible="false"]
 [mask time="500"]
+[wait time="500"]
+;TODO:背景裏山
+[bg storage="rouka.jpg" time="500"]
 [mask_off]
+[layopt layer="message0" visible="true"]
 
 ;TODO:背景裏山
 [bg storage="yamayoru.jpg" time="1000"]
@@ -262,9 +284,11 @@
 実はあの後、ゆりに相談したんだ。[p]
 
 [mask time="500"]
+[wait time="500"]
 [chara_show name="osananajimi"]
 [chara_mod name="osananajimi" face="uninormal"]
 [chara_mod name="kikokusijo" face="confidence"]
+[bg storage="rouka.jpg" time="500"]
 [mask_off]
 
 ;回想
@@ -290,8 +314,11 @@
 ってか悠馬君普通に喋れたんだね...[p]
 
 [mask time="500"]
+[wait time="500"]
 [chara_hide name="osananajimi"]
 [chara_mod name="kikokusijo" face="emoi"]
+;TODO:背景裏山
+[bg storage="rouka.jpg" time="500"]
 [mask_off]
 
 ;回想終了
