@@ -113,13 +113,16 @@ TOEICって５点刻みだよ？[p]
 #&f.playername
 ？ 莉吏君？[p]
 ;TODO:眼鏡赤面の画像
+[chara_mod face="redface"]
 ;赤面の画
 #majimegane
 わ、わあぁ...！！！[p]
-;TODO：爆発する眼鏡
+[chara_show name="majimegane" face="uniredface2"]
+
 [playse storage="explosion.mp3"]
 [wait time=2000]
 ;爆発する眼鏡
+[chara_hide name="majimegane" ]
 #&f.playername
 莉吏くーーーん！！！！[p]
 ーこれからにぎやかになりそうー[p]

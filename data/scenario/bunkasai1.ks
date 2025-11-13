@@ -156,8 +156,7 @@
 #kikokusijo
 [chara_mod name="kikokusijo" face="emoi"]
 そりゃあ[emb exp="f.playername"]は俺のg[ruby text="ガ"]i[ruby text="ー"]r[ruby text="ル"]l fr[ruby text="フ"]i[ruby text="レ"]e[ruby text="ン"]n[ruby text="ド"]dだからだろ？[p]
-;TODO:主人公と幼なじみの名前を表示させる
-;主人公と幼なじみの名前を表示させる
+
 #&f.playername
 え？[p]
 #kikokusijo

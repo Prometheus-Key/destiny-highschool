@@ -266,7 +266,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 
 #３人
 着い...[p]
-;TODO:ボロボロになったみんなの画像？
+
 #悪魔
 少し遅かったじゃないか女ァ...[p]
 #kikokusijo
@@ -280,7 +280,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 筋太郎君！早く戻ってよ！その筋肉は人を傷つけるためのモノじゃないんだよ！[p]
 #悪魔
 たいして[ruby text="タンパ"]筋[ruby text="ク質"]肉はないが...　残党は狩っておかなければな...[p]
-;TODO:文字大きく
+
 ギュン！[p]
 #？
 やめなさい！[p]
@@ -289,7 +289,6 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 #majimegane
 胸筋が...光ってる...？[p]
 
-;TODO:悪魔が苦しむ画像追加
 #kikokusijo
 [chara_show name="kikokusijo"]
 おい、センシティブすぎるだろ！[p]
@@ -313,7 +312,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 これで[ruby text="フ"]f[ruby text="ィ"]i[ruby text="二"]n[ruby text="ッ"]i[ruby text="シ"]s[ruby text="ュ"]h
 だ！[p]
 [stopbgm]
-;TODO:悪魔にハンバーガー詰め込む画像
+
 
 #悪魔
 あれはまさか...ファストフード！？[p]

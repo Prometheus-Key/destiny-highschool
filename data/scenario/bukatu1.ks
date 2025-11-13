@@ -52,7 +52,6 @@
 そうだろう。今部長に頼み込んで本を追加してもらっている所だ。[p]
 #&f.playername
 これ望遠鏡だよね！？これで星を見てるの？[p]
-;TODO:なぜかわからんけど本棚の画像を追加
 #kikokusijo
 [ruby text="イ"]E[ruby text="グ"]x[ruby text="ザ"]a[ruby text="ク"]c[ruby text="ト"]t[ruby text="リ"]l[ruby text="ー"]y！
 ２００倍までズームが可能だ。[p]
@@ -94,7 +93,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 [wait time="500"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
-;TODO:二人が見上げるシーン追加
+
 #&f.playername
 学校の裏山にこんな場所あったなんて知らなかったよ...[p]
 #kikokusijo

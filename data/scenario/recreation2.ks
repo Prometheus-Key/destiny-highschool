@@ -71,7 +71,6 @@
 ;爆発の効果音
 [playse storage="explosion.mp3"]
 
-;TODO：服が破れるイラスト追加
 #みんな
 おい、委員長が爆発したぞ！！[p]
 #majimegane
