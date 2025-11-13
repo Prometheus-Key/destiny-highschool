@@ -34,7 +34,7 @@
 その次の週[p]
 #kikokusijo
 [emb exp="f.playername"]、最近この店気になってるんだが...[l][r]
-俺一人じゃハードルが高いんだ...[p]
+俺一人じゃh[ruby text="ハ"]u[ruby text="ー"]r[ruby text="ド"]d[ruby text="ル"]leが高いんだ...[p]
 
 #&f.playername
 そうなの？じゃあ一緒に行こう！[p]
@@ -53,7 +53,8 @@
 おまえとも行きたくてな。[p]
 
 #&f.playername
-また！？なんだか最近多くない！？...まぁいいか[p]
+また！？なんだか最近多くない！？[l][r]
+...まぁいいか[p]
 
 ;文化祭準備
 [layopt layer="message0" visible="false"]
@@ -67,6 +68,8 @@
 今年の出し物は屋台だね！作って売りまくるぞー！[p]
 #kikokusijo
 [emb exp="f.playername"]、食材を近くのs[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]r m[ruby text="マ"]a[ruby text="ー"]r[ruby text="ケ"]k[ruby text="ッ"]e[ruby text="ト"]tで見ときたいんだがいいかい？[p]
+#&f.playername
+...はいはい、一緒に行きますよ...[p]
 
 
 ;暗転（時間経過）
@@ -276,7 +279,8 @@
 って言葉にしないといけないからね...[p]
 #kikokusijo
 [chara_mod name="kikokusijo" face="panic"]
-文化の違いか...レクリエーションの時もあったな。[l][r]
+文化の違いか...re[ruby text="レ"]c[ruby text="ク"]r[ruby text="レ"]e[ruby text="ー"]a[ruby text="シ"]t[ruby text=ョ"]i[ruby text="ン"]on
+の時もあったな。[l][r]
 もっと日本の文化について学んでいれば良かったな...[p]
 #osananajimi
 それに悠馬君、普段言葉に英語が混ざっちゃって変な文章になってるんだよね。[l][r]

@@ -39,8 +39,6 @@
 #&f.playername
 ...あの、　君。..[l][r]
 TOEICって５点刻みだよ？[p]
-;TODO：画像挿入
-;眼鏡が割れている画像
 #majimegane
 （ガビーン！！）[p]
 #&f.playername
@@ -106,13 +104,10 @@ TOEICって５点刻みだよ？[p]
 えっ[p]
 #&f.playername
 よろしくお願いします。[p]
-;TODO:手をつなぐ画像
-;手をつなぐ画像
 #majimegane
 え、あ、わああ[p]
 #&f.playername
 ？ 莉吏君？[p]
-;TODO:眼鏡赤面の画像
 [chara_mod face="redface"]
 ;赤面の画
 #majimegane

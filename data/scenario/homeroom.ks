@@ -14,12 +14,15 @@
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="500"]
 
+[chara_config talk_focus="blur" blur_value="10"]
+
 ;会話開始
 #先生
 それじゃあ、役員を決めるぞー[r]
 じゃあ、まず学級委員長から[p]
 #&f.playername
 （今年は誰が学級委員長になるんだろうなー）[p]
+[chara_show name="majimegane"]
 #majimegane
 はい！僕が学級委員長に立候補します！[l][r]
 委員長とは、頭の良い者がなる役職！[p]
@@ -27,6 +30,7 @@
 なぜなら、僕のTOEICの点数は938点だからです！[p]
 #クラスメイト
 938点だって...!?そんなすごい点数を!?[p]
+[chara_show name="kinnnikunn"]
 #kinnnikunn
 俺も立候補するぞ！[l][r]
 俺は1日3回プロテインを飲む時間を作る！[p]
@@ -37,22 +41,20 @@
 オレも立候補するぜ☆[r]
 学級委員長ってのは周りを楽しませるもんだろ？[p]
 じゃあ、俺が出なきゃ誰が出るってんだ[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y？[p]
-[chara_hide name="kikokusijo"]
 #クラスメイト
 転校初日で立候補...!?なんて肝が据わったやつなんだ...![p]
 #majimegane
-[chara_show name="majimegane"]
 そこの帰国子女、出しゃばるのはやめたまえ。[r]
 他国に行って分をわきまえることも忘れたのかい？[p]
-[chara_hide name="majimegane"]
 #kikokusijo
-[chara_show name="kikokusijo"]
 気が強いなぁ、眼鏡君は！[r]
 優しくしないとモテないぜー？[p]
-[chara_hide name="kikokusijo"]
 #kinnnikunn
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
+[chara_hide_all ]
+
+
 #先生
 じゃあ、そこ3人で話し合ってくれー[l][r]
 んじゃ次、副委員長になりたい人ー[p]
@@ -74,12 +76,15 @@
 他になりたい人ー、いないな。[l][r]
 じゃあ[emb exp="f.playername"]、副委員長よろしくな！[p]
 んじゃ、そこ3人[p]
+[chara_show name="majimegane"]
 #majimegane
 だから、僕は恋人を作らないんです!!わざと!![r]
 風紀の乱れ!![p]
 このクラスの風紀を守るのは僕の使命なんです!![p]
+[chara_show name="kikokusijo"]
 #kikokusijo
 恋人もろくに作れねぇやつがクラスの気持ちなんて存じ上げ[ruby text="ノ"]n[ruby text="ッ"]o[ruby text="ト"]tだろうが！[p]
+[chara_show name="kinnnikunn"]
 #kinnnikunn
 うーん、プロテインのおかげで、俺の上腕二頭筋も喜んでいるぞ！（ムキッ！）[p]
 #先生
@@ -112,11 +117,13 @@
 [eval exp="f.leader=1"]
 #&f.playername
 じゃあ、悠馬君、お願いしてもいいかな？[p]
+
 #kikokusijo
 You!良いセンスしてんじゃねぇか[r]
 今後[ruby text="マ"]M[ruby text="イ"]y C[ruby text="ク"]r[ruby text="ル"]u[ruby text="ー"]i[ruby text="ズ"]se
 にでものせてやるよ[p]
 #majimegane
+
 こんなやつが委員長に...なぜだ...[r]
 僕はTOEIC938点だというのに...!![p]
 #kinnnikunn
@@ -160,6 +167,7 @@ You!良いセンスしてんじゃねぇか[r]
 [jump target="*common"]
 
 *common
+[chara_hide_all]
 #先生
 んじゃ、次の係～[p]
 #

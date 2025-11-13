@@ -54,7 +54,7 @@
 これ望遠鏡だよね！？これで星を見てるの？[p]
 #kikokusijo
 [ruby text="イ"]E[ruby text="グ"]x[ruby text="ザ"]a[ruby text="ク"]c[ruby text="ト"]t[ruby text="リ"]l[ruby text="ー"]y！
-２００倍までズームが可能だ。[p]
+２００倍までz[ruby text="ズ"]o[ruby text="ー"]o[ruby text="ム"]mが可能だ。[p]
 #&f.playername
 すごい！これでくっきり星見れるね！[p]
 そういえば星占いができるって聞いたんだけど[p]
@@ -66,7 +66,8 @@ P[ruby text="ポ"]o[ruby text="ッ"]s[ruby text="シ"]s[ruby text="ブ"]i[ruby t
 どうしたの？[p]
 [chara_mod name="kikokusijo" face="emoi"]
 #kikokusijo
-俺とお前の相性がベリーグッドだよ！[r]
+俺とお前の相性が
+v[ruby text="ベ"]e[ruby text="リ"]r[ruby text="ー"]y g[ruby text="グ"]o[ruby text="ッ"]o[ruby text="ド"]dだよ！[r]
 こりゃS[ruby text="サ"]u[ruby text="プ"]r[ruby text="ラ"]p[ruby text="イ"]r[ruby text="ズ"]iseだぜ！！[p]
 #部長
 すまん盛り上がっている所悪いが、俺先に帰るからなー[r]
@@ -161,6 +162,8 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 荷物おいてきたままだよ！走ろう！[p]
 #
 タタタ...[p]
+[playse storage="土の上を走る.mp3" sprite_time="0-2000"]
+
 
 [layopt layer="message0" visible="false"]
 [mask time="500"]

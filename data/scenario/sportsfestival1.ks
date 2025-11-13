@@ -80,12 +80,13 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 悠馬君、背中のやつとろうか？[p]
 #kikokusijo
 [ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]emだ。[l][r]
-俺はこのままステージへと降り立つぜ[p]
+俺はこのままS[ruby text="ス"]t[ruby text="テ"]a[ruby text="ー"]g[ruby text="ジ"]eへと降り立つぜ[p]
 #&f.playername
 え、そのまま出るの!?[p]
 #kikokusijo
-That's right! みんな俺を身にきてるからな...[p]
-文字通りスターになった俺を目にBurningしな...[p]
+T[ruby text="ザ"]h[ruby text="ッ"]a[ruby text="ツ"]t's r[ruby text="ラ"]i[ruby text="イ"]g[ruby text="ト"]ht! みんな俺を身にきてるからな...[p]
+文字通りs[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rになった俺を目に
+Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngしな...[p]
 [chara_hide name="kikokusijo"]
 #アナウンサー
 第一種目はダンスです！[p]

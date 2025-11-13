@@ -20,7 +20,7 @@
 [chara_face name="kikokusijo" face="peconfidence" storage="kikokusijo/peconfidence.png"]
 [chara_face name="kikokusijo" face="question" storage="kikokusijo/question.png"]
 ;真面眼鏡
-[chara_new name="majimegane" storage="mobu/student_man2.png" jname="八田莉吏"]
+[chara_new name="majimegane" storage="majimegane/uniform/normal.png" jname="八田莉吏"]
 [chara_face name="majimegane" face="uniangry" storage="majimegane/uniform/angry.png"]
 [chara_face name="majimegane" face="unibigtrouble" storage="majimegane/uniform/bigtrouble.png"]
 [chara_face name="majimegane" face="unibrake" storage="majimegane/uniform/brake.png"]
