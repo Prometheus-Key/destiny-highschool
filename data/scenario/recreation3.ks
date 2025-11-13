@@ -5,12 +5,15 @@
 [wait time="500"]
 ;シーン4の幼馴染削除
 [chara_hide name="osananajimi"]
+;BGM再生
+[playbgm storage="musclerec.mp3"]
 ;背景設定（体育館）
 [bg storage="gymnasium03.png" time="100"]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
 [mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+
 #&f.playername
 今日はレクリエーション！皆と仲良くなれるかな～[p]
 
@@ -156,5 +159,7 @@
 
 *common
 [mask time="1000"]
+;BGMストップ
+[stopbgm]
 ;シーン7-3へジャンプ
 [jump storage="sportsfestival3.ks" target="*start"]

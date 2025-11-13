@@ -1,6 +1,6 @@
 ;シーン7-2:体育祭（真面眼鏡）
 *start
-[mask = "100"]
+[mask time="100"]
 [wait time="60"]
 [chara_hide name="majimegane"]
 [bg storage="ground.jpg" time="10"]
