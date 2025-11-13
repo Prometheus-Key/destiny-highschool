@@ -34,13 +34,14 @@
 第3種目は組体操です！[p]
 
 #kikokusijo
-[chara_mod name="kikokusijo" face="peconfidence"]
 [chara_show name="kikokusijo"]
+[chara_mod name="kikokusijo" face="peconfidence"]
 おいこれ誰が上やるんだ？[l][r]
 もちろんS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rな俺だよな？[p]
 #majimegane
-[chara_mod name="majimegane" face="pekirasmile"]
 [chara_show name="majimegane"]
+[chara_mod name="majimegane" face="pekirasmile"]
+
 いいえ！ここは身軽な僕でしょう！[l][r]
 僕のTOEICの点数は938点ですからね！[p]
 #kinnnikunn
