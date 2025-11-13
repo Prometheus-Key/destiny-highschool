@@ -89,7 +89,7 @@
 これって、（年の）初めにするよね！[p]
 #kikokusijo
 そりゃ名前にもあるしな![r]
-;TODO:英語化
+;英語化
 T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ミ"]i[ruby text=t="ン"]n[ruby text="グ"]g
 とM[ruby text="ム"]o[ruby text="ー"]o[ruby text="ド"]dも大事だよな[p]
 #&f.playername
@@ -125,7 +125,7 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 すごく分かりやすかったよ...[p]
 #kikokusijo
 日本のK[ruby text="キ"]i[ruby text="ス"]ss文化がここまで進んでたのかとm[ruby text="ミ"]i[ruby text="ス"]s[ruby text="テ"]t[ruby text="イ"]a[ruby text="ク"]keしたぜ。[p]
-;TODO:英語化
+;英語化
 これじゃ恥のD[ruby text="ダ"]o[ruby text="ブ"]u[ruby text="ル"]ble P[ruby text="ぺ"]a[ruby text="イ"]i[ruby text="ン"]n[ruby text="ト"]tだ![p]
 
 ;glinkタグを使って選択肢を表示

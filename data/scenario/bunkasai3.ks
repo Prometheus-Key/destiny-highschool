@@ -1,7 +1,7 @@
 ;シーン8-3:文化祭（きんに君）
 *start
 ;背景設定（教室前）
-[mask = "100"]
+[mask time="100"]
 [wait time="60"]
 [chara_hide name="majimegane"]
 [bg storage="roomback_daytime.jpg"]
@@ -144,6 +144,8 @@
 [mask time="500"]
 [mask_off]
 
+[chara_show name="kinnnikunn" face="bodybill"]
+
 #放送委員
 結果発表します！[p]
 第３位...[l]巴涼子さん！[p]
@@ -174,14 +176,16 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[chara_hide name="kinnnikunn"]
 [bg storage="roomback_daytime.jpg" time="100"]
+[chara_show name="kinnnikunn" face="pe"]
 [mask_off]
 
 #&f.playername
 筋太郎君、受賞こそできなかったけど十分かっこよかったよ！[p]
 #kinnnikunn
 ...今は、...少しほっといてくれないか...[p]
-
+[chara_hide name="kinnnikunn"]
 ;筋どっか行く
 #&f.playername
 筋太郎君...[p]

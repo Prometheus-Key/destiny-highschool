@@ -21,9 +21,8 @@
 [s]
 
 *hai
-;TODO:幼馴染の登場(私服差分)
 ;幼馴染の登場(私服差分)
-[chara_show name="osananajimi" face="normal"]
+[chara_show name="osananajimi" face="clonormal"]
 #osananajimi
 お待たせ！[p]
 #&f.playername
@@ -86,9 +85,9 @@
 
 ;選択肢１
 *select1
-;TODO：文字小さく
+;文字小さく
 #&f.playername
-[font size=18]
+[font size="18"]
 ほら！手つないだら怖くないんじゃない？[p]
 [resetfont]
 #osananajimi

@@ -44,10 +44,10 @@
 気を強く持って...[p]
 [chara_hide name="osananajimi"]
 
+[chara_show name="kikokusijo" face="pestar"]
 #&f.playername
 宣誓、歴史ある我が校で[p]
 #kikokusijo
-[chara_show name="kikokusijo" face="peconfidence"]
 D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby text="プ"]r[ruby text="ラ"]a[ruby text="ク"]c[ruby text="テ"]t[ruby text="ィ"]i[ruby text="ス"]ceのR[ruby text="リ"]e[ruby text="ザ"]s[ruby text="ル"]u[ruby text="ト"]ltをS[ruby text="シ"]h[ruby text="ョ"]o[ruby text="ー"]wできるよう[p]
 #&f.playername
 全力を尽くすことを

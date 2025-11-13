@@ -69,7 +69,7 @@
 
 
 [playse storage="黄色い悲鳴.mp3"]
-[wait time=2000]
+[wait time="2000"]
 #&f.playername
 莉吏君、頑張れー！！[p]
 #osananajimi

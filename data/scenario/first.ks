@@ -19,6 +19,7 @@
 [chara_face name="kikokusijo" face="panic" storage="kikokusijo/panic.png"]
 [chara_face name="kikokusijo" face="peconfidence" storage="kikokusijo/peconfidence.png"]
 [chara_face name="kikokusijo" face="question" storage="kikokusijo/question.png"]
+[chara_face name="kikokusijo" face="pestar" storage="kikokusijo/star.png"]
 ;真面眼鏡
 [chara_new name="majimegane" storage="majimegane/uniform/normal.png" jname="八田莉吏"]
 [chara_face name="majimegane" face="uniangry" storage="majimegane/uniform/angry.png"]
@@ -69,6 +70,7 @@
 [chara_face name="kinnnikunn" face="batorowa" storage="kinnnikun/batorowa.png"]
 [chara_face name="kinnnikunn" face="confidence" storage="kinnnikun/confidence.png"]
 [chara_face name="kinnnikunn" face="pe" storage="kinnnikun/pe.png"]
+[chara_face name="kinnnikunn" face="hug" storage="kinnnikun/hug.png"]
 [chara_face name="kinnnikunn" face="normal" storage="kinnnikun/normal.png"]
 [chara_face name="kinnnikunn" face="meideyeclose" storage="kinnnikun/meido/eyeclose.png"]
 [chara_face name="kinnnikunn" face="meidkime" storage="kinnnikun/meido/kime.png"]
@@ -78,6 +80,7 @@
 [chara_face name="kinnnikunn" face="meidmuslesmileeyeclose" storage="kinnnikun/meido/muslesmileeyeclose.png"]
 [chara_face name="kinnnikunn" face="meidsmile" storage="kinnnikun/meido/smile.png"]
 [chara_face name="kinnnikunn" face="meidsmileeyeclose" storage="kinnnikun/meido/smileeyeclose.png"]
+[chara_face name="kinnnikunn" face="bodybill" storage="kinnnikun/bodybill.png"]
 ;幼馴染
 [chara_new name="osananajimi" storage="osananajimi/uniform/normal.png" jname="白石ゆり"]
 [chara_face name="osananajimi" face="uniangry" storage="osananajimi/uniform/angry.png"]
