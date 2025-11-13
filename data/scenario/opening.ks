@@ -86,7 +86,7 @@ $('.text_box').keypress(function (e) {
 さあ、楽しい学園生活のはじまりじゃ[p]
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
-[jump storage="latetime.ks" target="*start"]
+[jump storage="sportsfestival1.ks" target="*start"]
 
 *select2
 [eval exp="f.character=2"]

@@ -1,5 +1,6 @@
 ;シーン7-3:体育祭（きんに君）
 *start
+[mask_off time="1000"]
 ;背景設定
 [bg storage="ground.jpg" time="1000"]
 
@@ -83,6 +84,9 @@
 ...え？[p]
 #
 ;TODO:ガキンの音入れる
+[playse storage="ロボットを殴る1.mp3"]
+[wait time=500]
+[playse storage="ロボットを殴る1.mp3"]
 -ガキン！ガキン！[p]
 #kinnnikunn
 ああ、昔を思い出すなぁ...[p]

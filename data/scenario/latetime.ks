@@ -7,7 +7,10 @@
 [layopt layer="message0" visible="true"]
 
 ;TODO:雀の鳴き声
+[playse storage="スズメの鳴き声1.mp3"]
+[wait time=4000]
 #&f.playername
+
 ふゎーー。ん、夢か。[l][r]
 今何時かな？[p]
 え、やばいじゃん！[r]
