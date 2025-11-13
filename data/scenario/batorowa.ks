@@ -367,21 +367,22 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 ;TODO:悪魔が苦しむ画像追加
 #kikokusijo
 [chara_show name="kikokusijo"]
-おい、モ〇イクみたいになってるぞ！[p]
+おい、センシティブすぎるだろ！[p]
 [chara_hide name="kikokusijo"]
 #&f.playername
 まさか...[p]
 #ボブ・ステファニー
-筋！そこのお嬢さんにも言われてるじゃない！[p]
+筋！そこのお嬢さんにも言われてるだろ！[p]
 お前の筋肉は人を守るための筋肉だぞ！[p]
 自分の異名を忘れるな！お前は「ヒーロー」だ！[p]
 #&f.playername
 よくわからないけど隙ができたよ！[p]
-#悪魔
-あれはまさか...ファストフード！？[p]
+#majimegane
+今のうちに悪魔の口にハンバーガーを詰め込みましょう！[p]
+
 #majimegane
 [chara_show name="majimegane"]
-筋太郎が太れば貴方は器に興味を示さなくなると考えたんです[p]
+筋太郎が太れば悪魔は器に興味を示さなくなるはずです！[p]
 [chara_hide name="majimegane"]
 #kikokusijo
 [chara_show name="kikokusijo"]
@@ -390,6 +391,21 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [chara_hide name="kikokusijo"]
 [stopbgm]
 ;TODO:悪魔にハンバーガー詰め込む画像
+
+#悪魔
+あれはまさか...ファストフード！？[p]
+馬鹿な真似をするな！！[l][r]
+そんなものを口にしたらこの肉体の器としての価値がなくなってしまう！！[p]
+やめろ～～～～[p]
+
+[mask time="250"]
+[mask_off time="250"]
+
+#悪魔
+くそ、こんなものを口にした体はもう我の肉体にふさわしくない！[l][r]
+だが、この肉体の[ruby text="筋"]栄[ruby text="肉"]養だけはもらっていくぞ！！[p]
+この器の変わり果てた姿を見て後悔するがいい[l][r]
+フハハハハーー！[p]
 
 [mask time="250"]
 [mask_off time="250"]
