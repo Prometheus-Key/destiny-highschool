@@ -3,7 +3,8 @@
 
 ;背景を表示
 [bg storage="roomback_daytime.jpg" time="1000"]
-;TODO:ガラガラのドアの音
+[playse storage="バスのドアが開く2.mp3"]
+[wait time=600]
 [mask_off time="500"]
 ;幼馴染の登場、会話
 [chara_show name="osananajimi" face="unismile"]

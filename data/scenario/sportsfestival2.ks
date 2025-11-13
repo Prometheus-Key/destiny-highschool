@@ -58,7 +58,8 @@
 #放送委員
 それでは位置について...[l]
 よーいドン！[p]
-;TODO:歓声追加？
+
+
 [playse storage="黄色い悲鳴.mp3"]
 [wait time=2000]
 #&f.playername

@@ -125,11 +125,11 @@
 ええ、もちろん[p]
 #&f.playername
 でも、それだと自分から服をはじけさせたことに...[p]
-;TODO：衝撃を受けた音
+
 [playse storage="ショック2.mp3"]
 [wait time=2000]
 莉吏くん？[p]
-;TODO：大爆発するメガネのイラスト追加
+
 [playse storage="explosion.mp3"]
 [wait time=1000]
 莉吏く～～～ん!!![p]
@@ -142,7 +142,8 @@
 [font size="10"]...莉吏君、答えこれだよ[p]
 #majimegane
 アバダケタブラ!!![p]
-;TODO：大爆発の音追加
+
+
 [playse storage="explosion.mp3"]
 [wait time=1000]
 #みんな

@@ -124,12 +124,37 @@
 なっ[p]
 #osananajimi
 [emb exp="f.playername"]、見てよ私の絵！[p]
+
+;glinkタグを使って選択肢を表示
+[layopt layer="message0" visible="false"]
+[glink target="*select1" text="え、ヘタクソすぎる!?"]
+[glink target="*select2" text="ん～、まあ上手だよ？"]
+[s]
+
+*select1
+[layopt layer="message0" visible="true"]
 #&f.playername
-つ...！[p]
+え、ヘタクソすぎる!![p]
 #osananajimi
 [emb exp="f.playername"]？[l][r]
 え、気絶してる!?[p]
 [emb exp="f.playername"]～～～!!![p]
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 0"]
+[jump target="common"]
 
+*select2
+[layopt layer="message0" visible="true"]
+#&f.playername
+ん～、まあ上手だよ？[p]
+#osananajimi
+え～、ほんとに？[p]
+初めて言われたかも～！[p]
+;幼馴染好感度UP
+[eval exp="f.likepoint = f.likepoint + 1"]
+[jump target="common"]
+
+*common
+[mask time="1000"]
 ;シーン7-3へジャンプ
 [jump storage="sportsfestival3.ks" target="*start"]

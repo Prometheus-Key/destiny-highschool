@@ -170,6 +170,10 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 
 ;暗転（シーン変更）
 [mask time="1000"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="studentA"]
+[chara_hide name="studentB"]
+[chara_hide name="osananajimi"]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

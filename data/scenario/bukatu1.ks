@@ -14,16 +14,12 @@
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="600"]
+[mask time="1000"]
 [wait time="500"]
-;TODO:部室の画像追加？（要相談）
-;[bg storage="roomback_daytime.jpg" time="1000"]
-[cm]
-[mask_off time="500"]
+[mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
-;TODO:部室の画像追加？（要相談）
-[bg storage="文化系の部室（夕方）.jpg" time="1000"]
+
 失礼します！広報部の[emb exp="f.playername"]です！[r]
 本日はよろしくお願いします！[p]
 #部長
@@ -97,14 +93,6 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 ;TODO:望遠鏡の絵をおそらく追加？
 ;[bg storage="roomback_daytime.jpg" time="1000"]
 ;TODO:二人が見上げるシーン追加
-;[bg storage="roomback_daytime.jpg" time="1000"]
-;シーン追加ならchara_hide
-;[chara_hide name="kikokusijo"]
-[cm]
-[mask_off time="500"]
-[layopt layer="message0" visible="true"]
-
-
 #&f.playername
 学校の裏山にこんな場所あったなんて知らなかったよ...[p]
 #kikokusijo
