@@ -32,9 +32,10 @@
 [ruby text="ヘ"]He[ruby text="イ"]y![emb exp="f.playername"]、俺と組まないか？あと2人なんだ[p]
 #&f.playername
 いいの？ありがとう！もう一人、、、[p]
+
 #osananajimi
 [emb exp="f.playername"]～！
-[chara_show name="osananajimi"]
+[chara_show name="osananajimi" face="uniangry" ]
 まだ空いてる？[l][r]
 どこもいっぱいでさー[p]
 #
@@ -53,6 +54,7 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 ちょうど良かった！来てほしい！[p]
+[chara_mod name="osananajimi" face="unismile" ]
 #osananajimi
 良かったー！おじゃましまーす！[p]
 [jump target="*common"]
@@ -65,9 +67,11 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 うん、ゆりがほしい！[p]
+[chara_mod name="osananajimi" face="unishy" ]
 #osananajimi
 えへへ、なんか告白みたいな言い方ー![l][r]
 もお～、勘違いしちゃうよ?[p]
+[chara_mod name="osananajimi" face="unismile" ]
 でも良かったー！おじゃましまーす！[p]
 [jump target="*common"]
 
@@ -99,12 +103,14 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 人が多いときとかあんまなくねーか？[p]
 #osananajimi
 私、これやった時、人ぎゅうぎゅうで大変だったよ[p]
+[chara_mod name="kikokusijo" face="panic" ]
 #kikokusijo
 [ruby text="ホ"]W[ruby text="ワ"]h[ruby text="イ"]y J[ruby text="ジ"]a[ruby text="ャ"]p[ruby text="パ"]a[ruby text="ニ"]n[ruby text="ー"]e[ruby text="ズ"]se P[ruby text="ピ"]e[ruby text="ー"]o[ruby text="ポ"]p[ruby text="ー"]le!!![p]
 #kikokusijo
 人が多いときにするのか!?これを!?[p]
 #生徒B
 そもそも、悠馬はこれやったことあるの？[p]
+[chara_mod name="kikokusijo" face="panic" ]
 #kikokusijo
 [ruby text="ス"]S[ruby text="チュ"]t[ruby text="ー"]u[ruby text="ピ"]p[ruby text="ッ"]i[ruby text="ド"]d!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
 #&f.playername
@@ -117,11 +123,13 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 
 #
 -結果発表[p]
+[chara_mod name="kikokusijo" face="confidence" ]
 #kikokusijo
 おったまg[ruby text="ゲ"]e[ruby text="ッ"]t[ruby text="ト"] d[ruby text="ダ"]o[ruby text="ウ"]w[ruby text="ン"]n![r]
 まさか俺がW[ruby text="ウ"]o[ruby text="ル"]l[ruby text="フ"]fだったとは...[p]
 #&f.playername
 すごく分かりやすかったよ...[p]
+[chara_mod name="kikokusijo" face="emoi" ]
 #kikokusijo
 日本のK[ruby text="キ"]i[ruby text="ス"]ss文化がここまで進んでたのかとm[ruby text="ミ"]i[ruby text="ス"]s[ruby text="テ"]t[ruby text="イ"]a[ruby text="ク"]keしたぜ。[p]
 これじゃ恥のD[ruby text="ダ"]o[ruby text="ブ"]u[ruby text="ル"]ble P[ruby text="ぺ"]a[ruby text="イ"]i[ruby text="ン"]n[ruby text="ト"]tだ![p]
@@ -137,6 +145,7 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 [layopt layer="message0" visible="true"]
 #&f.playername
 照れてるところも可愛かったけどね[p]
+[chara_mod name="kikokusijo" face="panic" ]
 #kikokusijo
 kawaii!?...[l][r]
 久々に言われたぜ...[p]
@@ -150,6 +159,7 @@ kawaii!?...[l][r]
 [layopt layer="message0" visible="true"]
 #&f.playername
 逆になんであれでウルフじゃないと思ってたの？[p]
+[chara_mod name="kikokusijo" face="panic" ]
 #kikokusijo
 S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby text="プ"]Up!!多数派がうるせぇぞ![l][r]
 次だ、次!![p]
