@@ -13,13 +13,14 @@
 
 ;キャラクター全員登録
 ;帰国子女
-[chara_new name="kikokusijo" storage="kikokusijo/confidence.png" jname="悠真ジュレーン安藤"]
+[chara_new name="kikokusijo" storage="kikokusijo/confidence.png" jname="安藤ジュレーン悠真"]
 [chara_face name="kikokusijo" face="confidence" storage="kikokusijo/confidence.png"]
 [chara_face name="kikokusijo" face="emoi" storage="kikokusijo/emoi.png"]
 [chara_face name="kikokusijo" face="panic" storage="kikokusijo/panic.png"]
 [chara_face name="kikokusijo" face="peconfidence" storage="kikokusijo/peconfidence.png"]
 [chara_face name="kikokusijo" face="question" storage="kikokusijo/question.png"]
 [chara_face name="kikokusijo" face="pestar" storage="kikokusijo/star.png"]
+[chara_face name="kikokusijo" face="noplogo" storage="kikokusijo/noplogo.png"]
 ;真面眼鏡
 [chara_new name="majimegane" storage="majimegane/uniform/normal.png" jname="八田莉吏"]
 [chara_face name="majimegane" face="uniangry" storage="majimegane/uniform/angry.png"]

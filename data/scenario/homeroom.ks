@@ -109,7 +109,7 @@
 
 ;glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="悠馬ジュレーン安藤"]
+[glink target="*select1" text="悠真ジュレーン安藤"]
 [glink target="*select2" text="八田莉吏"]
 [glink target="*select3" text="筋野筋太郎"]
 [layopt layer="message0" visible="true"]
@@ -119,7 +119,7 @@
 *select1
 [eval exp="f.leader=1"]
 #&f.playername
-じゃあ、悠馬君、お願いしてもいいかな？[p]
+じゃあ、悠真君、お願いしてもいいかな？[p]
 
 #kikokusijo
 You!良いセンスしてんじゃねぇか[r]

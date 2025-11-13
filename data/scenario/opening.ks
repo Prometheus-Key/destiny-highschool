@@ -73,7 +73,7 @@ $('.text_box').keypress(function (e) {
 [layopt layer="message0" visible="false"]
 
 ; glinkタグを使って選択肢を表示
-[glink target="*select1" text="悠馬ジュレーン安藤"][r]
+[glink target="*select1" text="悠真ジュレーン安藤"][r]
 [glink target="*select2" text="八田莉吏"][r]
 [glink target="*select3" text="筋野筋太郎"][r]
 [s]
