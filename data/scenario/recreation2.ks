@@ -113,7 +113,7 @@
 *select1
 [layopt layer="message0" visible="true"]
 #&f.playername
-君のこと、助けてあげなくちゃ！）[p]
+（莉吏君のこと、助けてあげなくちゃ！）[p]
 （...莉吏君、答えこれだよ）コソッ[p]
 #majimegane
 ...フ、フン...僕が助けられるとは... [p]

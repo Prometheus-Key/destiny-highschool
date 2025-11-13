@@ -90,7 +90,8 @@
 #kikokusijo
 そりゃ名前にもあるしな![r]
 ;TODO:英語化
-タイミングとかムードも大事だよな[p]
+T[ruby text="タ"]i[ruby text="イ"]m[ruby text="ミ"]i[ruby text=t="ン"]n[ruby text="グ"]g
+とM[ruby text="ム"]o[ruby text="ー"]o[ruby text="ド"]dも大事だよな[p]
 #&f.playername
 たしかに、人多いときあるもんねー[p]
 #kikokusijo
@@ -119,13 +120,13 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 -結果発表[p]
 #kikokusijo
 おったまg[ruby text="ゲ"]e[ruby text="ッ"]t[ruby text="ト"] d[ruby text="ダ"]o[ruby text="ウ"]w[ruby text="ン"]n![r]
-まさか俺がウルフだったとは...[p]
+まさか俺がW[ruby text="ウ"]o[ruby text="ル"]l[ruby text="フ"]fだったとは...[p]
 #&f.playername
 すごく分かりやすかったよ...[p]
 #kikokusijo
-日本のキス文化がここまで進んでたのかとm[ruby text="ミ"]i[ruby text="ス"]s[ruby text="テ"]t[ruby text="イ"]a[ruby text="ク"]keしたぜ。[p]
+日本のK[ruby text="キ"]i[ruby text="ス"]ss文化がここまで進んでたのかとm[ruby text="ミ"]i[ruby text="ス"]s[ruby text="テ"]t[ruby text="イ"]a[ruby text="ク"]keしたぜ。[p]
 ;TODO:英語化
-これじゃ恥のダブルペイントだ![p]
+これじゃ恥のD[ruby text="ダ"]o[ruby text="ブ"]u[ruby text="ル"]ble P[ruby text="ぺ"]a[ruby text="イ"]i[ruby text="ン"]n[ruby text="ト"]tだ![p]
 
 ;glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]

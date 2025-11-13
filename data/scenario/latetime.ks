@@ -22,6 +22,7 @@
 [bg storage="route_daytime.jpg" time="1500"]
 
 ;遅刻ダッシュシーン
+[playse storage="アスファルトの上を走る1.mp3" sprite_time="0-2000"]
 いっけなーい！遅刻遅刻！！[p]
 私、[emb exp="f.playername"]！[l]
 運命destiny高校の広報部2年生！[l][r]
