@@ -101,22 +101,26 @@
 [chara_new name="studentA" storage="mobu/student_man1.png" jname="生徒A"]
 ;生徒B
 [chara_new name="studentB" storage="mobu/student_woman1.png" jname="生徒B"]
+;部長
+[chara_new name="butyo" storage="mobu/student_man3.png" jname="部長"]
 ;司会
 [chara_new name="shikai" storage="mobu/student_man2.png" jname="司会"]
 ;？？？
 [chara_new name="hatena" storage="mobu/student_man4.png" jname="？？？"]
+;好感度初期値
+[emb exp="f.likepoint=0"]
 
 ;タイトル画面
-;[bg storage="../image/title/title.png"]
+[bg storage="../image/title/title.png" time="1000"]
 ;スペースキーにスタートの役割を持たせる
-;[iscript]
-;$('.text_box').keypress(function (e) {
-;  if ( e.keyCode === 32 ) {
-;    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
-;  }
-;});
-;[endscript]
-;[s]
+[iscript]
+$('.text_box').keypress(function (e) {
+  if ( e.keyCode === 32 ) {
+    TYRANO.kag.ftag.startTag("jump", {"target":"*jump"});
+  }
+});
+[endscript]
+[p]
 
 ;シーン1へジャンプ
 *jumo
