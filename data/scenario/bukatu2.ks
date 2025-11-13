@@ -87,7 +87,7 @@
 [chara_show name="majimegane"]
 うぼあーーー！！！！[p]
 [chara_hide name="majimegane"]
-;TODO:荷物につぶされる眼鏡の画像追加
+
 #&f.playername
 眼鏡くーーーん！！！[p]
 [wait time="500"]

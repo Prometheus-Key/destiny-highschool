@@ -200,8 +200,7 @@ You!良いセンスしてんじゃねぇか[r]
 ;幼馴染好感度UP
 [eval exp="f.likepoint = f.likepoint + 1"]
 #&f.playername
-ゆりが応援してくれたから選べたんだよ！[p]\
-;TODO:変数+1
+ゆりが応援してくれたから選べたんだよ！[p]
 #osananajimi
 うぇ!?そんなことないよ～[l][r]
 決めてくれたのは、[emb exp="f.playername"]なんだから！[p]
