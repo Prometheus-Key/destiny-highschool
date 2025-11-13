@@ -19,6 +19,8 @@
 #kikokusijo
 なぁ、[emb exp="f.playername"]、今暇か？[l][r]
 最近できた喫茶店、一緒に行かないか？[p]
+#&f.playername
+いいの！？じゃあ、一緒に行こー！[p]
 
 ;暗転
 [layopt layer="message0" visible="false"]
@@ -34,6 +36,9 @@
 [emb exp="f.playername"]、最近この店気になってるんだが...[l][r]
 俺一人じゃハードルが高いんだ...[p]
 
+#&f.playername
+そうなの？じゃあ一緒に行こう！[p]
+
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
@@ -46,6 +51,9 @@
 #kikokusijo
 よぉ[emb exp="f.playername"]、この水族館、俺のb[ruby text="ベ"]e[ruby text="ス"]s[ruby text="ト"]t [ruby text="ス"]s[ruby text="ポ"]p[ruby text="ッ"]o[ruby text="ト"]tなんだ。[l][r]
 おまえとも行きたくてな。[p]
+
+#&f.playername
+また！？なんだか最近多くない！？...まぁいいか[p]
 
 ;文化祭準備
 [layopt layer="message0" visible="false"]

@@ -1,16 +1,18 @@
 ;シーン9:バトルロワイヤル（きんに君）
 *start
 
-;暗転継続
-;幼馴染登場
-[chara_show name="osananajimi"]
-;背景設定（教室後ろ）
-[bg storage="roomback_daytime.jpg" time="500"]
-;暗転解除
-[mask_off time="1500"]
+
+[mask = "10"]
+[chara_hide name="kinnnikunn"]
+[wait time="60"]
+[bg storage="roomback_daytime.jpg" time="60"]
+[position frame="frame/flame01.png"]
+[layopt layer="message0" visible="true"]
+[mask_off time="300"]
 
 ;会話開始
 #osananajimi
+[chara_show name="osananajimi"]
 筋君、ボディビル大会負けてから元気ないね...[p]
 #&f.playername
 ね...いつも豪快に笑ってたから...早く元気になってほしいな...[p]
@@ -25,8 +27,7 @@
 
 ;背景変更（きんに君の家）
 [bg storage="heya.jpg" time="1000"]
-
-;筋の家
+[mask_off]
 
 #kinnnikunn
 [chara_show name="kinnnikunn"]
@@ -38,9 +39,10 @@
 
 ;夢の中
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
+[bg storage="indream.jpg"]
 [wait time="500"]
-[mask_off time="1000"]
+[mask_off time="500"]
 [layopt layer="message0" visible="true"]
 #hatena
 筋■■欲■い■すか？[p]
@@ -69,22 +71,32 @@
 
 ;起きる
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
 [wait time="500"]
-[mask_off time="1000"]
+[bg storage="heya.jpg" time="60"]
+[mask_off time="100"]
 [layopt layer="message0" visible="true"]
+
 [chara_show name="kinnnikunn"]
 はっ...俺は...　あの夢は一体...？[p]
 でもあれが本当なら...[p]
 [chara_hide name="kinnnikunn"]
 
+
+[layopt layer="message0" visible="false"]
+[mask time="500"]
+[wait time="500"]
+[bg storage="図書室（日中）.jpg" time="60"]
+[mask_off time="100"]
+[layopt layer="message0" visible="true"]
+
 ;図書館
 #osananajimi
 [chara_show name="osananajimi"]
 文化祭終わってすぐテストなのいやだ～！[p]
-[chara_hide name="osananajimi"]
 #&f.playername
 まあまあ。私も勉強手伝うからさ。[p]
+[chara_hide name="osananajimi"]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 この本借りたいです[p]
@@ -99,12 +111,13 @@
 #osananajimi
 [chara_show name="osananajimi"]
 え、ちょっと待...気をつけてね！[p]
-[chara_hide name="kinnnikunn"]
+[chara_hide name="osananajimi"]
 
 ;学校の裏山
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[bg storage="yamahiru.jpg" time="60"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 #&f.playername
@@ -121,7 +134,7 @@
 ああ、筋肉の妖精だ[p]
 [chara_hide name="kinnnikunn"]
 #&f.playername
-（え、あれってジムで初心者のピンチを解決するマッチョのことじゃないの？）[p]
+（え、筋肉の妖精って何？）[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 ボディビル大会で惨敗して以来、どうしてもモチベが湧かなくてな...[p]
@@ -140,10 +153,18 @@
 ！？[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
-筋肉の...妖精？[p]
-[chara_hide name="kinnnikunn"]
+あれは...筋肉の妖精...？[p]
+早く追いかけなければ...[p]
 #&f.playernam
-どうして今ここに...[p]
+あっ、待って筋太郎君...[p]
+[chara_hide name="kinnnikunn"]
+
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[bg storage="街中の横断歩道（日中・青信号）.jpg" time="60"]
+[mask_off time="1000"]
+[layopt layer="message0" visible="true"]
 
 ;BGM再生
 [playbgm storage="buttle.mp3"]
@@ -222,6 +243,7 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[bg storage="繁華街の駅前（夕方）.jpg" time="60"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -284,6 +306,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[bg storage="街中の横断歩道（夕方・青信号）.jpg" time="60"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
@@ -367,6 +390,9 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [chara_hide name="kikokusijo"]
 [stopbgm]
 ;TODO:悪魔にハンバーガー詰め込む画像
+
+[mask time="250"]
+[mask_off time="250"]
 
 ;ここからは太った筋の立ち絵？
 #kinnnikunn
