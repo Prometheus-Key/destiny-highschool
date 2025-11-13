@@ -66,7 +66,7 @@
 はあ！！[r]
 ぜー...ぜー...よし、しょうがない！[p]
 [chara_mod name="majimegane" face="unimotivation" ]
-[emb exp="f.playername"]のお願いを受け入れましょう！[p]
+[emb exp="f.playername"]さんのお願いを受け入れましょう！[p]
 #&f.playername
 お願いっていうか眼鏡君の手伝いじゃ...[p]
 #majimegane

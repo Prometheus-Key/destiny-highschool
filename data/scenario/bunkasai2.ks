@@ -41,7 +41,7 @@
 委員長の勘というやつです。[l][r]
 まぁ僕のTOEICの点数は９３８点なので♢[p]
 #&f.playername
-...あの、　君。..[l][r]
+...あの、莉吏君。..[l][r]
 TOEICって５点刻みだよ？[p]
 [chara_mod name="majimegane" face="unikiralargetrouble"]
 #majimegane
@@ -52,25 +52,24 @@ TOEICって５点刻みだよ？[p]
 そんな...TOEICは...５点...[l][r]
 う、うわあああああ！！！！[p]
 #&f.playername
-ちょ、眼鏡君！！どこ行くの！？[p]
+ちょ、莉吏君！！どこ行くの！？[p]
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
-[wait time="500"]
+[mask time="500"]
 [chara_hide name="majimegane" ]
 [bg storage="学校の屋上（夕方）.jpg"]
-[mask_off time="1000"]
+[mask_off time="500"]
 [layopt layer="message0" visible="true"]
 
 #&f.playername
 追いかけてきたはいいけど...ここ...屋上...？[p]
 ;眼鏡が落ち込んでいる画像
-[chara_mod name="majimegane" face="unikirahate"]
+[chara_show name="majimegane" face="unikirahate"]
 #majimegane
 ...[p]
 #&f.playername
-め、眼鏡君...[p]
+り、莉吏君...[p]
 [chara_mod name="majimegane" face="unikiranormal"]
 #majimegane
 僕は...本当は...９３５点なんです...[p]
@@ -87,7 +86,7 @@ TOEICって５点刻みだよ？[p]
 #majimegane
 本当ですか？[p]
 #&f.playername
-そうだよ！いつもの　君に戻って！！[p]
+そうだよ！いつもの莉吏君に戻って！！[p]
 [chara_mod name="majimegane" face="unimotivation"]
 #majimegane
 そう...そうですね... はい！！僕は天才！！いつも通り誰よりも冴えている！！[p]

@@ -64,13 +64,17 @@
 *return
 [chara_hide name="osananajimi"]
 #司会
+それでは、スタート！[p]
+#
+[mask time="500"]
+[mask_off]
+#司会
 第１問の解答こちら！[p]
 #majimegane
 [chara_show name="majimegane" face="uniredface" ]
-はぅ！！！[p]
-
 ;爆発の効果音
 [playse storage="explosion.mp3"]
+はぅ！！！[p]
 
 #みんな
 おい、委員長が爆発したぞ！！[p]
@@ -83,11 +87,12 @@
 [mask_off]
 
 #司会
-第２問はこちら！[p]
+第２問の解答はこちら！[p]
 [chara_mod name="majimegane" face="uniredface" ]
 #majimegane
-はぁん！！！！[p]
 [playse storage="explosion.mp3"]
+はぁん！！！！[p]
+
 [chara_mod name="majimegane" face="unilargetrouble" ]
 くそ...まだまだ本気を出していないだけです！[p]
 僕のTOIECの点数は938点なのにぃ！！！[p]
@@ -136,7 +141,7 @@
 ええ、もちろん[p]
 #&f.playername
 でも、それだと自分から服をはじけさせたことに...[p]
-[chara_mod name="majimegane" face="unitrouble" ]
+[chara_mod name="majimegane" face="unibrake" ]
 [playse storage="ショック2.mp3"]
 [wait time=2000]
 莉吏くん？[p]

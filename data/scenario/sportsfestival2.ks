@@ -51,10 +51,10 @@
 [chara_hide name="osananajimi"]
 [mask_off]
 #放送委員
-さあ、続いての協議は借り物競争です！[p]
+さあ、続いての競技は借り物競争です！[p]
 親友、身に着けているもの、そしてー好きな人...！[l][r]
-ドキドキワクワクの協議のスタートです！[p]
-[chara_show name="osananajimi"]
+ドキドキワクワクの競技のスタートです！[p]
+[chara_show name="osananajimi" face="penormal"]
 #&f.playername
 この競技って誰が出るんだっけ？[p]
 #osananajimi
@@ -72,12 +72,13 @@
 #放送委員
 それでは位置について...[l]
 よーいドン！[p]
+#
 [playse storage="拳銃を撃つ.mp3"]
 [playse storage="黄色い悲鳴.mp3"]
 [wait time="2000"]
 #&f.playername
 莉吏君、頑張れー！！[p]
-[chara_show name="majimegane" face="pemelt"]
+[chara_mod name="majimegane" face="pemelt"]
 #osananajimi
 負けるなー！[l]え、待って...？[l][r]
 莉吏君、溶けてない...!?[p]
