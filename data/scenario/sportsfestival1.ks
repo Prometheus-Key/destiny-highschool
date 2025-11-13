@@ -1,9 +1,17 @@
 ;シーン7-1:体育祭（帰国子女）
 *start
-;背景設定（学校のグラウンド）
+[mask time="500"]
+[chara_hide name="kikokusijo"]
+;背景設定
 [bg storage="ground.jpg" time="3000"]
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+[mask_off time="1000"]
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
+;発言者以外ぼかし（強度10）
+[chara_config talk_focus="blur" blur_value="10"]
+
+
 
 #&f.playername
 今回は待ちに待った体育祭！皆で１位を目指そう！[p]
@@ -26,7 +34,7 @@
 #&f.playername
 ねえ、これ本当に大丈夫？恥ずかしいよ...[p]
 #kikokusijo
-[ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]em！ [ruby text="ゴ"]G[ruby text="ー"]o!!!
+[ruby text="ノ"]N[ruby text="ー"]o P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ブ"]b[ruby text="レ"]l[ruby text="ム"]em！ [ruby text="ゴ"]G[ruby text="ー"]o!!![p]
 #studentA
 アイツ、星になりきってるぞ（笑）[p]
 #studentB
@@ -41,7 +49,7 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 #&f.playername
 全力を尽くすことを
 #kikokusijo
-W[ruby text="ウ"]e[ruby text="ィ"] m[ruby text="マ"]u[ruby text="ス"]s[ruby text="ト"]t P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ミ"]m[ruby text="ス"]ise[p]
+[ruby text="ウ"]W[ruby text="ィ"]e m[ruby text="マ"]u[ruby text="ス"]s[ruby text="ト"]t P[ruby text="プ"]r[ruby text="ロ"]o[ruby text="ミ"]m[ruby text="ス"]ise[p]
 #&f.playername
 令和７年１１月１５日、選手代表悠馬ジュレーン安藤、[emb exp="f.playername"][p]
 #

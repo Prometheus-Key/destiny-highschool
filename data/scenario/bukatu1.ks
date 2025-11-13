@@ -1,6 +1,19 @@
 ;シーン6-1:部活動（帰国子女）
 *start
-;TODO:背景設定
+[mask time="500"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="studentA"]
+[chara_hide name="studentB"]
+[chara_hide name="osananajimi"]
+;背景設定
+[bg storage="roomfront_daytime.jpg" time="100"]
+;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
+[mask_off time="1000"]
+;メッセージ枠表示
+[layopt layer="message0" visible="true"]
+;発言者以外ぼかし（強度10）
+[chara_config talk_focus="blur" blur_value="10"]
+
 #&f.playername
 今日は広報部の部活の取材だ！[r]
 まずは天文部へ行かなきゃ！[p]
@@ -8,12 +21,11 @@
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
-[wait time="500"]
-[mask_off time="1000"]
+[bg storage="文化系の部室（夕方）.jpg" time="0"]
+[mask_off]
 [layopt layer="message0" visible="true"]
 
-;TODO:部室の画像追加？（要相談）
-[bg storage="文化系の部室（夕方）.jpg" time="1000"]
+
 失礼します！広報部の[emb exp="f.playername"]です！[r]
 本日はよろしくお願いします！[p]
 #部長
@@ -79,6 +91,13 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 いいの！？行こう！[p]
 ;TODO:望遠鏡の絵をおそらく追加？
 ;TODO:二人が見上げるシーン追加
+[layopt layer="message0" visible="false"]
+[mask time="1000"]
+[wait time="500"]
+[bg storage="yamayoru.jpg" time="100"]
+[mask_off time="50"]
+[layopt layer="message0" visible="true"]
+
 #&f.playername
 学校の裏山にこんな場所あったなんて知らなかったよ...[p]
 #kikokusijo
