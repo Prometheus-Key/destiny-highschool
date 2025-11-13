@@ -92,7 +92,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 [mask time="500"]
 [bg storage="yamayoru.jpg" time="1000"]
 [wait time="500"]
-[mask_off = "1000"]
+[mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 ;TODO:二人が見上げるシーン追加
 #&f.playername
@@ -113,6 +113,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="500"]
+[playse storage="playback.mp3"]
 [wait time="500"]
 ;回想（たぶん絵が入る）
 [bg storage="star.png" time="1000"]
@@ -133,8 +134,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 [layopt layer="message0" visible="false"]
 [mask time="500"]
 [wait time="500"]
-;TODO:背景を裏山に戻す
-;[bg storage="roomback_daytime.jpg" time="300"]
+[bg storage="yamayoru.jpg" time="300"]
 [chara_show name="kikokusijo"]
 [cm]
 [playbgm storage="tear.mp3"]

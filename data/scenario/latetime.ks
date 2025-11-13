@@ -3,7 +3,7 @@
 [cm]
 [bg storage="ceiling.jpg" time="1000"]
 ;BGM再生
-[playbgm storage="nicjijou.mp3" loop="true"]
+[playbgm storage="../sound/nichijou.mp3" loop="true" volume="50"]
 [position frame="frame/flame01.png"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]

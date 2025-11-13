@@ -23,10 +23,10 @@
 今回はワードウルフを行います！[p]
 ではグループを組んでくださーい！[p]
 [mask time="500"]
-[chara_hide name="shikai"]
-[chara_show name="kikokusijo"]
-[chara_show name="studentA"]
-[chara_show name="studentB"]
+[chara_hide name="shikai" time="1"]
+[chara_show name="kikokusijo" time="1"]
+[chara_show name="studentA" time="1"]
+[chara_show name="studentB" time="1"]
 [mask_off time="500"]
 #kikokusijo
 [ruby text="ヘ"]He[ruby text="イ"]y![emb exp="f.playername"]、俺と組まないか？あと2人なんだ[p]
@@ -109,7 +109,7 @@ W[ruby text="ワ"]h[ruby text="ッ"]a[ruby text="ト"]t!?人が多いときに�
 [ruby text="ス"]S[ruby text="チュ"]t[ruby text="ー"]u[ruby text="ピ"]p[ruby text="ッ"]i[ruby text="ド"]d!!俺をK[ruby text="キ"]i[ruby text="ッ"]d[ruby text="ズ"]s扱いするな!!![p]
 #&f.playername
 そんなに怒鳴らなくても...[p]
-（多分、悠馬君なんだろうな）[p]
+（多分、悠馬君なんだろうな...）[p]
 
 ;暗転（時間経過）
 [mask time="500"]
@@ -170,10 +170,10 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 
 ;暗転（シーン変更）
 [mask time="1000"]
-[chara_hide name="kikokusijo"]
-[chara_hide name="studentA"]
-[chara_hide name="studentB"]
-[chara_hide name="osananajimi"]
+[chara_hide name="kikokusijo" time="1"]
+[chara_hide name="studentA" time="1"]
+[chara_hide name="studentB" time="1"]
+[chara_hide name="osananajimi" time="1"]
 
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

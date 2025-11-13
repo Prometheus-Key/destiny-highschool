@@ -119,17 +119,6 @@
 置いてかないでよー[p]
 
 [mask time="1000"]
-[chara_mod name="osananajimi" face="uninormal"]
-[bg storage="kazino.jpg" time="1000"]
-[mask_off]
-
-
-
-;考える様子の主人公
-#&f.playername
-...[p]
-
-[mask time="1000"]
 [chara_hide name="kikokusijo"]
 [bg storage="bunkasai.jpg" time="100"]
 [chara_mod name="osananajimi" face="uninormal"]
@@ -265,6 +254,7 @@
 [chara_show name="osananajimi"]
 [chara_mod name="osananajimi" face="uninormal"]
 [chara_mod name="kikokusijo" face="confidence"]
+[playse storage="playback.mp3"]
 [bg storage="bunkasai.jpg" time="100"]
 [mask_off]
 
@@ -300,8 +290,10 @@
 #&f.playername
 そういうことだったんだ...[p]
 #kikokusijo
-確かに言葉にこそしていなかったが、俺が[emb exp="f.playername"]のことを好きだと気持ちは本当だ。[p]
-転校してきたばかりの俺をみんなが上げてくれる中、俺と対等に接してくれたのは[emb exp="f.playername"]だけだった。[p]
+確かに言葉にこそしていなかったが、[r]
+俺が[emb exp="f.playername"]のことを好きだと気持ちは本当だ。[p]
+転校してきたばかりの俺をみんなが上げてくれる中、[r]
+俺と対等に接してくれたのは[emb exp="f.playername"]だけだった。[p]
 [chara_mod name="kikokusijo" face="confidence"]
 だから、俺と付き合ってくれないか！[p]
 
@@ -310,6 +302,9 @@
 [s]
 
 *tukiau
+#&f.playername
+はい！
+
 [chara_hide name="kikokusijo"]
 [stopbgm]
 ;シーン10へジャンプ

@@ -68,10 +68,10 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 [mask time="1000"]
 [mask_off]
 
+[chara_show name="kikokusijo" face="peconfidence"]
 #&f.playername
 あんなことするんだったら事前に言っといてよ...[p]
 #kikokusijo
-[chara_show name="kikokusijo" face="peconfidence"]
 いやー実に[ruby text="エ"]E[ruby text="レ"]l[ruby text="ガ"]e[ruby text="ン"]g[ruby text="ト"]antだったね[l][r]
 我ながら[ruby text="イ"]I[ruby text="ン"]m[ruby text="プ"]p[ruby text="レ"]r[ruby text="シ"]e[ruby text="ッ"]s[ruby text="ン"]s[ruby text="グ"]ingだ...[p]
 #&f.playername
