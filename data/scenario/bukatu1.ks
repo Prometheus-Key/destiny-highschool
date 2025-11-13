@@ -113,8 +113,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 [mask time="500"]
 [wait time="500"]
 ;回想（たぶん絵が入る）
-;TODO:小さい頃の帰国子女の絵が入る
-;[bg storage="roomback_daytime.jpg" time="1000"]
+[bg storage="star.png" time="1000"]
 [cm]
 [chara_hide name="kikokusijo"]
 [mask_off time="500"]
