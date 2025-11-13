@@ -1,7 +1,7 @@
 ;シーン7-1:体育祭（帰国子女）
 *start
 
-[mask = "10"]
+[mask time="10"]
 [chara_hide name="kikokusijo""]
 [wait time="60"]
 [bg storage="ground.jpg" time="60"]
