@@ -46,24 +46,63 @@
 #kinnnikunn
 [chara_show name="kinnnikunn" face="pe" ]
 ここは筋肉を目立たせるオレが！！[p]
-[chara_hide name="kinnnikunn"]
+
 
 #悠真・莉吏
 [chara_mod name="majimegane" face="peangry"]
 お前/貴方が一番ない！！[p]
-[chara_hide name="kikokusijo"]
-[chara_hide name="majimegane"]
+#
+[chara_hide_all]
+
+[mask time="500"]
+[layopt layer="message0" visible="false"]
+[chara_show name="kinnnikunn" face="pilamid"]
+[playse storage="pipi.mp3"]
+[mask_off]
+[playse storage="handcrap.mp3"]
+[wait time="3000"]
+[playse storage="pi.mp3"]
+[mask time="500"]
+[wait time="500"]
+[chara_mod name="kinnnikunn" face="janbojet"]
+[playse storage="pipi.mp3"]
+[mask_off]
+[playse storage="handcrap.mp3"]
+[wait time="3000"]
+[playse storage="pi.mp3"]
+[mask time="500"]
+[wait time="500"]
+[chara_mod name="kinnnikunn" face="saboten"]
+[playse storage="pipi.mp3"]
+[mask_off]
+[playse storage="handcrap.mp3"]
+[wait time="3000"]
+[mask time="1000"]
+[chara_hide name="kinnnikunn"]
+[chara_show name="kikokusijo" face="peconfidence" wait="false"]
+[chara_show name="majimegane" face="pesmile" wait="false"]
+[chara_show name="kinnnikunn" face="pe" wait="true"]
+[mask_off time="1000"]
+
+[layopt layer="message0" visible="true"]
+#&f.playername
+3人ともカッコよかったよ！[p]
+#kikokusijo
+[ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="ー"]r[ruby text="ス"]se!![p]
+#majimegane
+明々白々だよ。[p]
+#kinnnikunn
+俺の筋肉にかかれば！[p]
+#
 
 ;暗転（時間経過）
-[mask time="500"]
-[chara_hide name="kikokusijo"]
-[chara_hide name="majimegane"]
-[chara_mod name="kinnnikunn" face="pe" ]
-[wait time="500" ]
+[mask time="1000"]
+[chara_hide_all]
 [mask_off]
 
 #放送委員
 第4種目は騎馬戦です！[p]
+[chara_show name="kinnnikunn" face="pe"]
 #生徒
 筋太郎、騎士は任せたよ！[p]
 ;フォント小さく
@@ -72,7 +111,6 @@
 ;フォント戻す
 [font size="28"]
 #kinnnikunn
-[chara_show name="kinnnikunn" face="pe"]
 ん、何か言ったか？[p]
 #生徒
 いや、何もいってないぜ！[l][r]
@@ -85,12 +123,14 @@
 [chara_show name="katsuo"]
 ケッ！これだから運動しか取り柄のない単細胞がよっ[p]
 おい、お前らスタートの瞬間あの筋肉ダルマの所に行け[p]
-#
+#馬役の生徒
 え、大丈夫かな？[p]
 #katsuo
-俺はな、負ける訳ないって高くくってるヤツが絶望する顔が見たくてたまらねぇんだよ[p]
-#
+俺はな、負ける訳ないって高くくってるヤツが[r]
+絶望する顔が見たくてたまらねぇんだよ[p]
+#馬役の生徒
 わ、わかった...[p]
+#
 [stopbgm]
 
 ;暗転（時間経過）
@@ -101,7 +141,8 @@
 #放送委員
 それでは試合開始です！[p]
 #
--ピーーッ！
+[playse storage="pi.mp3"]
+-ピーーッ！[p]
 #katsuo
 [chara_show name="katsuo"]
 まずはセンコーの死角となる位置に行け！[l][r]
@@ -109,13 +150,13 @@
 ひるんで前かがみになった隙にハチマキをとって俺の勝ちだ！[p]
 #放送委員
 おっと、ここで勝男君チーム、筋太郎君チームに一直線！[p]
+[chara_show name="kinnnikunn" face="pe"]
 #katsuo
 オラ、とっとと死ね！[p]
 #
 
 [playse storage="ロボットを殴る1.mp3"]
 -ガキン！[p]
-[playse storage="ロボットを殴る1.mp3"]
 #katsuo
 ...え？[p]
 #
@@ -125,9 +166,9 @@
 [playse storage="ロボットを殴る1.mp3"]
 -ガキン！ガキン！[p]
 #kinnnikunn
-[chara_show name="kinnnikunn" face="pe"]
 ああ、昔を思い出すなぁ...[p]
 あれは、俺が小学生の頃だった...[p]
+[playse storage="playback.mp3"]
 #katsuo
 え、回想はいった？[p]
 [chara_hide name="katsuo"]
@@ -139,9 +180,9 @@
 その日、俺は考えた。[r]
 俺がもっと強そうな人間に見えたらあいつらは手を出してこなかっただろうと。[p]
 しかしな、筋トレ中のボブとステファニーが答えるんだ。[p]
+[chara_show name="katsuo"]
 #katsuo
 誰だよ[p]
-[chara_show name="katsuo"]
 #kinnnikunn
 俺の胸筋だが？[p]
 #katsuo
@@ -152,12 +193,14 @@
 そうだ、俺の筋肉は人を傷つけるための筋肉ではない。そう気づかせてくれたんだ[p]
 そして、それを思い出させてくれてありがとう[l][r]
 今は、ただ君に感謝を。[p]
-[chara_mod face="hug"]
+[playse storage="gyu.mp3" sprite_time="0-3000"]
+[chara_mod name="kinnnikunn" face="hug"]
 #studentA
 やべー！勝男が絞め殺された！[p]
 #studentB
 とにかく時間まで逃げ切るぞ！[l][r]
 今は争いあってる場合じゃねえ！死ぬよりかはマシだ！[p]
+#
 [chara_hide_all]
 
 ;暗転（時間経過）
@@ -168,7 +211,7 @@
 試合終了ー！予想だにしない戦況となりました！[p]
 結果のほうは...[l]
 1本獲得した筋太郎君チームの勝利です！[p]
-[chara_show name="osananajimi" face="normal"]
+[chara_show name="osananajimi" face="penormal"]
 #&f.playername
 すごい試合だったね...[p]
 #osananajimi
@@ -176,11 +219,13 @@
 [chara_show name="osananajimi"]
 ハグされた人、生きてるかな...[p]
 [chara_hide name="osananajimi"]
+[chara_show name="kinnnikunn" face="pe"]
 #kinnnikunn
 みんな、優勝できたのは君たちのおかげでもある。[l][r]
 勝利を分かち合うためにもハグをしないか？[p]
 #生徒A
 遠慮します！[p]
+#
 [chara_hide name="kinnnikunn"]
 
 ;暗転（時間経過）
@@ -222,6 +267,7 @@
 [ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k![p]
 #majimegane
 クソッ！[p]
+#
 
 ;暗転（時間経過）
 [mask time="500"]
@@ -245,18 +291,16 @@
 
 #放送委員
 ここで全アンカーにバトンが渡りました！[p]
+[chara_show name="kinnnikunn" face="pe"]
 #&f.playername
 勝ってー！筋太郎君！[p]
 #majimegane
-[chara_mod name="majimegane" face="pekiraangry"]
-[chara_show name="majimegane"]
 負けたら承知しねーぞ！[p]
-[chara_hide name="majimegane"]
 #kinnnikunn
-;画像表示しなくていいかなと思ったので、してません。
 うぉーっ！[p]
 #放送委員
 ここで赤組がゴール！[p]
+[chara_hide name="kinnnikunn"]
 #
 
 ;暗転（時間経過）
