@@ -1,20 +1,21 @@
 ;シーン8-1:文化祭（帰国子女）
 *start
-[mask time="500"]
+[mask = "100"]
+[wait time="600"]
 [chara_hide name="kikokusijo"]
-[chara_hide name="osananajimi"]
-;背景設定
-[bg storage="roomfront_daytime.jpg" time="100"]
-[playbgm storage="bunkasai.mp3" loop="true"]
-[mask_off time="1000"]
+[bg storage="roomback_daytime.jpg" time="100"]
+[position frame="frame/flame01.png"]
+[layopt layer="message0" visible="false"]
+[mask_off time="500"]
 
 ;デート３連続
-;背景を表示
-[bg storage="roomback_daytime.jpg" time="1000"]
+
 ;キャラ表示
 [chara_show name="kikokusijo"]
 [layopt layer="message0" visible="true"]
 
+#
+ある日[p]
 #kikokusijo
 なぁ、[emb exp="f.playername"]、今暇か？[l][r]
 最近できた喫茶店、一緒に行かないか？[p]
@@ -26,6 +27,9 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+
+#
+その次の週[p]
 #kikokusijo
 [emb exp="f.playername"]、最近この店気になってるんだが...[l][r]
 俺一人じゃハードルが高いんだ...[p]
@@ -37,18 +41,20 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+#
+そのまた次の週[p]
 #kikokusijo
 よぉ[emb exp="f.playername"]、この水族館、俺のb[ruby text="ベ"]e[ruby text="ス"]s[ruby text="ト"]t [ruby text="ス"]s[ruby text="ポ"]p[ruby text="ッ"]o[ruby text="ト"]tなんだ。[l][r]
 おまえとも行きたくてな。[p]
 
-;暗転
+;文化祭準備
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[chara_hide name="kikokusijo"]
+[bg storage="bunkasai.jpg" time="100"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
-
-;文化祭準備
 #&f.playername
 今年の出し物は屋台だね！作って売りまくるぞー！[p]
 #kikokusijo
@@ -96,12 +102,14 @@
 [chara_mod name="kikokusijo" face="emoi"]
 ･･･そうしようか。[p]
 
+
 [mask time="1000"]
 [chara_mod name="kikokusijo" face="confidence"]
 [chara_mod name="osananajimi" face="unishy"]
+[bg storage="obakeyasiki.jpg" time="1000"]
 [mask_off]
 
-[bg storage="obakeyasiki.jpg" time="1000"]
+
 ;お化け屋敷
 #&f.playername
 怖ーい！[p]
@@ -112,10 +120,11 @@
 
 [mask time="1000"]
 [chara_mod name="osananajimi" face="uninormal"]
+[bg storage="kazino.jpg" time="1000"]
 [mask_off]
 
 
-[bg storage="kazino.jpg" time="1000"]
+
 ;カジノ
 #&f.playername
 お金スッカラカンになっちゃった...[p]
@@ -137,6 +146,7 @@
 
 [mask time="1000"]
 [chara_hide name="kikokusijo"]
+[bg storage="bunkasai.jpg" time="100"]
 [chara_mod name="osananajimi" face="uninormal"]
 [mask_off]
 
@@ -246,9 +256,10 @@
 #
 
 [mask time="500"]
+[bg storage="yamayoru.jpg" time="1000"]
 [mask_off]
 
-[bg storage="yamayoru.jpg" time="1000"]
+
 ;背景変更
 #&f.playername
 着いた...[p]
@@ -269,6 +280,7 @@
 [chara_show name="osananajimi"]
 [chara_mod name="osananajimi" face="uninormal"]
 [chara_mod name="kikokusijo" face="confidence"]
+[bg storage="bunkasai.jpg" time="100"]
 [mask_off]
 
 ;回想
@@ -296,6 +308,7 @@
 [mask time="500"]
 [chara_hide name="osananajimi"]
 [chara_mod name="kikokusijo" face="emoi"]
+[bg storage="yamayoru.jpg" time="100"]
 [mask_off]
 
 ;回想終了
