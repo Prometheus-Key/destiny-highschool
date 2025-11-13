@@ -135,4 +135,4 @@ $('.text_box').keypress(function (e) {
 
 ;シーン1へジャンプ
 *jumo
-[jump storage="bunkasai4.ks" target="*start"]
+[jump storage="opening.ks" target="*start"]

@@ -72,10 +72,10 @@ $('.text_box').keypress(function (e) {
 好きな男子を選ぶのじゃ[p]
 [layopt layer="message0" visible="false"]
 
-; glinkタグを使って選択肢を表示
-[glink target="*select1" text="悠真ジュレーン安藤"][r]
-[glink target="*select2" text="八田莉吏"][r]
-[glink target="*select3" text="筋野筋太郎"][r]
+;buttonタグを使って選択肢を表示
+[button x="-100" graphic="../fgimage/kikokusijo/confidence.png" target="*select1"][r]
+[button x="280" graphic="../fgimage/majimegane/uniform/normal.png" target="*select2"][r]
+[button x="700" graphic="../fgimage/kinnnikun/normal.png" target="*select3"][r]
 [s]
 
 *select1
