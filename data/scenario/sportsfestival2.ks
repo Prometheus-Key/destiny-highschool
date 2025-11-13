@@ -63,11 +63,11 @@
 確か、莉吏君って走るの苦手じゃなかったっけ？[p]
 #&f.playername
 だからあんなに不服なんだね...[p]
+[chara_hide name="osananajimi"]
 #放送委員
 それでは位置について...[l]
 よーいドン！[p]
-
-
+[playse storage="拳銃を撃つ.mp3"]
 [playse storage="黄色い悲鳴.mp3"]
 [wait time="2000"]
 #&f.playername
