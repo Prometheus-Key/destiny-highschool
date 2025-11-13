@@ -143,7 +143,9 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 （わざと間違え教えちゃお!）[p]
-[font size="10"]...莉吏君、答えこれだよ[p]
+[font size="10"]
+...莉吏君、答えこれだよ[p]
+[font size="28"]
 #majimegane
 アバダケタブラ!!![p]
 
