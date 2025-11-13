@@ -125,21 +125,6 @@
 
 
 
-;カジノ
-#&f.playername
-お金スッカラカンになっちゃった...[p]
-#kikokusijo
-俺の分から取りなよ。[p]
-#osananajimi
-私も無くなっちゃったよー。悠馬君出してよー泣[p]
-#kikokusijo
-[chara_mod name="kikokusijo" face="question"]
-いや、そんな金ないよ？[p]
-[chara_mod name="kikokusijo" face="confidence"]
-#osananajimi
-[chara_mod name="osananajimi" face="uniangry"]
-え、ひどーい。[p]
-
 ;考える様子の主人公
 #&f.playername
 ...[p]
