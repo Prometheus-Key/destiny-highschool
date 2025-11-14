@@ -48,7 +48,7 @@
 
 [cm]
 ;エンドテキスト
-[ptext text="The　End" layer="0"  x="580"  y="250"  size="35"  edge="0xffffff"  color="0xffffff" name="end" time="3000" name="end"]
+[ptext text="末永くお幸せに..." layer="0"  x="580"  y="250"  size="35"  edge="0xffffff"  color="0xffffff" name="end" time="3000" name="end"]
 ;クリッカブルでクリックでｓ(ゲーム停止)を飛ばす
 [clickable  width="1100"  height="760"  target="skip"]
 ;ゲーム停止
