@@ -70,12 +70,12 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 [mask time="1000"]
 [mask_off]
 
-[chara_show name="kikokusijo" face="peconfidence"]
+[chara_show name="kikokusijo" face="pestar"]
 #&f.playername
 あんなことするんだったら事前に言っといてよ...[p]
 #kikokusijo
 いやー実に[ruby text="エ"]E[ruby text="レ"]l[ruby text="ガ"]e[ruby text="ン"]g[ruby text="ト"]antだったね[l][r]
-我ながら[ruby text="イ"]I[ruby text="ン"]m[ruby text="プ"]p[ruby text="レ"]r[ruby text="シ"]e[ruby text="ッ"]s[ruby text="ン"]s[ruby text="グ"]ingだ...[p]
+我ながら[ruby text="イ"]I[ruby text="ン"]m[ruby text="プ"]p[ruby text="レ"]r[ruby text="ッ"]e[ruby text="シ"]s[ruby text="ン"]s[ruby text="グ"]ingだ...[p]
 #&f.playername
 もー！[p]
 っていうか次はダンスじゃん！[l][r]
@@ -96,7 +96,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 結局、悠真君大丈夫かな？[p]
 
 #osananajimi
-[chara_show name="kikokusijo" face="peconfidence"]
+[chara_show name="osananajimi" face="penormal"]
 え、アレつけて行っちゃたの？[p]
 #&f.playername
 うん、そうだよ[l][r]
@@ -116,7 +116,7 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 
 #kikokusijo
 [chara_show name="kikokusijo" face="peconfidence"]
-見ろ...俺のこのS[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]r M[ruby text="ミ"]i[ruby text="ラ"]r[ruby text="ク"]a[ruby text="ル"]cle A[ruby text="ア"]c[ruby text="ク"]r[ruby text="ロ"]o[ruby text="バ"]b[ruby text="テ"]a[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ユ"]s[ruby text="ー"]e[ruby text="ズ"]f[ruby text="フ"]u[ruby text="ル"]l [ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="タ"]t[ruby text="ス"]a[ruby text="テ"]s[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ウ"]l[ruby text="ル"]t[ruby text="ト"]r[ruby text="ラ"]a D[ruby text="ダ"]a[ruby text="ン"]n[ruby text="ス"]ceを...![p]
+見ろ...俺のこのS[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]r M[ruby text="ミ"]i[ruby text="ラ"]r[ruby text="ク"]a[ruby text="ル"]cle A[ruby text="ア"]c[ruby text="ク"]r[ruby text="ロ"]o[ruby text="バ"]b[ruby text="テ"]a[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ユ"]s[ruby text="ー"]e[ruby text="ス"]f[ruby text="フ"]u[ruby text="ル"]l [ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="タ"]t[ruby text="ス"]a[ruby text="テ"]s[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ウ"]l[ruby text="ル"]t[ruby text="ト"]r[ruby text="ラ"]a D[ruby text="ダ"]a[ruby text="ン"]n[ruby text="ス"]ceを...![p]
 #osananajimi
 何言ってるかわかんない！[p]
 
@@ -168,6 +168,7 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 ...うん[p]
 #
 [mask time="500"]
+[bg storage="ground.jpg" time="1000"]
 [mask_off time="500"]
 
 #放送委員
