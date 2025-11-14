@@ -114,11 +114,11 @@
 [glink target="*select1" text="安藤ジュレーン悠真"]
 [glink target="*select2" text="八田莉吏"]
 [glink target="*select3" text="筋野筋太郎"]
-[layopt layer="message0" visible="true"]
 [s]
 
 ;帰国子女ルート
 *select1
+[layopt layer="message0" visible="true"]
 [eval exp="f.leader=1"]
 #&f.playername
 じゃあ、悠真君、お願いしてもいいかな？[p]
@@ -139,6 +139,7 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;真面眼鏡ルート
 *select2
+[layopt layer="message0" visible="true"]
 [eval exp="f.leader=2"]
 #&f.playername
 じゃあ、莉吏君、お願いしてもいいかな？[p]
@@ -159,6 +160,7 @@ You!良いセンスしてんじゃねぇか[r]
 
 ;きんに君ルート
 *select3
+[layopt layer="message0" visible="true"]
 [eval exp="f.leader=3"]
 #&f.playername
 じゃあ、筋太郎君、お願いしてもいいかな？[p]
@@ -206,11 +208,11 @@ You!良いセンスしてんじゃねぇか[r]
 [layopt layer="message0" visible="false"]
 [glink target="*turn1" text="ほんとだよー、皆個性豊かだから難しかった！"][r]
 [glink target="*turn2" text="ゆりが応援してくれたから選べたんだよ！"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
 ;選択によって発言分岐
 *turn1
+[layopt layer="message0" visible="true"]
 ;幼馴染好感度DRAW
 [eval exp="f.likepoint = f.likepoint + 0"]
 #&f.playername
@@ -219,6 +221,7 @@ You!良いセンスしてんじゃねぇか[r]
 [jump target="*return"]
 
 *turn2
+[layopt layer="message0" visible="true"]
 ;幼馴染好感度UP
 [eval exp="f.likepoint = f.likepoint + 1"]
 #&f.playername

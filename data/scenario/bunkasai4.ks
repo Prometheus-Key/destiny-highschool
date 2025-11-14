@@ -20,11 +20,11 @@
 ;ゆりと行く選択肢１択
 [layopt layer="message0" visible="false"]
 [glink target="*hai" text="ゆりと行く"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
 *hai
 ;幼馴染の登場(私服差分)
+[layopt layer="message0" visible="true"]
 [chara_show name="osananajimi" face="clonormal"]
 #osananajimi
 お待たせ！[p]
@@ -90,12 +90,12 @@
 [layopt layer="message0" visible="false"]
 [glink target="*select1" text="手をつなぐ"][r]
 [glink target="*select2" text="置いていく"][r]
-[layopt layer="message0" visible="true"]
 [s]
 
 
 ;選択肢１
 *select1
+[layopt layer="message0" visible="true"]
 ;文字小さく
 #&f.playername
 [font size="18"]
@@ -128,6 +128,7 @@
 
 ;選択肢２
 *select2
+[layopt layer="message0" visible="true"]
 #&f.playername
 もう...早く進まないと置いていくよー？[p]
 [chara_mod name="osananajimi" face="cloangry"]
@@ -238,7 +239,8 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 もちろん！[p]
-[chara_mod name="osananajimi" face="clomotivation"]
+[chara_hide_all]
+[bg storage="yurillast.png"]
 #osananajimi
 ...！えへ、えへへ...！やったー！！[p]
 ありがとう...！これからもよろしくね！！[emb exp="f.playername"]！！[p]

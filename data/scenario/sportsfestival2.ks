@@ -101,7 +101,7 @@
 #&f.playername
 私！？で、でも...[p]
 #osananajimi
-[emb exp="f.playername"]、真面目鏡君の体力が尽きる前に早く行ってあげて！[p]
+[emb exp="f.playername"]、莉吏君の体力が尽きる前に早く行ってあげて！[p]
 #&f.playername
 わ、分かった！[p]
 #放送委員
@@ -129,11 +129,11 @@
 #majimegane
 ふふふ、僕と君のタッグを証明できましたね[p]
 #&f.playername
-（好きな人じゃなかったか...まあ、真面目鏡君だしな！）[p]
+（好きな人じゃなかったか...まあ、莉吏君だしな！）[p]
 [chara_mod name="osananajimi" face="pemotivation"]
 #osananajimi
 お疲れ様ー！！大活躍だったね！！[p]
-次の競技始まるよ！真面目鏡君と一緒に見よう！[p]
+次の競技始まるよ！莉吏君と一緒に見よう！[p]
 [chara_mod name="majimegane" face="pesmile"]
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
@@ -169,7 +169,7 @@
 #&f.playername
 ん～、私は莉吏君がいいと思うな～[p]
 #majimegane
-僕にこそふさわしい！やはりわかってくれるか[emb exp="f.playername"]さん！
+僕にこそふさわしい！やはりわかってくれるか[emb exp="f.playername"]さん！[p]
 [chara_hide name="majimegane"]
 #kikokusijo
 [ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k！[p]

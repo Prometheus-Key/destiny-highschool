@@ -68,7 +68,7 @@
 [chara_mod name="majimegane" face="unimotivation" ]
 [emb exp="f.playername"]さんのお願いを受け入れましょう！[p]
 #&f.playername
-お願いっていうか眼鏡君の手伝いじゃ...[p]
+お願いっていうか莉吏君の手伝いじゃ...[p]
 #majimegane
 [chara_mod name="majimegane" face="unikiramotimotivation" ]
 さあ行きますよ助手君！！[p]
@@ -80,7 +80,7 @@
 [chara_hide name="majimegane"]
 
 #&f.playername
-眼鏡くーーーん！！！[p]
+莉吏くーーーん！！！[p]
 [wait time="500"]
 -----まだまだ慣れないことばかりだ------[p]
 [chara_hide name="majimegane"]
