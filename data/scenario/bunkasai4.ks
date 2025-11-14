@@ -4,9 +4,7 @@
 ;操作無効
 [mask time="250"]
 [wait time="500"]
-[chara_hide name="kikokusijo" ]
-[chara_hide name="majimegane" ]
-[chara_hide name="kinnnikunn" ]
+[chara_hide_all]
 [mask_off]
 
 ;背景を表示
@@ -34,15 +32,19 @@
 ！！[r]
 なんかゆり、いつも以上に可愛い！！[p]
 #osananajimi
+[chara_mod name="osananajimi" face="closhy"]
 でしょ？今日の文化祭、私服オッケーだったからさ！[l][r]
 [emb exp="f.playername"]に誘われたの嬉しくてめいっぱいおしゃれしちゃった！[p]
 #&f.playername
 最近制服のゆりしか見てなかったから新鮮かも...！[p]
 #osananajimi
+[chara_mod name="osananajimi" face="clomotivation"]
 えへへ！一番の大親友に褒められてゆりちゃんは大満足です！[l][r]
 よーし、それじゃ文化祭楽しむぞー！[p]
 #&f.playername
 おー！[p]
+#
+[chara_hide_all]
 
 ;暗転
 [layopt layer="message0" visible="false"]
@@ -53,7 +55,8 @@
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
-
+[chara_show name="osananajimi" face="clonormal"]
+#&f.playername
 ねぇゆり、ここって...[p]
 #osananajimi
 そう！お化け屋敷です！[l]
@@ -62,14 +65,17 @@
 確かにそうだけど、ゆりってお化けダメじゃなかった？大丈夫？[p]
 #osananajimi
 いやいや文化祭だよー？そんなにガッチガチじゃないってー[p]
+#
 
 ;暗転
 [layopt layer="message0" visible="false"]
+[chara_hide_all]
 [mask time="1000"]
 [wait time="500"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
+[chara_show name="osananajimi" face="closhy"]
 #osananajimi
 イヤー！！！[p]
 キャー！！！[p]
@@ -95,6 +101,7 @@
 [font size="18"]
 ほら！手つないだら怖くないんじゃない？[p]
 [resetfont]
+[chara_mod name="osananajimi" face="closhy"]
 #osananajimi
 ！！[p]
 #&f.playername
@@ -104,12 +111,14 @@
 #&f.playername
 ？
 何か言った？[p]
+[chara_mod name="osananajimi" face="clonormal"]
 #osananajimi
 ううん！何でもない！よーし、[emb exp="f.playername"]のおかげで勇気出てきた！早く出ちゃおう！[p]
 
 ;暗転
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
+[chara_hide_all]
 [wait time="500"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
@@ -117,11 +126,11 @@
 ;本流に戻る
 [jump target="*return"]
 
-
 ;選択肢２
 *select2
 #&f.playername
 もう...早く進まないと置いていくよー？[p]
+[chara_mod name="osananajimi" face="cloangry"]
 #osananajimi
 ！？ちょ、ちょっと待って！！ねぇ[emb exp="f.playername"]！？[r]
 本当に置いていくの！？やだー！薄情者ー！！[p]
@@ -130,12 +139,12 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+;ムスッとした顔差分
+[chara_mod name="osananajimi" face="cloangry"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
-;TODO：ムスッとした顔
-;ムスッとした顔差分
-[chara_show name="osananajimi" face="normal"]
+
 #osananajimi
 ...[p]
 #&f.playername
@@ -147,6 +156,7 @@
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
 [wait time="500"]
+[chara_hide_all]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 ;本流に戻る
@@ -155,6 +165,7 @@
 
 ;合流
 *return
+[chara_show name="osananajimi" face="clonormal"]
 #&f.playername
 やっと出れたー！[p]
 #osananajimi
@@ -179,13 +190,13 @@
 いやー、文化祭楽しかったね！これから後夜祭かー[p]
 うおーめっちゃ星きれいだぞ！みんな外出ろー！！[p]
 星空だって！見に行く？[p]
+[chara_mod name="osananajimi" face="closhy"]
 #osananajimi
 ...[p]
 #&f.playername
 ゆり？[p]
 #osananajimi
 ねぇ[emb exp="f.playername"]、一緒に来てくれない？[p]
-[chara_hide name="osananajimi"]
 #&f.playername
 え、どこに？うわっ[p]
 #osananajimi
@@ -225,11 +236,15 @@
 
 *tukiau
 [layopt layer="message0" visible="true"]
+#&f.playername
+もちろん！[p]
+[chara_mod name="osananajimi" face="clomotivation"]
 #osananajimi
 ...！えへ、えへへ...！やったー！！[p]
 ありがとう...！これからもよろしくね！！[emb exp="f.playername"]！！[p]
 
 [stopbgm]
 [layopt layer="message0" visible="false"]
+[chara_hide_all]
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]
