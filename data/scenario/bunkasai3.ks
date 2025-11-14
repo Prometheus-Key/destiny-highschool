@@ -81,7 +81,7 @@
 [mask_off]
 
 #
--文化祭当日
+-文化祭当日[p]
 #studentA
 おい、筋太郎はいねえのかよ[p]
 #studentB
@@ -114,7 +114,7 @@
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="meidmuslesmileeyeclose"]
 さぁ、俺の筋肉を見に来たのはどこのどいつだ！？[p]
-#studentA,studentB
+#生徒studentA、B
 ウオー！！[p]
 
 ;暗転（時間経過）
@@ -185,7 +185,7 @@
 #院瀬見龍
 データは確実だったはず...なぜ...１位では...[p]
 #放送委員
-栄えある第１位は[l].[l].[l].[l]
+栄えある第１位は[l].[l].[l].[l][p]
 #
 ドクン...[p]
 ドクン...[p]
@@ -207,13 +207,12 @@
 [mask time="500"]
 [chara_hide name="kinnnikunn"]
 [bg storage="roomback_daytime.jpg" time="100"]
-[chara_show name="kinnnikunn" face="pe"]
+[chara_show name="kinnnikunn" face="normal"]
 [mask_off]
 
 #&f.playername
 筋太郎君、受賞こそできなかったけど十分かっこよかったよ！[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
 ...今は、...少しほっといてくれないか...[p]
 [chara_hide name="kinnnikunn"]
 ;筋どっか行く

@@ -1,6 +1,6 @@
 ;シーン7-3:体育祭（きんに君）
 *start
-[mask time="100"]
+[mask time="1000"]
 [wait time="60"]
 ;[chara_hide name="majimegane"]
 [bg storage="ground.jpg" time="10"]
@@ -34,14 +34,11 @@
 第3種目は組体操です！[p]
 
 #kikokusijo
-[chara_show name="kikokusijo"]
-[chara_mod name="kikokusijo" face="peconfidence"]
+[chara_show name="kikokusijo" face="peconfidence"]
 おいこれ誰が上やるんだ？[l][r]
 もちろんS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rな俺だよな？[p]
 #majimegane
-[chara_show name="majimegane"]
-
-[chara_mod name="majimegane" face="pekirasmile"]
+[chara_show name="majimegane" face="pekirasmile"]
 
 いいえ！ここは身軽な僕でしょう！[l][r]
 僕のTOEICの点数は938点ですからね！[p]
@@ -78,13 +75,13 @@
 [playse storage="pipi.mp3"]
 [mask_off]
 [playse storage="handcrap.mp3"]
-[wait time="3000"]
-[mask time="1000"]
+[wait time="300"]
+[mask time="100"]
 [chara_hide name="kinnnikunn"]
-[chara_show name="kikokusijo" face="peconfidence" wait="false"]
-[chara_show name="majimegane" face="pesmile" wait="false"]
-[chara_show name="kinnnikunn" face="pe" wait="true"]
-[mask_off time="1000"]
+[chara_show name="kikokusijo" face="peconfidence" time="1"]
+[chara_show name="majimegane" face="pesmile" time="1"]
+[chara_show name="kinnnikunn" face="pe" time="1"]
+[mask_off time="200"]
 
 [layopt layer="message0" visible="true"]
 #&f.playername
@@ -100,6 +97,7 @@
 ;暗転（時間経過）
 [mask time="1000"]
 [chara_hide_all]
+[bg storage="ground.jpg" time="0"]
 [mask_off]
 
 #放送委員
@@ -232,6 +230,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[bg storage="ground.jpg" time="10"]
 [chara_mod name="kikokusijo" face="peconfidence"]
 [mask_off]
 
