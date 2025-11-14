@@ -85,14 +85,14 @@
 #&f.playername
 な、なんだってー！！[p]
 #osananajimi
-真面目鏡君の体育嫌いと体育祭が化学反応起こしてるんだ！[p]
+莉吏君の体育嫌いと体育祭が化学反応起こしてるんだ！[p]
 #&f.playername
 何を言ってるの...？とにかく、頑張れー！！[p]
 #放送委員
 ここで赤組、お題コーナーに入りました！[p]
 [chara_mod name="majimegane" face="pebrake"]
 #osananajimi
-真面目鏡君、やっと引けたね！[p]
+莉吏君、やっと引けたね！[p]
 [chara_mod name="majimegane" face="pekiraangry"]
 #&f.playername
 え、なんかこっちに向かってきてない!?[p]
@@ -165,19 +165,18 @@
 #3人
 [emb exp="f.playername"]！ここは君が決めてくれ！[p]
 #&f.playername
-ん～、私は悠真君がいいと思うな～[p]
-#kikokusijo
-J[ruby text="ジ"]t[ruby text="ャ"]e[ruby text="ス"]u[ruby text="テ"]s[ruby text="ィ"]t[ruby text="ス"]ice！[ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="フ"]F[ruby text="ァ"]a[ruby text="ー"]r[ruby text="レ"]eのS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ン"]nd [ruby text="バ"]b[ruby text="イ"]yをしといてくれ
-[chara_hide name="kikokusijo"]
+ん～、私は莉吏君がいいと思うな～[p]
 #majimegane
-クソッ！[p]
+僕にこそふさわしい！やはりわかってくれるか[emb exp="f.playername"]さん！
+#kikokusijo
+[ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k！[p]
 #kinnnikunn
 バカな...[p]
 #
 
-;暗転（時間経過）
+;暗転（時間経過）\\
 [mask time="500"]
-[chara_hide name="kikokusijo"]
+[chara_hide name="kinnnikunn"]
 [chara_hide name="majimegane"]
 [mask_off]
 
@@ -197,7 +196,7 @@ J[ruby text="ジ"]t[ruby text="ャ"]e[ruby text="ス"]u[ruby text="テ"]s[ruby t
 
 #放送委員
 ここで全アンカーにバトンが渡りました！[p]
-[chara_show name="kinnnikunn" face="pe"]
+[chara_show name="majimegane" face="peangry"]
 #&f.playername
 勝ってー！莉吏君！[p]
 #kikokusijo
