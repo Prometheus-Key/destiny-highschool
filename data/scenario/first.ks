@@ -89,6 +89,7 @@
 [chara_face name="kinnnikunn" face="pilamid" storage="kinnnikun/pilamid.png"]
 [chara_face name="kinnnikunn" face="janbojet" storage="kinnnikun/jambojet.png"]
 [chara_face name="kinnnikunn" face="saboten" storage="kinnnikun/saboten.png"]
+[chara_face name="kinnnikunn" face="sibosibo" storage="kinnnikun/sibosibo.png"]
 ;幼馴染
 [chara_new name="osananajimi" storage="osananajimi/uniform/normal.png" jname="白石ゆり"]
 [chara_face name="osananajimi" face="uniangry" storage="osananajimi/uniform/angry.png"]
