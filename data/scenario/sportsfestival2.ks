@@ -139,6 +139,88 @@
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
 
+#放送委員
+最終種目はクラス対抗リレーです！[p]
+#osananajimi
+[chara_mod name="osananajimi" face="penormal"]
+[chara_show name="osananajimi"]
+そういえば、アンカーってまだ決まってなかったよね？[p]
+#&f.playername
+うん、3人とも自分こそが！って感じで譲らなくて...[p]
+ほら...[p]
+[chara_hide name="osananajimi"]
+#kikokusijo
+[chara_show name="kikokusijo" face="peconfidence"]
+俺こそがアンカーにふさわしいとなぜわからないんだい!?[p]
+[ruby text="キ"]C[ruby text="ャ"]a[ruby text="ン"]n [ruby text="ユ"]y[ruby text="ー"]ou un[ruby text="ア"]d[ruby text="ン"]e[ruby text="ダ"]r[ruby text="ス"]s[ruby text="タ"]t[ruby text="ン"]and？[p]
+#majimegane
+[chara_mod name="majimegane" face="peangry"]
+[chara_show name="majimegane"]
+僕こそがふさわしいでしょう！[p]
+僕のTOEICの点数は938点ですから！[p]
+#kinnnikunn
+[chara_show name="kinnnikunn" face="pe"]
+俺こそがアンカーになるべきだ。見よ、この大腿四頭筋を！[p]
+この洗練された筋肉を見てなぜ分からない!?[p]
+#3人
+[emb exp="f.playername"]！ここは君が決めてくれ！[p]
+#&f.playername
+ん～、私は悠真君がいいと思うな～[p]
+#kikokusijo
+J[ruby text="ジ"]t[ruby text="ャ"]e[ruby text="ス"]u[ruby text="テ"]s[ruby text="ィ"]t[ruby text="ス"]ice！[ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="フ"]F[ruby text="ァ"]a[ruby text="ー"]r[ruby text="レ"]eのS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ン"]nd [ruby text="バ"]b[ruby text="イ"]yをしといてくれ
+[chara_hide name="kikokusijo"]
+#majimegane
+クソッ！[p]
+#kinnnikunn
+バカな...[p]
+#
+
+;暗転（時間経過）
+[mask time="500"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="majimegane"]
+[mask_off]
+
+#放送委員
+スタート位置についてください！[p]
+レディー[p]
+#
+
+[playse storage="拳銃を撃つ.mp3"]
+-パンッ！[p]
+
+[playse storage="黄色い悲鳴.mp3"]
+[wait time="2000"]
+;暗転（時間経過）
+[mask time="500"]
+[mask_off]
+
+#放送委員
+ここで全アンカーにバトンが渡りました！[p]
+[chara_show name="kinnnikunn" face="pe"]
+#&f.playername
+勝ってー！莉吏君！[p]
+#kikokusijo
+負けたら承知しねーぞ！[p]
+#majimegane
+うぉーっ！[p]
+#放送委員
+ここで赤組がゴール！[p]
+[chara_hide name="kinnnikunn"]
+#
+
+;暗転（時間経過）
+[mask time="500"]
+[mask_off]
+
+#放送委員
+総合優勝は...[l]
+赤組です！[p]
+#クラスメイト
+やったー！[p]
+#
+みんなで莉吏君を胴上げした[p]
+
 ;隠しルート判定
 [jump target="*turn0" cond="f.likepoint==0"]
 [jump target="*turn1" cond="f.likepoint==1"]
