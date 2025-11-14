@@ -46,7 +46,7 @@
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 よし、描けたぞー。[p]
-#studentA
+#生徒A
 え、何これ？[p]
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="confidence"]

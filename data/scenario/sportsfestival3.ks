@@ -40,6 +40,7 @@
 もちろんS[ruby text="ス"]t[ruby text="タ"]a[ruby text="ー"]rな俺だよな？[p]
 #majimegane
 [chara_show name="majimegane"]
+
 [chara_mod name="majimegane" face="pekirasmile"]
 
 いいえ！ここは身軽な僕でしょう！[l][r]
