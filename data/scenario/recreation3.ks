@@ -24,9 +24,9 @@
 #osananajimi
 [chara_show name="osananajimi"]
 えー、私絵描くの苦手なんだよねー[p]
-[chara_hide name="osananajimi"]
 #&f.playername
 大丈夫だよ！自信もって！[l][r]
+[chara_hide name="osananajimi"]
 筋太郎君は絵得意？[p]
 #kinnnikunn
 [chara_show name="kinnnikunn"]
@@ -37,6 +37,9 @@
 ;暗転（時間経過）
 [mask time="500"]
 [chara_hide name="kinnnikunn"]
+[chara_show name="studentA" time="1"]
+[chara_show name="kinnnikunn" time="1"]
+[chara_show name="studentB" time="1"]
 [wait time="500"]
 [mask_off]
 
@@ -44,7 +47,6 @@
 （次は筋太郎君かー。自信満々だったから大丈夫だろうけど...[l][r]
 前の人はゴルフかな？）[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
 よし、描けたぞー。[p]
 #studentA
 え、何これ？[p]
@@ -61,7 +63,7 @@
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="normal"]
 アッ、ギモﾞヂィﾞ...[p]
-#studenta
+#studentA
 駄目だコイツ。普段から自分の筋肉イジメてるから何してもきかねぇ！[l][r]
 むしろ喜んでるぞ！[p]
 #studentB
@@ -73,7 +75,6 @@
 
 ;暗転（時間経過）
 [mask time="500"]
-[chara_hide name="kinnnikunn"]
 [wait time="500"]
 [mask_off time="300"]
 
@@ -81,7 +82,6 @@
 （今度こそ大丈夫なはずだよね...[l][r]
 前の人は魚かー）[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
 描けたぞー[p]
 #studentA
 また、筋肉書いてるじゃねーか！[l][r]
@@ -103,13 +103,11 @@
 
 ;暗転（時間経過）
 [mask time="500"]
-[chara_hide name="kinnnikunn"]
 [mask_off]
 
 #&f.playername
 （今度こそ絶対大丈夫！）[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
 描けたぞー[p]
 #studentA
 だからもう筋肉を書くんじゃねーよ！[p]
@@ -131,18 +129,19 @@
 [chara_mod name="osananajimi" face="unismile"]
 [chara_mod name="kinnnikunn" face="normal"]
 わーい！[p]
+#
 
 ;暗転（時間経過）
 [mask time="500"]
-[chara_hide name="kinnnikunn"]
+[chara_hide_all]
 [chara_hide name="osananajimi"]
 [chara_mod name="kinnnikunn" face="confidence"]
 [mask_off]
 
+[chara_show name="kinnnikunn"]
 #&f.playername
 筋太郎君、もしかしてみんなを団結させるためにわざと...？[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
 いや、俺は描きたいものを描いただけだぞ[p]
 #&f.playername
 えーほんとにー？[p]
@@ -166,6 +165,7 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 え、ヘタクソすぎる!![p]
+[playse storage="falldown.mp3"]
 #osananajimi
 [chara_mod name="osananajimi" face="unishy"]
 [emb exp="f.playername"]？[l][r]

@@ -55,7 +55,7 @@
 #&f.playername
 衣装完成したよ！筋太郎君着てみて！[p]
 #kinnnikunn
-[chara_show name="kinnnikunn"]
+[chara_show name="kinnnikunn" face="meidkime"]
 ふむ、非常によい、感謝する！[p]
 食品について一応相談しておきたいのだが...[p]
 #
@@ -90,10 +90,10 @@
 [chara_show name="osananajimi"]
 [emb exp="f.playername"]、やばいよ！[l][r]
 大勢の人が筋太郎君目当てで押し寄せてるよ！[p]
-[chara_hide name="osananajimi" time="200"]
 #&f.playername
 筋太郎君のシフト、午後からだったよね...？[l][r]
 まだ2時間以上あるじゃん!?[p]
+[chara_hide name="osananajimi"]
 #kinnnikunn
 [chara_show name="kinnnikunn" face="meidmusle"]
 誰か俺の事を呼んだか？[p]
@@ -104,9 +104,7 @@
 [chara_mod name="kinnnikunn" face="meidkime"]
 俺を求めている声が聞こえてな...[p]
 #osananajimi
-[chara_show name="osananajimi"]
 筋野君、ヒーローみたいに登場だー！[p]
-[chara_hide name="osananajimi" time="200"]
 #studentB
 最高だぜ！我らのヒーロー！[p]
 #&f.playername
@@ -114,7 +112,7 @@
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="meidmuslesmileeyeclose"]
 さぁ、俺の筋肉を見に来たのはどこのどいつだ！？[p]
-#生徒studentA、B
+#生徒A、B
 ウオー！！[p]
 
 ;暗転（時間経過）
@@ -125,10 +123,9 @@
 [mask_off]
 
 #studentA
-そろそろ、ボディビル大会が始まるな...[p]
-#studentB
+そろそろ、ボディビル大会が始まるな...[r]
 今年も大勢のボディビルダーが参加するんだろうか...[p]
-#生徒C
+#studentB
 正直、優勝するのは"筋肉四天王"の誰かだろうな...[p]
 
 ;説明アナウンス

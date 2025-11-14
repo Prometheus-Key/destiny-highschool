@@ -179,6 +179,7 @@ You!良いセンスしてんじゃねぇか[r]
 [jump target="*common"]
 
 *common
+[chara_config talk_focus="blur" blur_value="0"]
 [chara_hide_all]
 #先生
 んじゃ、次の係～[p]

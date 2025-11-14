@@ -8,7 +8,7 @@
 [bg storage="roomback_daytime.jpg" time="60"]
 [position frame="frame/flame01.png"]
 [layopt layer="message0" visible="true"]
-[mask_off time="300"]
+[mask_off time="1500"]
 
 ;会話開始
 #osananajimi
@@ -55,7 +55,7 @@
 では、私を見つけてください...[p]
 #kinnnikunn
 ...あなたは...？[p]
-#hatena
+#筋肉の妖精
 私は筋肉の妖精...[p]
 #kinnnikunn
 筋肉の...妖精...？待ってくれ、少し詳細...[p]
@@ -133,7 +133,7 @@
 [chara_mod name="kinnnikunn" face="amaze" time="200"]
 あれは...筋肉の妖精...？[p]
 早く追いかけなければ...[p]
-#&f.playernam
+#&f.playername
 あっ、待って筋太郎君...[p]
 
 [layopt layer="message0" visible="false"]
@@ -377,7 +377,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [chara_hide_all ]
 [mask_off time="400"]
 
-
+[chara_show name="kinnnikunn" face="sibosibo"]
 #kinnnikunn
 む、俺は一体...この体は...[p]
 #&f.playername
@@ -391,7 +391,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 #majimegane
 僕たちも忘れないでください！！[p]
 [chara_hide_all]
-[chara_show name="kinnnikunn" face="sibosibo" ]
+[chara_show name="kinnnikunn" face="sibosibo"]
 #kinnnikunn
 また１からのスタートという訳か...[p]
 #&f.playername

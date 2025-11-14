@@ -5,7 +5,7 @@
 ;[chara_hide name="majimegane"]
 [bg storage="ground.jpg" time="10"]
 [position frame="frame/flame01.png"]
-[mask_off time="300"]
+[mask_off time="1000"]
 [layopt layer="message0" visible="true"]
 
 #&f.playername
@@ -75,8 +75,8 @@
 [playse storage="pipi.mp3"]
 [mask_off]
 [playse storage="handcrap.mp3"]
-[wait time="300"]
-[mask time="100"]
+[wait time="500"]
+[mask time="500"]
 [chara_hide name="kinnnikunn"]
 [chara_show name="kikokusijo" face="peconfidence" time="1"]
 [chara_show name="majimegane" face="pesmile" time="1"]
