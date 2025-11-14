@@ -34,7 +34,7 @@
 [bg storage="roomfront_daytime.jpg" time="3000"]
 
 ;ここでチャイムの音を鳴らす。
-[playse storage="tyaimu.mp3"]
+[playse storage="tyaimu.mp3" volume="70"]
 [wait time="5000"]
 [layopt layer="message0" visible="true"]
 

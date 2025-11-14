@@ -5,7 +5,7 @@
 [wait time="500"]
 
 ;ここでチャイムの音を鳴らす。
-[playse storage="tyaimu.mp3"]
+[playse storage="tyaimu.mp3" volume="70"]
 [wait time="1000"]
 
 ;背景を表示
@@ -30,8 +30,8 @@
 なぜなら、僕のTOEICの点数は938点だからです！[p]
 #クラスメイト
 938点だって...!?そんなすごい点数を!?[p]
-[chara_show name="kinnnikunn"]
 #kinnnikunn
+[chara_show name="kinnnikunn"]
 俺も立候補するぞ！[l][r]
 俺は1日3回プロテインを飲む時間を作る！[p]
 #ゴリラたち
@@ -50,11 +50,12 @@
 #kikokusijo
 気が強いなぁ、眼鏡君は！[r]
 優しくしないとモテないぜー？[p]
+[chara_mod name="kinnnikunn" face="amaze"]
 #kinnnikunn
-[chara_mod name="kinnnikunn" face="amaze"  ]
 む、もうプロテインの時間か[p]
 ;どっかできんに君の立候補表明
-[chara_hide_all ]
+[chara_hide_all]
+[chara_config talk_focus="blur" blur_value="0"]
 
 
 #先生
@@ -78,7 +79,8 @@
 他になりたい人ー、いないな。[l][r]
 じゃあ[emb exp="f.playername"]、副委員長よろしくな！[p]
 んじゃ、そこ3人[p]
-[chara_show name="majimegane" face="uniangry"  ]
+[chara_config talk_focus="blur" blur_value="10"]
+[chara_show name="majimegane" face="uniangry"]
 #majimegane
 だから、僕は恋人を作らないんです!!わざと!![r]
 風紀の乱れ!![p]
@@ -109,7 +111,7 @@
 
 ;glinkタグを使って選択肢を表示
 [layopt layer="message0" visible="false"]
-[glink target="*select1" text="悠真ジュレーン安藤"]
+[glink target="*select1" text="安藤ジュレーン悠真"]
 [glink target="*select2" text="八田莉吏"]
 [glink target="*select3" text="筋野筋太郎"]
 [layopt layer="message0" visible="true"]

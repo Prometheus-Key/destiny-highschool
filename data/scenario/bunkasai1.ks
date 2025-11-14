@@ -279,7 +279,7 @@
 って言葉にしないといけないからね...[p]
 #kikokusijo
 [chara_mod name="kikokusijo" face="panic"]
-文化の違いか...re[ruby text="レ"]c[ruby text="ク"]r[ruby text="レ"]e[ruby text="ー"]a[ruby text="シ"]t[ruby text=ョ"]i[ruby text="ン"]on
+文化の違いか...re[ruby text="レ"]c[ruby text="ク"]r[ruby text="レ"]e[ruby text="ー"]a[ruby text="シ"]t[ruby text="ョ"]i[ruby text="ン"]on
 の時もあったな。[l][r]
 もっと日本の文化について学んでいれば良かったな...[p]
 #osananajimi
