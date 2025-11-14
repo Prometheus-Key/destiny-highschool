@@ -2,7 +2,12 @@
 
 *start
 ;操作無効
+[mask time="250"]
 [wait time="500"]
+[chara_hide name="kikokusijo" ]
+[chara_hide name="majimegane" ]
+[chara_hide name="kinnnikunn" ]
+[mask_off]
 
 ;背景を表示
 [bg storage="bunkasai.jpg" time="3000"]
@@ -225,6 +230,6 @@
 ありがとう...！これからもよろしくね！！[emb exp="f.playername"]！！[p]
 
 [stopbgm]
-
+[layopt layer="message0" visible="false"]
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]

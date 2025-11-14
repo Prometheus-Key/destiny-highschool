@@ -3,7 +3,7 @@
 ;背景設定（教室前）
 [mask time="100"]
 [wait time="60"]
-[chara_hide name="majimegane"]
+[chara_hide name="kinnnikunn"]
 [bg storage="roomback_daytime.jpg"]
 [position frame="frame/flame01.png"]
 [mask_off time="300"]
