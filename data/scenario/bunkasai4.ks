@@ -12,7 +12,7 @@
 ;メッセージ枠表示
 [layopt layer="message0" visible="true"]
 ;BGM再生
-[playbgm storage="bunkasai.mp3"]
+[playbgm storage="../sound/bunkasai.mp3" loop="true"]
 
 #&f.playername
 今日は文化祭だ！誰と回ろう？[p]
@@ -214,7 +214,7 @@
 #&f.playername
 （手を引かれてついてったけど、誰もいない場所に来ちゃったな）[p]
 ゆり、こんなところに何か用でもあった？[p]
-[playbgm storage="love.mp3"]
+[playbgm storage="../sound/love.mp3" loop="true"]
 #osananajimi
 ...私さ！今日の文化祭、一緒に回れてすごく楽しかった！[l][r]
 ううん、文化祭だけじゃない！[l][r]

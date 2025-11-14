@@ -10,7 +10,7 @@
 [layopt layer="message0" visible="true"]
 
 ;BGM再生
-[playbgm storage="bunkasai.mp3"]
+[playbgm storage="../sound/bunkasai.mp3" loop="true"]
 #
 -文化祭まで残り1か月[p]
 #&f.playername
@@ -113,7 +113,8 @@
 [chara_mod name="kinnnikunn" face="meidmuslesmileeyeclose"]
 さぁ、俺の筋肉を見に来たのはどこのどいつだ！？[p]
 #生徒A、B
-ウオー！！[p]
+[playse storage="haihai.mp3" ]
+はい！はい！はい！[p]
 
 ;暗転（時間経過）
 [mask time="500"]
@@ -182,11 +183,13 @@
 #院瀬見龍
 データは確実だったはず...なぜ...１位では...[p]
 #放送委員
-栄えある第１位は[l].[l].[l].[l][p]
+[playse storage="drumroll.mp3.mp3"]
+栄えある第１位は...[p]
+[playse storage="heart.mp3"]
 #
-ドクン...[p]
-ドクン...[p]
+ドクン...ドクン...[p]
 #放送委員
+[playse storage="sinbaru.mp3"]
 ...金剛力三さんです！[p]
 #
 オー！！[p]

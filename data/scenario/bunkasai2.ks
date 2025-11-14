@@ -9,6 +9,9 @@
 [mask_off time="300"]
 [layopt layer="message0" visible="true"]
 
+;BGM再生
+[playbgm storage="../sound/bunkasai.mp3" loop="true"]
+
 #&f.playername
 今日は文化祭！いっぱい楽しむぞー！[p]
 [chara_show name="majimegane" face="uninormal"]

@@ -43,17 +43,21 @@
 [wait time="3000"]
 ;アニメーションの再生を待つ（waを使うとボタンが使えないためウェイト）
 ;ここの待ち時間は画像変更中のタイムを引いて計算しています。
-[wait time="20000"]
+[wait time="16000"]
 
 
 [cm]
 ;エンドテキスト
-[ptext text="末永くお幸せに..." layer="0"  x="580"  y="250"  size="35"  edge="0xffffff"  color="0xffffff" name="end" time="3000" name="end"]
+[layopt layer="0" visible="true"]
+[ptext text="末永くお幸せに..." layer="0"  x="800"  y="600"  size="35"  edge="0xffffff"  color="0xffffff" name="end" time="5000" name="end"]
 ;クリッカブルでクリックでｓ(ゲーム停止)を飛ばす
 [clickable  width="1100"  height="760"  target="skip"]
 ;ゲーム停止
-[s]
+[wait time="4000"]
+[layopt layer="0" visible="false"]
+[jump storage="first.ks" target="*start"]
 ;クレジット終了
 *skip
 [cm]
 [wait_cancel]
+

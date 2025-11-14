@@ -6,7 +6,7 @@
 ;シーン4の幼馴染削除
 [chara_hide name="osananajimi"]
 ;BGM再生
-[playbgm storage="musclerec.mp3"]
+[playbgm storage="../sound/musclerec.mp3" volume="50" loop="true"]
 ;背景設定（体育館）
 [bg storage="gymnasium03.png" time="100"]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
@@ -25,7 +25,7 @@
 [chara_show name="osananajimi"]
 えー、私絵描くの苦手なんだよねー[p]
 #&f.playername
-大丈夫だよ！自信もって！[l][r]
+大丈夫だよ！自信もって！[p]
 [chara_hide name="osananajimi"]
 筋太郎君は絵得意？[p]
 #kinnnikunn
@@ -59,6 +59,9 @@
 いや、質感エグイけど...[l][r]
 てか、最後「ん」で終わってるじゃねーか!?[p]
 #
+[playse storage="throw.mp3"]
+[wait time="300"]
+[playse storage="throw.mp3"]
 ー筋太郎に物を投げる[p]
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="normal"]
@@ -92,7 +95,10 @@
 #みんな
 「ん」で終わるのが問題っだつーの！[p]
 #
-ー物投げる[p]
+[playse storage="throw.mp3"]
+[wait time="300"]
+[playse storage="throw.mp3"]
+ー筋太郎に物投げる[p]
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="normal"]
 負荷...負荷が....[p]
@@ -171,6 +177,7 @@
 [emb exp="f.playername"]？[l][r]
 え、気絶してる!?[p]
 [emb exp="f.playername"]～～～!!![p]
+[playse storage="ochi.mp3"]
 ;幼馴染好感度UP
 [eval exp="f.likepoint = f.likepoint + 0"]
 [jump target="common"]

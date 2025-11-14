@@ -5,6 +5,8 @@
 [wait time="500"]
 ;シーン4の幼馴染削除
 [chara_hide name="osananajimi"]
+;BGM再生
+[playbgm storage="../sound/musclerec.mp3" volume="50" loop="true"]
 ;背景設定（体育館）
 [bg storage="gymnasium03.png" time="100"]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
@@ -172,17 +174,16 @@ S[ruby text="シ"]h[ruby text="ャ"]u[ruby text="ラ"]t[ruby text="ッ"] [ruby t
 #
 楽しいレクリエーションが続いた[p]
 
-;
-
-;発言者以外ぼかし解除
-[chara_config talk_focus="blur" blur_value="0"]
-
 ;暗転（シーン変更）
 [mask time="1000"]
 [chara_hide name="kikokusijo" time="1"]
 [chara_hide name="studentA" time="1"]
 [chara_hide name="studentB" time="1"]
 [chara_hide name="osananajimi" time="1"]
+;発言者以外ぼかし解除
+[chara_config talk_focus="blur" blur_value="0"]
 
+;BGMストップ
+[stopbgm]
 ;シーン6-1へジャンプ
 [jump storage="bukatu1.ks" target="*start"]

@@ -145,7 +145,7 @@
 [layopt layer="message0" visible="true"]
 
 ;BGM再生
-[playbgm storage="buttle.mp3"]
+[playbgm storage="../sound/devil.mp3" volume="50" loop="true"]
 ;町中
 #？
 よく呼んでくれたな...[p]
@@ -172,8 +172,7 @@
 #&f.playername
 嘘っ...[p]
 [chara_hide name="kinnnikunn" time="200"]
-
-[chara_show name="kinnnikunn" face="mobsitennou"   ]
+[chara_show name="kinnnikunn" face="mobsitennou"]
 #金剛
 どういう状況だこれは？コレは？[p]
 #巴
@@ -218,6 +217,7 @@
 #悪魔
 上質な筋肉ばかり...[r]
 フッフッフ　レ[ruby text="筋"]イ[ruby text="肉"]ド[ruby text="狩"]バ[ruby text="り"]トルの時間といこう...[p]
+[stopbgm]
 
 ;場面転換
 [layopt layer="message0" visible="false"]
@@ -282,6 +282,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 [bg storage="街中の横断歩道（夕方・青信号）.jpg" time="60"]
 [mask_off time="300"]
 [layopt layer="message0" visible="true"]
+[playbgm storage="../sound/buttle.mp3" volume="50" loop="true"]
 
 [chara_show name="kinnnikunn" face="batorowa" time="200"]
 #金剛
@@ -328,18 +329,16 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 やめなさい！[p]
 #悪魔
 う、体が...？[p]
-[chara_hide name="kinnnikunn" time="100"]
-
-[chara_show name="majimegane" face="unibigtrouble" ]
+[chara_mod name="kinnnikunn" face="pikatiku"]
 #majimegane
 胸筋が...光ってる...？[p]
-[chara_show name="kikokusijo" ]
 #kikokusijo
 おい、センシティブすぎるだろ！[p]
-[chara_hide_all ]
 
 #&f.playername
 まさか...[p]
+[chara_hide_all]
+[chara_mod name="kinnnikunn" face="buttle"]
 #ボブ・ステファニー
 筋！そこのお嬢さんにも言われてるだろ！[p]
 お前の筋肉は人を守るための筋肉だぞ！[p]
@@ -355,7 +354,7 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 これで[ruby text="フ"]f[ruby text="ィ"]i[ruby text="二"]n[ruby text="ッ"]i[ruby text="シ"]s[ruby text="ュ"]h
 だ！[p]
 [stopbgm]
-[chara_hide_all ]
+[chara_hide_all]
 
 [chara_show name="kinnnikunn" face="batorowa" ]
 #悪魔

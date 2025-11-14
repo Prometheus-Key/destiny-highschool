@@ -61,7 +61,6 @@
 たしか、莉吏君だった気がする！[l]
 ほら！[p]
 [chara_hide name="osananajimi"]
-;TODO:死ぬほどいやそうな顔の真面眼鏡挿入
 [chara_show name="majimegane" face="pebrake"]
 #&f.playername
 なんかめちゃくちゃ嫌そうじゃない？[p]
@@ -138,6 +137,10 @@
 [chara_mod name="majimegane" face="pesmile"]
 #majimegane
 ま、まあ、甘んじてその願い受け入れましょうか...[p]
+#
+[mask time="500"]
+[chara_hide name="majimegane"]
+[mask_off time="500"]
 
 #放送委員
 最終種目はクラス対抗リレーです！[p]
@@ -154,8 +157,7 @@
 俺こそがアンカーにふさわしいとなぜわからないんだい!?[p]
 [ruby text="キ"]C[ruby text="ャ"]a[ruby text="ン"]n [ruby text="ユ"]y[ruby text="ー"]ou un[ruby text="ア"]d[ruby text="ン"]e[ruby text="ダ"]r[ruby text="ス"]s[ruby text="タ"]t[ruby text="ン"]and？[p]
 #majimegane
-[chara_mod name="majimegane" face="peangry"]
-[chara_show name="majimegane"]
+[chara_show name="majimegane" face="peangry"]
 僕こそがふさわしいでしょう！[p]
 僕のTOEICの点数は938点ですから！[p]
 #kinnnikunn
@@ -168,6 +170,7 @@
 ん～、私は莉吏君がいいと思うな～[p]
 #majimegane
 僕にこそふさわしい！やはりわかってくれるか[emb exp="f.playername"]さん！
+[chara_hide name="majimegane"]
 #kikokusijo
 [ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k！[p]
 #kinnnikunn
@@ -177,7 +180,7 @@
 ;暗転（時間経過）\\
 [mask time="500"]
 [chara_hide name="kinnnikunn"]
-[chara_hide name="majimegane"]
+[chara_hide name="kikokusijo"]
 [mask_off]
 
 #放送委員
@@ -205,7 +208,7 @@
 うぉーっ！[p]
 #放送委員
 ここで赤組がゴール！[p]
-[chara_hide name="kinnnikunn"]
+[chara_hide name="majimegane"]
 #
 
 ;暗転（時間経過）

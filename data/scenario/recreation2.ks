@@ -5,6 +5,8 @@
 [wait time="500"]
 ;シーン4の幼馴染削除
 [chara_hide name="osananajimi"]
+;BGM再生
+[playbgm storage="../sound/musclerec.mp3" volume="50" loop="true"]
 ;背景設定（体育館）
 [bg storage="gymnasium03.png" time="100"]
 ;1秒かけて暗転を解除し、画面を元に戻す（フェードイン）
@@ -70,6 +72,7 @@
 [mask_off]
 #司会
 第１問の解答こちら！[p]
+[playse storage="mistake.mp3"]
 #majimegane
 [chara_show name="majimegane" face="uniredface" ]
 ;爆発の効果音
@@ -88,6 +91,7 @@
 
 #司会
 第２問の解答はこちら！[p]
+[playse storage="mistake.mp3"]
 [chara_mod name="majimegane" face="uniredface" ]
 #majimegane
 [playse storage="explosion.mp3"]
@@ -127,6 +131,7 @@
 （莉吏君のこと、助けてあげなくちゃ！）[p]
 （...莉吏君、答えこれだよ）コソッ[p]
 [chara_mod name="majimegane" face="unimotivation" ]
+[playse storage="correct.mp3"]
 #majimegane
 ...フ、フン...僕が助けられるとは... [p]
 なかなか優秀な補佐官ではないですか！[p]
@@ -159,13 +164,14 @@
 [font size="10"]
 ...莉吏君、答えこれだよ[p]
 [font size="28"]
-[chara_mod name="majimegane" face="unilargetrouble" ]
+[chara_mod name="majimegane" face="unilargetrouble"]
+[playse storage="mistake.mp3"]
 #majimegane
 アバダケタブラ!!![p]
 
 
 [playse storage="explosion.mp3"]
-[wait time=1000]
+[wait time="1000"]
 #みんな
 おい！委員長が爆発したぞ!![p]
 #&f.playername
@@ -175,6 +181,9 @@
 *common
 #
 こうしてレクリエーションは幕を閉じた[p]
+[playse storage="ochi.mp3"]
 
+;BGMストップ
+[stopbgm]
 ;シーン6-2へジャンプ
 [jump storage="bukatu2.ks" target="*start"]

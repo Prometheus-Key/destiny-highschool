@@ -59,6 +59,7 @@ D[ruby text="デ"]a[ruby text="イ"]i[ruby text="リ"]l[ruby text="ー"]y P[ruby
 令和７年１１月１５日、選手代表悠真ジュレーン安藤、[emb exp="f.playername"][p]
 [chara_hide name="kikokusijo"]
 #
+[playse storage="handcrap.mp3"]
 -パチパチ...[p]
 #studentA
 星のやつ、なんで英語にしたんだ？[p]
@@ -115,7 +116,6 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 [bg storage="dance.png"]
 
 #kikokusijo
-[chara_show name="kikokusijo" face="peconfidence"]
 見ろ...俺のこのS[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]r M[ruby text="ミ"]i[ruby text="ラ"]r[ruby text="ク"]a[ruby text="ル"]cle A[ruby text="ア"]c[ruby text="ク"]r[ruby text="ロ"]o[ruby text="バ"]b[ruby text="テ"]a[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ユ"]s[ruby text="ー"]e[ruby text="ス"]f[ruby text="フ"]u[ruby text="ル"]l [ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="タ"]t[ruby text="ス"]a[ruby text="テ"]s[ruby text="ィ"]t[ruby text="ッ"]i[ruby text="ク"]c U[ruby text="ウ"]l[ruby text="ル"]t[ruby text="ト"]r[ruby text="ラ"]a D[ruby text="ダ"]a[ruby text="ン"]n[ruby text="ス"]ceを...![p]
 #osananajimi
 何言ってるかわかんない！[p]
@@ -132,11 +132,9 @@ Bu[ruby text="ブ"]r[ruby text="リ"]n[ruby text="ン"]i[ruby text="グ"]ngし�
 #&f.playername
 かっこいいよ！悠真君！[p]
 #kikokusijo
-[chara_show name="kikokusijo" face="peconfidence"]
 HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="ー"]r[ruby text="ス"]se!![p]
 俺の姿に見惚れな[ruby text="ベ"]b[ruby text="イ"]a[ruby text="ビ"]b[ruby text="ー"]y!![p]
 ;帰国子女が光るイラストに差し替え
-[chara_hide_all]
 [bg storage="dancepikapika.png"]
 #studentA
 うわー!!悠真が光った！[p]
@@ -149,11 +147,9 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 #&f.playername
 ヘッタクソ！[p]
 #kikokusijo
-[chara_show name="kikokusijo" face="peconfidence"]
 おい、聞こえてんぞ！[p]
 節穴の目でよく見とけ!![p]
 ;帰国子女が光るイラストに差し替え
-[chara_hide_all]
 [bg storage="dancepika.png"]
 #studentA
 うわー!!悠真が光った！[p]
@@ -197,19 +193,19 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 #3人
 [emb exp="f.playername"]！ここは君が決めてくれ！[p]
 #&f.playername
-ん～、私は筋太郎君がいいと思うな～[p]
-#kinnnikunn
-やはりな。[emb exp="f.playername"]は俺の筋肉を理解している。[p]
-[chara_hide name="kinnnikunn"]
+ん～、私は悠真君がいいと思うな～[p]
 #kikokusijo
-[ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k![p]
+J[ruby text="ジ"]u[ruby text="ャ"]s[ruby text="ス"]t[ruby text="テ"]i[ruby text="ィ"]c[ruby text="ス"]e！[ruby text="フ"]F[ruby text="ァ"]a[ruby text="ン"]n[ruby text="フ"]f[ruby text="ァ"]a[ruby text="ー"]r[ruby text="レ"]eのs[ruby text="ス"]t[ruby text="タ"]a[ruby text="ン"]n[ruby text="バ"]d [ruby text="イ"]byをしといてくれ。[p]
+[chara_hide name="kikokusijo"]
+#kinnnikunn
+バカな...[p]
 #majimegane
 クソッ！[p]
 #
 
 ;暗転（時間経過）
 [mask time="500"]
-[chara_hide name="kikokusijo"]
+[chara_hide name="kinnnikunn"]
 [chara_hide name="majimegane"]
 [mask_off]
 
@@ -220,7 +216,7 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 
 [playse storage="拳銃を撃つ.mp3"]
 -パンッ！[p]
-
+[playbgm storage="../sound/relay.mp3" sprite_time="00:13-02:07"  loop="true"]
 [playse storage="黄色い悲鳴.mp3"]
 [wait time="2000"]
 ;暗転（時間経過）
@@ -229,29 +225,31 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 
 #放送委員
 ここで全アンカーにバトンが渡りました！[p]
-[chara_show name="kinnnikunn" face="pe"]
+[chara_show name="kikokusijo" face="peconfidence"]
 #&f.playername
 勝ってー！悠真君！[p]
 #majimegane
 負けたら承知しねーぞ！[p]
-#kinnnikunn
+#kikokusijo
 Wooo！[p]
 #放送委員
 ここで赤組がゴール！[p]
-[chara_hide name="kinnnikunn"]
+[chara_hide name="kikokusijo"]
 #
 
 ;暗転（時間経過）
 [mask time="500"]
+[stopbgm]
 [mask_off]
 
 #放送委員
 総合優勝は...[l]
 赤組です！[p]
 #クラスメイト
+[playse storage="yeah.mp3" ]
 やったー！[p]
 #
-みんなで悠真を胴上げした。
+みんなで悠真を胴上げした。[p]
 
 ;隠しルート判定
 [jump target="*turn0" cond="f.likepoint==0"]

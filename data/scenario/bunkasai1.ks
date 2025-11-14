@@ -8,7 +8,8 @@
 [layopt layer="message0" visible="false"]
 [mask_off time="500"]
 
-;デート３連続
+;BGM再生
+[playbgm storage="../sound/bunkasai.mp3" loop="true"]
 
 ;キャラ表示
 [chara_show name="kikokusijo"]
@@ -67,6 +68,7 @@
 [layopt layer="message0" visible="true"]
 #&f.playername
 今年の出し物は屋台だね！作って売りまくるぞー！[p]
+[chara_show name="kikokusijo"]
 #kikokusijo
 [emb exp="f.playername"]、食材を近くのs[ruby text="ス"]u[ruby text="ー"]p[ruby text="パ"]e[ruby text="ー"]r m[ruby text="マ"]a[ruby text="ー"]r[ruby text="ケ"]k[ruby text="ッ"]e[ruby text="ト"]tで見ときたいんだがいいかい？[p]
 #&f.playername
@@ -212,7 +214,8 @@
 
 #osananajimi
 ...何かなー...[p]
-プルプルプル（電話が鳴る音）[p]
+[playse storage="phone.mp3"]
+プルプルプル[p]
 悠真君からだ！[p]
 #kikokusijo
 ゆり、少し相談があるんだが...[p]
@@ -240,6 +243,7 @@
 #
 
 [mask time="500"]
+[stopbgm]
 [bg storage="yamayoru.jpg" time="1000"]
 [mask_off]
 
@@ -300,6 +304,7 @@
 ;回想終了
 #&f.playername
 そういうことだったんだ...[p]
+[playbgm storage="../sound/love.mp3"]
 #kikokusijo
 確かに言葉にこそしていなかったが、[r]
 俺が[emb exp="f.playername"]のことを好きだと気持ちは本当だ。[p]

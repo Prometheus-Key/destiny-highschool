@@ -118,7 +118,7 @@
 #kinnnikunn
 うむ、俺の筋肉が全て解決しよう[p]
 [chara_hide name="kinnnikunn"]
-[playbgm storage="suspicious.mp3"]
+[playbgm storage="../sound/suspicious.mp3" volume="40" loop="true"]
 #katsuo
 [chara_show name="katsuo"]
 ケッ！これだから運動しか取り柄のない単細胞がよっ[p]
@@ -148,6 +148,7 @@
 まずはセンコーの死角となる位置に行け！[l][r]
 その後はハチマキをとるフリをしながら腹パンを入れる[l][r]
 ひるんで前かがみになった隙にハチマキをとって俺の勝ちだ！[p]
+[playse storage="土の上を走る.mp3" sprite_time="0-2000"]
 #放送委員
 おっと、ここで勝男君チーム、筋太郎君チームに一直線！[p]
 [chara_show name="kinnnikunn" face="pe"]
@@ -283,7 +284,7 @@
 
 [playse storage="拳銃を撃つ.mp3"]
 -パンッ！[p]
-
+[playbgm storage="../sound/relay.mp3" loop="true"]
 [playse storage="黄色い悲鳴.mp3"]
 [wait time="2000"]
 ;暗転（時間経過）
@@ -306,6 +307,7 @@
 
 ;暗転（時間経過）
 [mask time="500"]
+[stopbgm]
 [mask_off]
 
 #放送委員

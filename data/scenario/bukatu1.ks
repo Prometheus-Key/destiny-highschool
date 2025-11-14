@@ -95,6 +95,7 @@ u[ruby text="ア"]n[ruby text="ン"]d[ruby text="ダ"]e[ruby text="ス"]r[ruby t
 [bg storage="yamayoru.jpg" time="1000"]
 [wait time="500"]
 [mask_off time="1000"]
+[playse storage="star.mp3"]
 [layopt layer="message0" visible="true"]
 
 #&f.playername
@@ -139,7 +140,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 [bg storage="yamayoru.jpg" time="300"]
 [chara_show name="kikokusijo"]
 [cm]
-[playbgm storage="tear.mp3"]
+[playbgm storage="../sound/tear.mp3" loop="true"]
 [mask_off time="500"]
 [layopt layer="message0" visible="true"]
 
@@ -154,6 +155,7 @@ g[ruby text="グ"]r[ruby text="ラ"]a[ruby text="ン"]n[ruby text="パ"]dpa の�
 [chara_mod name="kikokusijo" face="emoi"]
 #kikokusijo
 ...T[ruby text="サ"]h[ruby text="ン"]a[ruby text="ク"]n[ruby text="ス"]ks...[p]
+[stopbgm]
 #&f.playername
 てか時間大丈夫？[p]
 [chara_mod name="kikokusijo" face="panic"]
