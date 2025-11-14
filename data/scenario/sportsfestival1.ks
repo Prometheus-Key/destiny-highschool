@@ -167,6 +167,90 @@ HAHAHA☆ [ruby text="オ"]O[ruby text="フ"]f Co[ruby text="コ"]u[ruby text="�
 #&f.playername
 ...うん[p]
 #
+[mask time="500"]
+[mask_off time="500"]
+
+#放送委員
+最終種目はクラス対抗リレーです！[p]
+#osananajimi
+[chara_mod name="osananajimi" face="penormal" ]
+[chara_show name="osananajimi"]
+そういえば、アンカーってまだ決まってなかったよね？[p]
+#&f.playername
+うん、3人とも自分こそが！って感じで譲らなくて...[p]
+ほら...[p]
+[chara_hide name="osananajimi"]
+#kikokusijo
+[chara_show name="kikokusijo" face="peconfidence"]
+俺こそがアンカーにふさわしいとなぜわからないんだい!?[p]
+[ruby text="キ"]C[ruby text="ャ"]a[ruby text="ン"]n [ruby text="ユ"]y[ruby text="ー"]ou un[ruby text="ア"]d[ruby text="ン"]e[ruby text="ダ"]r[ruby text="ス"]s[ruby text="タ"]t[ruby text="ン"]and？[p]
+#majimegane
+[chara_mod name="majimegane" face="peangry"]
+[chara_show name="majimegane"]
+僕こそがふさわしいでしょう！[p]
+僕のTOEICの点数は938点ですから！[p]
+#kinnnikunn
+[chara_show name="kinnnikunn" face="pe"]
+俺こそがアンカーになるべきだ。見よ、この大腿四頭筋を！[p]
+この洗練された筋肉を見てなぜ分からない!?[p]
+#3人
+[emb exp="f.playername"]！ここは君が決めてくれ！[p]
+#&f.playername
+ん～、私は筋太郎君がいいと思うな～[p]
+#kinnnikunn
+やはりな。[emb exp="f.playername"]は俺の筋肉を理解している。[p]
+[chara_hide name="kinnnikunn"]
+#kikokusijo
+[ruby text="フ"]F[ruby text="ァ"]u[ruby text="ッ"]c[ruby text="ク"]k![p]
+#majimegane
+クソッ！[p]
+#
+
+;暗転（時間経過）
+[mask time="500"]
+[chara_hide name="kikokusijo"]
+[chara_hide name="majimegane"]
+[mask_off]
+
+#放送委員
+スタート位置についてください！[p]
+レディー[p]
+#
+
+[playse storage="拳銃を撃つ.mp3"]
+-パンッ！[p]
+
+[playse storage="黄色い悲鳴.mp3"]
+[wait time="2000"]
+;暗転（時間経過）
+[mask time="500"]
+[mask_off]
+
+#放送委員
+ここで全アンカーにバトンが渡りました！[p]
+[chara_show name="kinnnikunn" face="pe"]
+#&f.playername
+勝ってー！悠真君！[p]
+#majimegane
+負けたら承知しねーぞ！[p]
+#kinnnikunn
+Wooo！[p]
+#放送委員
+ここで赤組がゴール！[p]
+[chara_hide name="kinnnikunn"]
+#
+
+;暗転（時間経過）
+[mask time="500"]
+[mask_off]
+
+#放送委員
+総合優勝は...[l]
+赤組です！[p]
+#クラスメイト
+やったー！[p]
+#
+みんなで悠真を胴上げした。
 
 ;隠しルート判定
 [jump target="*turn0" cond="f.likepoint==0"]
