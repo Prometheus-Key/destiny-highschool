@@ -81,10 +81,8 @@
 
 ;図書館
 #osananajimi
-[chara_show name="osananajimi" time="200"]
-[chara_mod name="osananajimi" face="uniangry" time="200"]
+[chara_show name="osananajimi" face="uniangry" ]
 文化祭終わってすぐテストなのいやだ～！[p]
-[chara_mod name="osananajimi" face="uninormal" time="200"]
 #&f.playername
 まあまあ。私も勉強手伝うからさ。[p]
 #kinnnikunn
@@ -174,6 +172,7 @@
 #&f.playername
 嘘っ...[p]
 [chara_hide name="kinnnikunn" time="200"]
+[chara_show name="kinnnikunn" face=""  ]
 #金剛
 どういう状況だこれは？コレは？[p]
 #巴
