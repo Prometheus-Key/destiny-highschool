@@ -46,7 +46,7 @@
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 よし、描けたぞー。[p]
-#生徒A
+#studentA
 え、何これ？[p]
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="confidence"]
@@ -61,10 +61,10 @@
 #kinnnikunn
 [chara_mod name="kinnnikunn" face="normal"]
 アッ、ギモﾞヂィﾞ...[p]
-#studentC
+#studenta
 駄目だコイツ。普段から自分の筋肉イジメてるから何してもきかねぇ！[l][r]
 むしろ喜んでるぞ！[p]
-#studentD
+#studentB
 モンスターじゃねーか！[p]
 #&f.playername
 筋太郎君、最後に「筋」がつく言葉は禁止だよ！[p]
@@ -83,7 +83,7 @@
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 描けたぞー[p]
-#studentE
+#studentA
 また、筋肉書いてるじゃねーか！[l][r]
 「筋」禁止って、さっき[emb exp="f.playername"]さんが言ってただろ？[p]
 #kinnnikunn
@@ -111,7 +111,7 @@
 #kinnnikunn
 [chara_show name="kinnnikunn"]
 描けたぞー[p]
-#studentF
+#studentA
 だからもう筋肉を書くんじゃねーよ！[p]
 #osananajimi
 [chara_mod name="osananajimi" face="unishy"]
@@ -123,9 +123,9 @@
 よく知ってるな！！[p]
 #&f.playername
 なんで知ってるの...!?[p]
-#studentG
+#studentB
 というか...「ん」で終わってない!![p]
-#studentH
+#studentA
 やった！ついに進めるぞ！[p]
 #みんな
 [chara_mod name="osananajimi" face="unismile"]
