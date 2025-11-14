@@ -12,15 +12,19 @@
 
 ;会話開始
 #osananajimi
+[chara_show name="osananajimi" time="200"]
 筋君、ボディビル大会負けてから元気ないね...[p]
 #&f.playername
 ね...いつも豪快に笑ってたから...早く元気になってほしいな...[p]
+[chara_hide name="osananajimi" time="200"]
+
 #kinnnikunn
+[chara_show name="kinnnikunn" face="confidence" time="200"]
 ...[p]
 
 ;暗転（時間経過）
 [mask time="500"]
-
+[chara_hide_all time="200"]
 ;背景変更（きんに君の家）
 [bg storage="heya.jpg" time="1000"]
 [mask_off]
@@ -33,11 +37,12 @@
 
 ;夢の中
 [layopt layer="message0" visible="false"]
-[mask time="500"]
-[bg storage="indream.jpg"]
-[wait time="500"]
-[mask_off time="500"]
+[mask time="300"]
+[bg storage="indream.jpg" time="300"]
+[wait time="300"]
+[mask_off time="300"]
 [layopt layer="message0" visible="true"]
+
 #hatena
 筋■■欲■い■すか？[p]
 #kinnnikunn
@@ -68,37 +73,44 @@
 
 
 [layopt layer="message0" visible="false"]
-[mask time="500"]
-[wait time="500"]
+[mask time="300"]
+[wait time="300"]
 [bg storage="図書室（日中）.jpg" time="60"]
-[mask_off time="100"]
+[mask_off time="300"]
 [layopt layer="message0" visible="true"]
 
 ;図書館
 #osananajimi
+[chara_show name="osananajimi" time="200"]
+[chara_mod name="osananajimi" face="uniangry" time="200"]
 文化祭終わってすぐテストなのいやだ～！[p]
+[chara_mod name="osananajimi" face="uninormal" time="200"]
 #&f.playername
 まあまあ。私も勉強手伝うからさ。[p]
 #kinnnikunn
-この本借りたいです[p]
+この本借りたいです。[p]
 #osananajimi
 え、あれ筋太郎君だよね！？本なんて借りるの初めて見た！[p]
 #&f.playername
 何の本借りたんだろう...？　んっ「召喚の儀式」...？[p]
 なんか様子がおかしいよ！私、様子見てくる！[p]
 #osananajimi
+[chara_mod name="osananajimi" face="unishy" time="200"]
 え、ちょっと待...気をつけてね！[p]
 
 ;学校の裏山
 [layopt layer="message0" visible="false"]
 [mask time="1000"]
+[chara_hide name="osananajimi" time="200"]
 [wait time="500"]
 [bg storage="yamahiru.jpg" time="60"]
 [mask_off time="1000"]
 [layopt layer="message0" visible="true"]
+
 #&f.playername
 はぁ..はぁ..やっと追いついた...筋太郎君何してるの？[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" time="200"]
 な、[emb exp="f.playername"]！？なぜ君が...[p]
 隠しても仕方がない...俺は『妖精』を探しているんだ[p]
 #&f.playername
@@ -120,16 +132,18 @@
 #&f.playername
 ！？[p]
 #kinnnikunn
+[chara_mod name="kinnnikunn" face="amaze" time="200"]
 あれは...筋肉の妖精...？[p]
 早く追いかけなければ...[p]
 #&f.playernam
 あっ、待って筋太郎君...[p]
 
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
+[chara_hide name="kinnnikunn" time="200"]
 [wait time="500"]
 [bg storage="街中の横断歩道（日中・青信号）.jpg" time="60"]
-[mask_off time="1000"]
+[mask_off time="500"]
 [layopt layer="message0" visible="true"]
 
 ;BGM再生
@@ -138,16 +152,20 @@
 #？
 よく呼んでくれたな...[p]
 #kinnnikunn
+[chara_show name="kinnnikunn" time="200"]
 これで...俺に更なる筋肉が...[p]
+[chara_hide name="kinnnikunn" time="200"]
 #&f.playername
 筋太郎君　ダメッ！[p]
 #
 ギューン[p]
 #筋太郎君？
+[chara_show name="kinnnikunn" face="pe" time="200"]
 これが我の求めていたモノ...！[p]
 #&f.playername
 筋太郎君...？パッと見変わらないけど...[p]
 #きんに君？
+[chara_mod name="kinnnikunn" face="batorowa" time="200"]
 久方振りの肉体...!やはり筋肉はいい...[p]
 #&f.playername
 あなたは一体...？[p]
@@ -155,6 +173,7 @@
 我は筋肉の悪魔...[p]
 #&f.playername
 嘘っ...[p]
+[chara_hide name="kinnnikunn" time="200"]
 #金剛
 どういう状況だこれは？コレは？[p]
 #巴
@@ -170,8 +189,10 @@
 そんな非科学的なものに頼るとは...[r]
 見損なったぞ！筋！[p]
 #悪魔
+[chara_show name="kinnnikunn" face="batorowa" time="200"]
 どれだけ言っても”コイツ”には聞こえんぞ[p]
 どれ、手始めにお前らの[ruby text="筋"]栄[ruby text="肉"]養から頂くとするか[p]
+[chara_hide name="kinnnikunn" time="200"]
 #金剛
 巴は筋のツレと近隣の住民を避難させてくれ[p]
 #院瀬見
@@ -192,28 +213,36 @@
 #巴
 行くよ。[p]
 #悪魔
+[chara_show name="kinnnikunn" face="batorowa" time="200"]
 上質な筋肉ばかり...[r]
 フッフッフ　レ[ruby text="筋"]イ[ruby text="肉"]ド[ruby text="狩"]バ[ruby text="り"]トルの時間といこう...[p]
 
 ;場面転換
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
+[mask time="500"]
+[chara_hide name="kinnnikunn" time="200"]
 [wait time="500"]
 [bg storage="繁華街の駅前（夕方）.jpg" time="60"]
-[mask_off time="1000"]
+[mask_off time="500"]
 [layopt layer="message0" visible="true"]
 
 #&f.playername
 私が助けなきゃ...でもどうすれば...[p]
 #majimegane
+[chara_show name="majimegane" time="200"]
+[chara_mod name="majimegane" face="unibigtrouble" time="200"]
 [emb exp="f.playername"]さん！？[p]
 #kikokusijo
+[chara_show name="kikokusijo" time="200"]
+[chara_mod name="kikokusijo" face="confidence" time="200"]
 どうしてこんな所にいるんだい？[p]
 #&f.playername
 ２人とも...実はね...[p]
 #majimegane
+[chara_mod name="majimegane" face="unikirahate" time="200"]
 あの筋肉バカが...[p]
 #kikokusijo
+[chara_mod name="kikokusijo" face="emoi" time="200"]
 それで[emb exp="f.playername"]は助ける方法を
 t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby text="グ"]ing
 してるって訳か...[p]
@@ -222,9 +251,11 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 #２人
 ...[p]
 #kikokusijo
+[chara_mod name="kikokusijo" face="confidence" time="200"]
 その筋肉d[ruby text="デ"]e[ruby text="ビ"]v[ruby text="ル"]il
 とやら”筋肉”に執着しているんだよな...[p]
 #majimegane
+[chara_mod name="majimegane" face="unihate" time="200"]
 ...筋太郎から筋肉を失くせばいいのではないでしょうか[p]
 #&f.playername
 え？[p]
@@ -234,8 +265,11 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 #&f.playername
 じゃあ私は駅前の方行ってみる！[p]
 #kikokusijo
+[chara_mod name="kikokusijo" face="emoi" time="200"]
 俺は[ruby text="イ"]A[ruby text="オ"]E[ruby text="ン"]ONに行こう！[p]
+[chara_mod name="kikokusijo" face="confidence" time="200"]
 #majimegane
+[chara_mod name="majimegane" face="unismile" time="200"]
 僕は繁華街ですね！[p]
 #&f.playername
 絶対に助けるよ！[p]
@@ -244,12 +278,14 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
-[wait time="500"]
+[mask time="400"]
+[chara_hide_all]
+[wait time="400"]
 [bg storage="街中の横断歩道（夕方・青信号）.jpg" time="60"]
-[mask_off time="1000"]
+[mask_off time="300"]
 [layopt layer="message0" visible="true"]
 
+[chara_show name="kinnnikunn" face="batorowa" time="200"]
 #金剛
 （お前は俺にとってのヒーローだというのに...）[p]
 早く元に戻れ...筋！[p]
@@ -259,26 +295,34 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 
 ;暗転
 [layopt layer="message0" visible="false"]
-[mask time="1000"]
-[wait time="500"]
-[mask_off time="1000"]
+[mask time="400"]
+[chara_hide_all]
+[wait time="400"]
+[mask_off time="300"]
 [layopt layer="message0" visible="true"]
 
 #３人
 着い...[p]
 
 #悪魔
+[chara_show name="kinnnikunn" face="batorowa" time="200"]
 少し遅かったじゃないか女ァ...[p]
+[chara_hide name="kinnnikunn" time="200"]
 #kikokusijo
+[chara_show name="kikokusijo" time="200"]
+[chara_mod name="kikokusijo" face="panic" time="200"]
 いつもの優しい筋太郎とは
 [ruby text="ビ"]B[ruby text="ッ"]i[ruby text="グ"]g d[ruby text="デ"]i[ruby text="フ"]f[ruby text="ァ"]f[ruby text="レ"]e[ruby text="ン"]r[ruby text="ツ"]ence
 だな[p]
-
 #majimegane
+[chara_show name="majimegane" time="200"]
+[chara_mod name="majimegane" face="unikirahate" time="200"]
 どのタイミングで奴にぶち込むか...[p]
 #&f.playername
 筋太郎君！早く戻ってよ！その筋肉は人を傷つけるためのモノじゃないんだよ！[p]
+[chara_hide_all time="200"]
 #悪魔
+[chara_show name="kinnnikunn" face="batorowa" time="200"]
 たいして[ruby text="タンパ"]筋[ruby text="ク質"]肉はないが...　残党は狩っておかなければな...[p]
 
 ギュン！[p]
@@ -286,13 +330,15 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 やめなさい！[p]
 #悪魔
 う、体が...？[p]
+[chara_hide name="kinnnikunn" time="100"]
 #majimegane
+[chara_show name="majimegane" face="unibigtrouble" time="400"]
 胸筋が...光ってる...？[p]
-
 #kikokusijo
-[chara_show name="kikokusijo"]
+[chara_show name="kikokusijo" time="400"]
 おい、センシティブすぎるだろ！[p]
-[chara_hide name="kikokusijo"]
+[chara_hide_all time="200"]
+
 #&f.playername
 まさか...[p]
 #ボブ・ステファニー
@@ -302,25 +348,25 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 #&f.playername
 よくわからないけど隙ができたよ！[p]
 #majimegane
+[chara_show name="majimegane" face="unikirahate" time="400"]
 今のうちに悪魔の口にハンバーガーを詰め込みましょう！[p]
-
-#majimegane
-[chara_show name="majimegane"]
+[chara_mod name="majimegane" face="unikirasmile" time="200"]
 筋太郎が太れば貴方は器に興味を示さなくなると考えたんです[p]
-[chara_hide name="majimegane"]
 #kikokusijo
+[chara_show name="kikokusijo" time="400"]
 これで[ruby text="フ"]f[ruby text="ィ"]i[ruby text="二"]n[ruby text="ッ"]i[ruby text="シ"]s[ruby text="ュ"]h
 だ！[p]
 [stopbgm]
-
+[chara_hide_all time="300"]
 
 #悪魔
+[chara_show name="kinnnikunn" face="batorowa" time="400"]
 あれはまさか...ファストフード！？[p]
 馬鹿な真似をするな！！[l][r]
 そんなものを口にしたらこの肉体の器としての価値がなくなってしまう！！[p]
 やめろ～～～～[p]
 
-[mask time="250"]
+[mask time="400"]
 [mask_off time="250"]
 
 #悪魔
@@ -329,29 +375,39 @@ t[ruby text="シ"]h[ruby text="ン"]i[ruby text="キ"]n[ruby text="ン"]k[ruby t
 この器の変わり果てた姿を見て後悔するがいい[l][r]
 フハハハハーー！[p]
 
-[mask time="250"]
-[mask_off time="250"]
+[mask time="400"]
+[chara_hide_all time="300"]
+[mask_off time="400"]
 
 ;ここからは太った筋の立ち絵？
 #kinnnikunn
+[chara_show name="kinnnikunn" face="sibosibo" time="500"]
 む、俺は一体...この体は...[p]
 #&f.playername
 戻った！やったー！[p]
 #kinnnikunn
 [emb exp="f.playername"]がやってくれたんだな...感謝する[p]
 #kikokusijo
+[chara_show name="kikokusijo" face="panic" time="500"]
 [ruby text="フ"]f[ruby text="ァ"]u[ruby text="ッ"]〇[ruby text="〇"]k！！[p]
 #majimegane
+[chara_show name="majimegane" face="uniangry" time="500"]
 僕たちも忘れないでください！！[p]
+[chara_hide_all]
 #kinnnikunn
+[chara_show name="kinnnikunn" face="sibosibo" time="500"]
 また１からのスタートという訳か...[p]
 #&f.playername
 今度はちゃんと私たちに頼ってよ！[r]
 １人で変なことしちゃ駄目！[p]
 #kinnnikunn
+;[chara_mod name="kinnnikunn" face="sibosibo" time="500"]
 ...よし、決めた！！[p]
 これまでのサポート、筋肉へのひたむきな思い...[p]
 君が、俺のトレーナーだな...！[p]
+
+[layopt layer="message0" visible="false"]
+[chara_hide_all]
 
 ;シーン10へジャンプ
 [jump storage="endroll.ks" target="*start"]
