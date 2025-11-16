@@ -55,9 +55,12 @@
 ;ゲーム停止
 [wait time="4000"]
 [layopt layer="0" visible="false"]
+@showmenubutton
 [jump storage="first.ks" target="*start"]
 ;クレジット終了
 *skip
+@showmenubutton
+[layopt layer="0" visible="false"]
 [cm]
 [wait_cancel]
 
