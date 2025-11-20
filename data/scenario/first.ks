@@ -138,5 +138,5 @@ $('.text_box').keypress(function (e) {
 [p]
 
 ;シーン1へジャンプ
-*jumo
+*jump
 [jump storage="opening.ks" target="*start"]

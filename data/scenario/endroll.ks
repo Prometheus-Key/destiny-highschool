@@ -3,14 +3,12 @@
 [cm]
 ;背景変更
 [bg storage="indream.jpg" time="100"]
-;メニューボタンの非表示
-@hidemenubutton
 ;スキップボタン
 [glink name="sukip" color="btn_05_black" size="18"  width="200"  x="800"  y="5"  text="skip"  storage="first.ks"  target="start" ]
 [anim name="sukip" time="10" opacity="150"]
 ;スタッフロール
 [layopt layer="1" visible="false"]
-[ptext layer="1" text="背景・フリー素材提供"" size="20" x="400" y="300" color="snow" name="text"]
+[ptext layer="1" text="背景・フリー素材提供" size="20" x="400" y="300" color="snow" name="text"]
 [ptext layer="1" text="みんちりえ様（https://min-chi.material.jp/）" size="20" x="400" y="350" color="snow" name="text"]
 [ptext layer="1" text="効果音ラボ様（https://soundeffect-lab.info/）" size="20" x="400" y="400" color="snow" name="text"]
 [ptext layer="1" text="制作・著作" size="20" x="400" y="500" color="snow" name="text"]
@@ -47,20 +45,23 @@
 
 
 [cm]
-;エンドテキスト
 [layopt layer="0" visible="true"]
 [ptext text="末永くお幸せに..." layer="0"  x="800"  y="600"  size="35"  edge="0xffffff"  color="0xffffff" name="end" time="5000" name="end"]
 ;クリッカブルでクリックでｓ(ゲーム停止)を飛ばす
-[clickable  width="1100"  height="760"  target="skip"]
+[clickable  width="1100"  height="760"  target="*skip"]
 ;ゲーム停止
+*skip
 [wait time="4000"]
 [layopt layer="0" visible="false"]
-@showmenubutton
-[jump storage="first.ks" target="*start"]
 ;クレジット終了
-*skip
-@showmenubutton
-[layopt layer="0" visible="false"]
 [cm]
 [wait_cancel]
+[jump storage="first.ks" target="*start"]
 
+
+[wait time="4000"]
+[layopt layer="0" visible="false"]
+;クレジット終了
+[cm]
+[wait_cancel]
+[jump storage="first.ks" target="*start"]
